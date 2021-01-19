@@ -1,10 +1,12 @@
 <h1>
   🌈
-  <img
-    height="22.5"
-    src="https://raw.githubusercontent.com/azimutlabs/logos/master/little_logo.png"
-    alt="azimutlabs logo"
-  />
+  <a href="https://alabs.team">
+    <img
+      height="22.5"
+      src="https://raw.githubusercontent.com/azimutlabs/logos/master/little_logo.png"
+      alt="azimutlabs logo"
+    />
+  </a>
   /eslint
 
   <a href="https://github.com/azimutlabs/eslint/actions?query=workflow%3A%22Lint+and+Test%22">
