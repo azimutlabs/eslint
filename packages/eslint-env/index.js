@@ -14,10 +14,7 @@ module.exports = {
        * Taken straight from the jest configuration doc:
        * @see https://jestjs.io/docs/en/configuration#testmatch-arraystring
        */
-      files: [
-        '**/__tests__/**/*.[jt]s?(x)',
-        '**/?(*.)+(spec|test).[jt]s?(x)',
-      ],
+      files: ['**/__tests__/**/*.[jt]s?(x)', '**/?(*.)+(spec|test).[jt]s?(x)'],
       env: {
         jest: true,
       },

@@ -1,7 +1,7 @@
 import * as config from '@azimutlabs/eslint-config-prettier';
 
 import { buildESLint } from './services/builders';
-import { expectEmptyMessagesFromLintResults } from './services/expectEmptyMessagesFromLintResults';
+import { getMessagesFromLintResults } from './services/getMessagesFromLintResults';
 
 const eslint = buildESLint(config);
 
@@ -19,7 +19,7 @@ const requestListener = (req, res) => {
 
 http.createServer(requestListener).listen(port);
 `;
-    expectEmptyMessagesFromLintResults(await eslint.lintText(file));
+    expect(getMessagesFromLintResults(await eslint.lintText(file))).toEqual([]);
   });
 
   it('should lint a client-side react component without jsx', async () => {
@@ -38,6 +38,6 @@ Button.defaultProps = {
   disabled: true,
 };
 `;
-    expectEmptyMessagesFromLintResults(await eslint.lintText(file));
+    expect(getMessagesFromLintResults(await eslint.lintText(file))).toEqual([]);
   });
 });

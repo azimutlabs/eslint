@@ -1,10 +1,11 @@
-import * as config from '@azimutlabs/eslint-config-core';
+import * as config from '@azimutlabs/eslint-config-typescript';
 
 import { buildESLint } from './services/builders';
 import { getMessagesFromLintResults } from './services/getMessagesFromLintResults';
 
 const eslint = buildESLint(config);
 
+// TODO: these cases do not actually test
 describe('successful cases', () => {
   it('should lint a node.js http server start', async () => {
     const file = `const http = require('http');
@@ -31,11 +32,8 @@ const ButtonStyled = styled.button({
   borderRadius: 4,
 });
 
-export const Button = ({ children, color: _color, ...rest }) => createElement(
-  ButtonStyled,
-  rest,
-  children,
-);
+export const Button = ({ children, color: _color, ...rest }) =>
+  createElement(ButtonStyled, rest, children);
 
 Button.defaultProps = {
   disabled: true,

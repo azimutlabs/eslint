@@ -3,7 +3,7 @@ const { indentSize, maxLineLength, endOfLine } = require('@azimutlabs/eslint-env
 
 module.exports = {
   ...env,
-  extends: ['prettier', 'prettier/@typescript-eslint', 'prettier/react', 'prettier/vue'],
+  extends: ['prettier', 'prettier/react', 'prettier/vue'],
   plugins: ['prettier'],
   rules: {
     'prettier/prettier': [
@@ -17,4 +17,10 @@ module.exports = {
       },
     ],
   },
+  overrides: [
+    {
+      files: ['**/*.ts?(x)'],
+      extends: ['prettier/@typescript-eslint'],
+    },
+  ],
 };

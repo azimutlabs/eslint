@@ -10,23 +10,32 @@
   ],
   "scripts": {
     "test": "yarn jest",
-    "lint": "yarn eslint packages/"
+    "lint": "yarn eslint --max-warnings 0 packages tests"
   },
   "eslintConfig": {
     "extends": [
       "@azimutlabs/eslint-config-core",
+      "@azimutlabs/eslint-config-typescript",
       "@azimutlabs/eslint-config-prettier"
     ]
   },
   "jest": {
-    "preset": "ts-jest"
+    "preset": "ts-jest",
+    "globals": {
+      "ts-jest": {
+        "isolatedModules": true
+      }
+    }
   },
   "devDependencies": {
     "@azimutlabs/eslint-config-core": "^0.0.0",
     "@azimutlabs/eslint-config-prettier": "^0.0.0",
+    "@azimutlabs/eslint-config-typescript": "^0.0.0",
     "@types/eslint": "^7.2.6",
     "@types/jest": "^26.0.20",
     "@types/node": "^14.14.21",
+    "@typescript-eslint/eslint-plugin": "^4.14.0",
+    "@typescript-eslint/parser": "^4.14.0",
     "eslint": "^7.18.0",
     "eslint-config-prettier": "^7.1.0",
     "eslint-plugin-prettier": "^3.3.1",
