@@ -1,4 +1,4 @@
-<h1>
+<h1 align="center">
   🌈
   <a href="https://alabs.team">
     <img
@@ -8,7 +8,11 @@
     />
   </a>
   /eslint
+</h1>
 
+<p align="center">ESLint configurations and code-style guidelines</p>
+
+<p align="center">
   <a href="https://github.com/azimutlabs/eslint/actions?query=workflow%3A%22Lint+and+Test%22">
     <img
       src="https://github.com/azimutlabs/eslint/workflows/Lint%20and%20Test/badge.svg"
@@ -21,4 +25,4 @@
       alt="azimutlabs/eslint repository license"
     />
   </a>
-</h1>
+</p>
