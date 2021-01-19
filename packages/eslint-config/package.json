@@ -1,6 +1,6 @@
 {
   "name": "@azimutlabs/eslint-config",
-  "version": "0.4.0",
+  "version": "0.4.1",
   "description": "Collection of all @azimutlabs/eslint-config packages",
   "keywords": [
     "config",
@@ -27,9 +27,9 @@
     "*.js"
   ],
   "dependencies": {
-    "@azimutlabs/eslint-config-core": "^0.1.0",
-    "@azimutlabs/eslint-config-prettier": "^0.1.0",
-    "@azimutlabs/eslint-config-typescript": "^0.1.0"
+    "@azimutlabs/eslint-config-core": "^0.1.1",
+    "@azimutlabs/eslint-config-prettier": "^0.1.1",
+    "@azimutlabs/eslint-config-typescript": "^0.1.1"
   },
   "peerDependencies": {
     "@typescript-eslint/eslint-plugin": "^4",
