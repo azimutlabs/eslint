@@ -1,7 +1,7 @@
 module.exports = {
   extends: [
-    '@azimutlabs/eslint-config-core',
-    '@azimutlabs/eslint-config-typescript',
-    '@azimutlabs/eslint-config-prettier',
+    require.resolve('@azimutlabs/eslint-config-core'),
+    require.resolve('@azimutlabs/eslint-config-typescript'),
+    require.resolve('@azimutlabs/eslint-config-prettier'),
   ],
 };

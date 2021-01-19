@@ -47,11 +47,11 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
     "ignorePatternData": "(^(?:\\.yarn\\/sdks(?:\\/(?!\\.)(?:(?:(?!(?:^|\\/)\\.).)*?)|$))$)",
     "fallbackExclusionList": [
       ["@azimutlabs/eslint", ["workspace:."]],
-      ["@azimutlabs/eslint-config", ["virtual:d4a16caa3696dffc0f3a5ad755982ebcdef80ca039e381193a33b09c582c884e8a65ac739b1f0f88e557fad014ac59eccb81da2cc977db9cc4ddfbed225e84b8#workspace:packages/eslint-config", "workspace:packages/eslint-config"]],
-      ["@azimutlabs/eslint-config-core", ["virtual:6b889b60629dbb69f3aed0c31b5bfceed289a8913baa3cbe4214085fba47a5c638b80625211885040630eac7a15b6bb2b81743ec6325b7436ef0cc84687677d4#workspace:packages/eslint-config-core", "virtual:d4a16caa3696dffc0f3a5ad755982ebcdef80ca039e381193a33b09c582c884e8a65ac739b1f0f88e557fad014ac59eccb81da2cc977db9cc4ddfbed225e84b8#workspace:packages/eslint-config-core", "workspace:packages/eslint-config-core"]],
-      ["@azimutlabs/eslint-config-prettier", ["virtual:6b889b60629dbb69f3aed0c31b5bfceed289a8913baa3cbe4214085fba47a5c638b80625211885040630eac7a15b6bb2b81743ec6325b7436ef0cc84687677d4#workspace:packages/eslint-config-prettier", "virtual:d4a16caa3696dffc0f3a5ad755982ebcdef80ca039e381193a33b09c582c884e8a65ac739b1f0f88e557fad014ac59eccb81da2cc977db9cc4ddfbed225e84b8#workspace:packages/eslint-config-prettier", "workspace:packages/eslint-config-prettier"]],
-      ["@azimutlabs/eslint-config-typescript", ["virtual:6b889b60629dbb69f3aed0c31b5bfceed289a8913baa3cbe4214085fba47a5c638b80625211885040630eac7a15b6bb2b81743ec6325b7436ef0cc84687677d4#workspace:packages/eslint-config-typescript", "virtual:d4a16caa3696dffc0f3a5ad755982ebcdef80ca039e381193a33b09c582c884e8a65ac739b1f0f88e557fad014ac59eccb81da2cc977db9cc4ddfbed225e84b8#workspace:packages/eslint-config-typescript", "workspace:packages/eslint-config-typescript"]],
-      ["@azimutlabs/eslint-env", ["virtual:4fc21b1fd19702867c97da84ef196a00e7b6b50268aa9737d6f8c5b7c8ed16dfb8d54bc404b87837491fc7dbeda73853399fb0b5755ccb35732ce826298e8d87#workspace:packages/eslint-env", "virtual:d68eddf3625d15b5bb9c3dc73872a309f120a4eeb2c2106f6b29b195a6cddb6600accab2fa333096510a55545bbb809bcc110571880457cc7e9e561b253133f0#workspace:packages/eslint-env", "workspace:packages/eslint-env"]]
+      ["@azimutlabs/eslint-config", ["workspace:packages/eslint-config"]],
+      ["@azimutlabs/eslint-config-core", ["virtual:6b889b60629dbb69f3aed0c31b5bfceed289a8913baa3cbe4214085fba47a5c638b80625211885040630eac7a15b6bb2b81743ec6325b7436ef0cc84687677d4#workspace:packages/eslint-config-core", "virtual:ec14d56dcd966b019f771d2462dd3953feb63f073dac9da9552b9f395e3305b60c984bd8abf173a9f330b1c8f1380490487a72dd60a476dd1f3efe07d1395e58#workspace:packages/eslint-config-core", "workspace:packages/eslint-config-core"]],
+      ["@azimutlabs/eslint-config-prettier", ["virtual:6b889b60629dbb69f3aed0c31b5bfceed289a8913baa3cbe4214085fba47a5c638b80625211885040630eac7a15b6bb2b81743ec6325b7436ef0cc84687677d4#workspace:packages/eslint-config-prettier", "virtual:ec14d56dcd966b019f771d2462dd3953feb63f073dac9da9552b9f395e3305b60c984bd8abf173a9f330b1c8f1380490487a72dd60a476dd1f3efe07d1395e58#workspace:packages/eslint-config-prettier", "workspace:packages/eslint-config-prettier"]],
+      ["@azimutlabs/eslint-config-typescript", ["virtual:6b889b60629dbb69f3aed0c31b5bfceed289a8913baa3cbe4214085fba47a5c638b80625211885040630eac7a15b6bb2b81743ec6325b7436ef0cc84687677d4#workspace:packages/eslint-config-typescript", "virtual:ec14d56dcd966b019f771d2462dd3953feb63f073dac9da9552b9f395e3305b60c984bd8abf173a9f330b1c8f1380490487a72dd60a476dd1f3efe07d1395e58#workspace:packages/eslint-config-typescript", "workspace:packages/eslint-config-typescript"]],
+      ["@azimutlabs/eslint-env", ["virtual:19af56e23e7fff4e83501c0a9c0c409f279fab58c93ed627c058cfda737c3a09e4e2cb21085e6fd7e4b9eb5b7f92cad7db6ae22e3b7e9ded8e2449e10a8bc4bb#workspace:packages/eslint-env", "virtual:4fc21b1fd19702867c97da84ef196a00e7b6b50268aa9737d6f8c5b7c8ed16dfb8d54bc404b87837491fc7dbeda73853399fb0b5755ccb35732ce826298e8d87#workspace:packages/eslint-env", "workspace:packages/eslint-env"]]
     ],
     "fallbackPool": [
     ],
@@ -62,10 +62,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         [null, {
           "packageLocation": "./",
           "packageDependencies": [
-            ["@azimutlabs/eslint-config", "virtual:d4a16caa3696dffc0f3a5ad755982ebcdef80ca039e381193a33b09c582c884e8a65ac739b1f0f88e557fad014ac59eccb81da2cc977db9cc4ddfbed225e84b8#workspace:packages/eslint-config"],
-            ["@azimutlabs/eslint-config-core", "virtual:d4a16caa3696dffc0f3a5ad755982ebcdef80ca039e381193a33b09c582c884e8a65ac739b1f0f88e557fad014ac59eccb81da2cc977db9cc4ddfbed225e84b8#workspace:packages/eslint-config-core"],
-            ["@azimutlabs/eslint-config-prettier", "virtual:d4a16caa3696dffc0f3a5ad755982ebcdef80ca039e381193a33b09c582c884e8a65ac739b1f0f88e557fad014ac59eccb81da2cc977db9cc4ddfbed225e84b8#workspace:packages/eslint-config-prettier"],
-            ["@azimutlabs/eslint-config-typescript", "virtual:d4a16caa3696dffc0f3a5ad755982ebcdef80ca039e381193a33b09c582c884e8a65ac739b1f0f88e557fad014ac59eccb81da2cc977db9cc4ddfbed225e84b8#workspace:packages/eslint-config-typescript"],
+            ["@azimutlabs/eslint-config", "virtual:d4a16caa3696dffc0f3a5ad755982ebcdef80ca039e381193a33b09c582c884e8a65ac739b1f0f88e557fad014ac59eccb81da2cc977db9cc4ddfbed225e84b8#file:packages/eslint-config#packages/eslint-config::hash=6d707d&locator=%40azimutlabs%2Feslint%40workspace%3A."],
+            ["@azimutlabs/eslint-config-core", "virtual:d4a16caa3696dffc0f3a5ad755982ebcdef80ca039e381193a33b09c582c884e8a65ac739b1f0f88e557fad014ac59eccb81da2cc977db9cc4ddfbed225e84b8#file:packages/eslint-config-core#packages/eslint-config-core::hash=b1389b&locator=%40azimutlabs%2Feslint%40workspace%3A."],
+            ["@azimutlabs/eslint-config-prettier", "virtual:d4a16caa3696dffc0f3a5ad755982ebcdef80ca039e381193a33b09c582c884e8a65ac739b1f0f88e557fad014ac59eccb81da2cc977db9cc4ddfbed225e84b8#file:packages/eslint-config-typescript#packages/eslint-config-typescript::hash=f3c936&locator=%40azimutlabs%2Feslint%40workspace%3A."],
+            ["@azimutlabs/eslint-config-typescript", "virtual:d4a16caa3696dffc0f3a5ad755982ebcdef80ca039e381193a33b09c582c884e8a65ac739b1f0f88e557fad014ac59eccb81da2cc977db9cc4ddfbed225e84b8#file:packages/eslint-config-typescript#packages/eslint-config-typescript::hash=2690e3&locator=%40azimutlabs%2Feslint%40workspace%3A."],
             ["@types/eslint", "npm:7.2.6"],
             ["@types/jest", "npm:26.0.20"],
             ["@types/node", "npm:14.14.21"],
@@ -88,10 +88,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./",
           "packageDependencies": [
             ["@azimutlabs/eslint", "workspace:."],
-            ["@azimutlabs/eslint-config", "virtual:d4a16caa3696dffc0f3a5ad755982ebcdef80ca039e381193a33b09c582c884e8a65ac739b1f0f88e557fad014ac59eccb81da2cc977db9cc4ddfbed225e84b8#workspace:packages/eslint-config"],
-            ["@azimutlabs/eslint-config-core", "virtual:d4a16caa3696dffc0f3a5ad755982ebcdef80ca039e381193a33b09c582c884e8a65ac739b1f0f88e557fad014ac59eccb81da2cc977db9cc4ddfbed225e84b8#workspace:packages/eslint-config-core"],
-            ["@azimutlabs/eslint-config-prettier", "virtual:d4a16caa3696dffc0f3a5ad755982ebcdef80ca039e381193a33b09c582c884e8a65ac739b1f0f88e557fad014ac59eccb81da2cc977db9cc4ddfbed225e84b8#workspace:packages/eslint-config-prettier"],
-            ["@azimutlabs/eslint-config-typescript", "virtual:d4a16caa3696dffc0f3a5ad755982ebcdef80ca039e381193a33b09c582c884e8a65ac739b1f0f88e557fad014ac59eccb81da2cc977db9cc4ddfbed225e84b8#workspace:packages/eslint-config-typescript"],
+            ["@azimutlabs/eslint-config", "virtual:d4a16caa3696dffc0f3a5ad755982ebcdef80ca039e381193a33b09c582c884e8a65ac739b1f0f88e557fad014ac59eccb81da2cc977db9cc4ddfbed225e84b8#file:packages/eslint-config#packages/eslint-config::hash=6d707d&locator=%40azimutlabs%2Feslint%40workspace%3A."],
+            ["@azimutlabs/eslint-config-core", "virtual:d4a16caa3696dffc0f3a5ad755982ebcdef80ca039e381193a33b09c582c884e8a65ac739b1f0f88e557fad014ac59eccb81da2cc977db9cc4ddfbed225e84b8#file:packages/eslint-config-core#packages/eslint-config-core::hash=b1389b&locator=%40azimutlabs%2Feslint%40workspace%3A."],
+            ["@azimutlabs/eslint-config-prettier", "virtual:d4a16caa3696dffc0f3a5ad755982ebcdef80ca039e381193a33b09c582c884e8a65ac739b1f0f88e557fad014ac59eccb81da2cc977db9cc4ddfbed225e84b8#file:packages/eslint-config-typescript#packages/eslint-config-typescript::hash=f3c936&locator=%40azimutlabs%2Feslint%40workspace%3A."],
+            ["@azimutlabs/eslint-config-typescript", "virtual:d4a16caa3696dffc0f3a5ad755982ebcdef80ca039e381193a33b09c582c884e8a65ac739b1f0f88e557fad014ac59eccb81da2cc977db9cc4ddfbed225e84b8#file:packages/eslint-config-typescript#packages/eslint-config-typescript::hash=2690e3&locator=%40azimutlabs%2Feslint%40workspace%3A."],
             ["@types/eslint", "npm:7.2.6"],
             ["@types/jest", "npm:26.0.20"],
             ["@types/node", "npm:14.14.21"],
@@ -110,13 +110,20 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]
       ]],
       ["@azimutlabs/eslint-config", [
-        ["virtual:d4a16caa3696dffc0f3a5ad755982ebcdef80ca039e381193a33b09c582c884e8a65ac739b1f0f88e557fad014ac59eccb81da2cc977db9cc4ddfbed225e84b8#workspace:packages/eslint-config", {
-          "packageLocation": "./.yarn/$$virtual/@azimutlabs-eslint-config-virtual-0c832b627c/1/packages/eslint-config/",
+        ["file:packages/eslint-config#packages/eslint-config::hash=6d707d&locator=%40azimutlabs%2Feslint%40workspace%3A.", {
+          "packageLocation": "./.yarn/cache/@azimutlabs-eslint-config-file-e8811fb01b-fc944c0a22.zip/node_modules/@azimutlabs/eslint-config/",
           "packageDependencies": [
-            ["@azimutlabs/eslint-config", "virtual:d4a16caa3696dffc0f3a5ad755982ebcdef80ca039e381193a33b09c582c884e8a65ac739b1f0f88e557fad014ac59eccb81da2cc977db9cc4ddfbed225e84b8#workspace:packages/eslint-config"],
-            ["@azimutlabs/eslint-config-core", "virtual:d4a16caa3696dffc0f3a5ad755982ebcdef80ca039e381193a33b09c582c884e8a65ac739b1f0f88e557fad014ac59eccb81da2cc977db9cc4ddfbed225e84b8#workspace:packages/eslint-config-core"],
-            ["@azimutlabs/eslint-config-prettier", "virtual:d4a16caa3696dffc0f3a5ad755982ebcdef80ca039e381193a33b09c582c884e8a65ac739b1f0f88e557fad014ac59eccb81da2cc977db9cc4ddfbed225e84b8#workspace:packages/eslint-config-prettier"],
-            ["@azimutlabs/eslint-config-typescript", "virtual:d4a16caa3696dffc0f3a5ad755982ebcdef80ca039e381193a33b09c582c884e8a65ac739b1f0f88e557fad014ac59eccb81da2cc977db9cc4ddfbed225e84b8#workspace:packages/eslint-config-typescript"],
+            ["@azimutlabs/eslint-config", "file:packages/eslint-config#packages/eslint-config::hash=6d707d&locator=%40azimutlabs%2Feslint%40workspace%3A."]
+          ],
+          "linkType": "SOFT",
+        }],
+        ["virtual:d4a16caa3696dffc0f3a5ad755982ebcdef80ca039e381193a33b09c582c884e8a65ac739b1f0f88e557fad014ac59eccb81da2cc977db9cc4ddfbed225e84b8#file:packages/eslint-config#packages/eslint-config::hash=6d707d&locator=%40azimutlabs%2Feslint%40workspace%3A.", {
+          "packageLocation": "./.yarn/$$virtual/@azimutlabs-eslint-config-virtual-ec14d56dcd/0/cache/@azimutlabs-eslint-config-file-e8811fb01b-fc944c0a22.zip/node_modules/@azimutlabs/eslint-config/",
+          "packageDependencies": [
+            ["@azimutlabs/eslint-config", "virtual:d4a16caa3696dffc0f3a5ad755982ebcdef80ca039e381193a33b09c582c884e8a65ac739b1f0f88e557fad014ac59eccb81da2cc977db9cc4ddfbed225e84b8#file:packages/eslint-config#packages/eslint-config::hash=6d707d&locator=%40azimutlabs%2Feslint%40workspace%3A."],
+            ["@azimutlabs/eslint-config-core", "virtual:ec14d56dcd966b019f771d2462dd3953feb63f073dac9da9552b9f395e3305b60c984bd8abf173a9f330b1c8f1380490487a72dd60a476dd1f3efe07d1395e58#workspace:packages/eslint-config-core"],
+            ["@azimutlabs/eslint-config-prettier", "virtual:ec14d56dcd966b019f771d2462dd3953feb63f073dac9da9552b9f395e3305b60c984bd8abf173a9f330b1c8f1380490487a72dd60a476dd1f3efe07d1395e58#workspace:packages/eslint-config-prettier"],
+            ["@azimutlabs/eslint-config-typescript", "virtual:ec14d56dcd966b019f771d2462dd3953feb63f073dac9da9552b9f395e3305b60c984bd8abf173a9f330b1c8f1380490487a72dd60a476dd1f3efe07d1395e58#workspace:packages/eslint-config-typescript"],
             ["@types/eslint", "npm:7.2.6"],
             ["@types/eslint-plugin-prettier", null],
             ["@types/prettier", null],
@@ -144,7 +151,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             "prettier",
             "typescript"
           ],
-          "linkType": "SOFT",
+          "linkType": "HARD",
         }],
         ["workspace:packages/eslint-config", {
           "packageLocation": "./packages/eslint-config/",
@@ -158,6 +165,13 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]
       ]],
       ["@azimutlabs/eslint-config-core", [
+        ["file:packages/eslint-config-core#packages/eslint-config-core::hash=b1389b&locator=%40azimutlabs%2Feslint%40workspace%3A.", {
+          "packageLocation": "./.yarn/cache/@azimutlabs-eslint-config-core-file-94471bc541-c023bea73a.zip/node_modules/@azimutlabs/eslint-config-core/",
+          "packageDependencies": [
+            ["@azimutlabs/eslint-config-core", "file:packages/eslint-config-core#packages/eslint-config-core::hash=b1389b&locator=%40azimutlabs%2Feslint%40workspace%3A."]
+          ],
+          "linkType": "SOFT",
+        }],
         ["virtual:6b889b60629dbb69f3aed0c31b5bfceed289a8913baa3cbe4214085fba47a5c638b80625211885040630eac7a15b6bb2b81743ec6325b7436ef0cc84687677d4#workspace:packages/eslint-config-core", {
           "packageLocation": "./.yarn/$$virtual/@azimutlabs-eslint-config-core-virtual-4fc21b1fd1/1/packages/eslint-config-core/",
           "packageDependencies": [
@@ -172,11 +186,25 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           ],
           "linkType": "SOFT",
         }],
-        ["virtual:d4a16caa3696dffc0f3a5ad755982ebcdef80ca039e381193a33b09c582c884e8a65ac739b1f0f88e557fad014ac59eccb81da2cc977db9cc4ddfbed225e84b8#workspace:packages/eslint-config-core", {
-          "packageLocation": "./.yarn/$$virtual/@azimutlabs-eslint-config-core-virtual-d68eddf362/1/packages/eslint-config-core/",
+        ["virtual:d4a16caa3696dffc0f3a5ad755982ebcdef80ca039e381193a33b09c582c884e8a65ac739b1f0f88e557fad014ac59eccb81da2cc977db9cc4ddfbed225e84b8#file:packages/eslint-config-core#packages/eslint-config-core::hash=b1389b&locator=%40azimutlabs%2Feslint%40workspace%3A.", {
+          "packageLocation": "./.yarn/$$virtual/@azimutlabs-eslint-config-core-virtual-19af56e23e/0/cache/@azimutlabs-eslint-config-core-file-94471bc541-c023bea73a.zip/node_modules/@azimutlabs/eslint-config-core/",
           "packageDependencies": [
-            ["@azimutlabs/eslint-config-core", "virtual:d4a16caa3696dffc0f3a5ad755982ebcdef80ca039e381193a33b09c582c884e8a65ac739b1f0f88e557fad014ac59eccb81da2cc977db9cc4ddfbed225e84b8#workspace:packages/eslint-config-core"],
-            ["@azimutlabs/eslint-env", "virtual:d68eddf3625d15b5bb9c3dc73872a309f120a4eeb2c2106f6b29b195a6cddb6600accab2fa333096510a55545bbb809bcc110571880457cc7e9e561b253133f0#workspace:packages/eslint-env"],
+            ["@azimutlabs/eslint-config-core", "virtual:d4a16caa3696dffc0f3a5ad755982ebcdef80ca039e381193a33b09c582c884e8a65ac739b1f0f88e557fad014ac59eccb81da2cc977db9cc4ddfbed225e84b8#file:packages/eslint-config-core#packages/eslint-config-core::hash=b1389b&locator=%40azimutlabs%2Feslint%40workspace%3A."],
+            ["@azimutlabs/eslint-env", "virtual:19af56e23e7fff4e83501c0a9c0c409f279fab58c93ed627c058cfda737c3a09e4e2cb21085e6fd7e4b9eb5b7f92cad7db6ae22e3b7e9ded8e2449e10a8bc4bb#workspace:packages/eslint-env"],
+            ["@types/eslint", "npm:7.2.6"],
+            ["eslint", "npm:7.18.0"]
+          ],
+          "packagePeers": [
+            "@types/eslint",
+            "eslint"
+          ],
+          "linkType": "HARD",
+        }],
+        ["virtual:ec14d56dcd966b019f771d2462dd3953feb63f073dac9da9552b9f395e3305b60c984bd8abf173a9f330b1c8f1380490487a72dd60a476dd1f3efe07d1395e58#workspace:packages/eslint-config-core", {
+          "packageLocation": "./.yarn/$$virtual/@azimutlabs-eslint-config-core-virtual-fff51d1cd7/1/packages/eslint-config-core/",
+          "packageDependencies": [
+            ["@azimutlabs/eslint-config-core", "virtual:ec14d56dcd966b019f771d2462dd3953feb63f073dac9da9552b9f395e3305b60c984bd8abf173a9f330b1c8f1380490487a72dd60a476dd1f3efe07d1395e58#workspace:packages/eslint-config-core"],
+            ["@azimutlabs/eslint-env", "virtual:19af56e23e7fff4e83501c0a9c0c409f279fab58c93ed627c058cfda737c3a09e4e2cb21085e6fd7e4b9eb5b7f92cad7db6ae22e3b7e9ded8e2449e10a8bc4bb#workspace:packages/eslint-env"],
             ["@types/eslint", "npm:7.2.6"],
             ["eslint", "npm:7.18.0"]
           ],
@@ -196,6 +224,13 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]
       ]],
       ["@azimutlabs/eslint-config-prettier", [
+        ["file:packages/eslint-config-typescript#packages/eslint-config-typescript::hash=f3c936&locator=%40azimutlabs%2Feslint%40workspace%3A.", {
+          "packageLocation": "./.yarn/cache/@azimutlabs-eslint-config-prettier-file-1ffb8fcdef-cd26bd3e65.zip/node_modules/@azimutlabs/eslint-config-prettier/",
+          "packageDependencies": [
+            ["@azimutlabs/eslint-config-prettier", "file:packages/eslint-config-typescript#packages/eslint-config-typescript::hash=f3c936&locator=%40azimutlabs%2Feslint%40workspace%3A."]
+          ],
+          "linkType": "SOFT",
+        }],
         ["virtual:6b889b60629dbb69f3aed0c31b5bfceed289a8913baa3cbe4214085fba47a5c638b80625211885040630eac7a15b6bb2b81743ec6325b7436ef0cc84687677d4#workspace:packages/eslint-config-prettier", {
           "packageLocation": "./.yarn/$$virtual/@azimutlabs-eslint-config-prettier-virtual-56fd9a93ec/1/packages/eslint-config-prettier/",
           "packageDependencies": [
@@ -219,11 +254,37 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           ],
           "linkType": "SOFT",
         }],
-        ["virtual:d4a16caa3696dffc0f3a5ad755982ebcdef80ca039e381193a33b09c582c884e8a65ac739b1f0f88e557fad014ac59eccb81da2cc977db9cc4ddfbed225e84b8#workspace:packages/eslint-config-prettier", {
-          "packageLocation": "./.yarn/$$virtual/@azimutlabs-eslint-config-prettier-virtual-d06765864d/1/packages/eslint-config-prettier/",
+        ["virtual:d4a16caa3696dffc0f3a5ad755982ebcdef80ca039e381193a33b09c582c884e8a65ac739b1f0f88e557fad014ac59eccb81da2cc977db9cc4ddfbed225e84b8#file:packages/eslint-config-typescript#packages/eslint-config-typescript::hash=f3c936&locator=%40azimutlabs%2Feslint%40workspace%3A.", {
+          "packageLocation": "./.yarn/$$virtual/@azimutlabs-eslint-config-prettier-virtual-fed852bc02/0/cache/@azimutlabs-eslint-config-prettier-file-1ffb8fcdef-cd26bd3e65.zip/node_modules/@azimutlabs/eslint-config-prettier/",
           "packageDependencies": [
-            ["@azimutlabs/eslint-config-prettier", "virtual:d4a16caa3696dffc0f3a5ad755982ebcdef80ca039e381193a33b09c582c884e8a65ac739b1f0f88e557fad014ac59eccb81da2cc977db9cc4ddfbed225e84b8#workspace:packages/eslint-config-prettier"],
-            ["@azimutlabs/eslint-env", "virtual:d68eddf3625d15b5bb9c3dc73872a309f120a4eeb2c2106f6b29b195a6cddb6600accab2fa333096510a55545bbb809bcc110571880457cc7e9e561b253133f0#workspace:packages/eslint-env"],
+            ["@azimutlabs/eslint-config-prettier", "virtual:d4a16caa3696dffc0f3a5ad755982ebcdef80ca039e381193a33b09c582c884e8a65ac739b1f0f88e557fad014ac59eccb81da2cc977db9cc4ddfbed225e84b8#file:packages/eslint-config-typescript#packages/eslint-config-typescript::hash=f3c936&locator=%40azimutlabs%2Feslint%40workspace%3A."],
+            ["@azimutlabs/eslint-env", "virtual:19af56e23e7fff4e83501c0a9c0c409f279fab58c93ed627c058cfda737c3a09e4e2cb21085e6fd7e4b9eb5b7f92cad7db6ae22e3b7e9ded8e2449e10a8bc4bb#workspace:packages/eslint-env"],
+            ["@types/eslint", "npm:7.2.6"],
+            ["@types/typescript", null],
+            ["@types/typescript-eslint__eslint-plugin", null],
+            ["@types/typescript-eslint__parser", null],
+            ["@typescript-eslint/eslint-plugin", "virtual:d4a16caa3696dffc0f3a5ad755982ebcdef80ca039e381193a33b09c582c884e8a65ac739b1f0f88e557fad014ac59eccb81da2cc977db9cc4ddfbed225e84b8#npm:4.14.0"],
+            ["@typescript-eslint/parser", "virtual:d4a16caa3696dffc0f3a5ad755982ebcdef80ca039e381193a33b09c582c884e8a65ac739b1f0f88e557fad014ac59eccb81da2cc977db9cc4ddfbed225e84b8#npm:4.14.0"],
+            ["eslint", "npm:7.18.0"],
+            ["typescript", "patch:typescript@npm%3A4.1.3#builtin<compat/typescript>::version=4.1.3&hash=cc6730"]
+          ],
+          "packagePeers": [
+            "@types/eslint",
+            "@types/typescript-eslint__eslint-plugin",
+            "@types/typescript-eslint__parser",
+            "@types/typescript",
+            "@typescript-eslint/eslint-plugin",
+            "@typescript-eslint/parser",
+            "eslint",
+            "typescript"
+          ],
+          "linkType": "HARD",
+        }],
+        ["virtual:ec14d56dcd966b019f771d2462dd3953feb63f073dac9da9552b9f395e3305b60c984bd8abf173a9f330b1c8f1380490487a72dd60a476dd1f3efe07d1395e58#workspace:packages/eslint-config-prettier", {
+          "packageLocation": "./.yarn/$$virtual/@azimutlabs-eslint-config-prettier-virtual-83579dec1d/1/packages/eslint-config-prettier/",
+          "packageDependencies": [
+            ["@azimutlabs/eslint-config-prettier", "virtual:ec14d56dcd966b019f771d2462dd3953feb63f073dac9da9552b9f395e3305b60c984bd8abf173a9f330b1c8f1380490487a72dd60a476dd1f3efe07d1395e58#workspace:packages/eslint-config-prettier"],
+            ["@azimutlabs/eslint-env", "virtual:19af56e23e7fff4e83501c0a9c0c409f279fab58c93ed627c058cfda737c3a09e4e2cb21085e6fd7e4b9eb5b7f92cad7db6ae22e3b7e9ded8e2449e10a8bc4bb#workspace:packages/eslint-env"],
             ["@types/eslint", "npm:7.2.6"],
             ["@types/eslint-plugin-prettier", null],
             ["@types/prettier", null],
@@ -253,6 +314,13 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]
       ]],
       ["@azimutlabs/eslint-config-typescript", [
+        ["file:packages/eslint-config-typescript#packages/eslint-config-typescript::hash=2690e3&locator=%40azimutlabs%2Feslint%40workspace%3A.", {
+          "packageLocation": "./.yarn/cache/@azimutlabs-eslint-config-typescript-file-8aed276354-62e87bbade.zip/node_modules/@azimutlabs/eslint-config-typescript/",
+          "packageDependencies": [
+            ["@azimutlabs/eslint-config-typescript", "file:packages/eslint-config-typescript#packages/eslint-config-typescript::hash=2690e3&locator=%40azimutlabs%2Feslint%40workspace%3A."]
+          ],
+          "linkType": "SOFT",
+        }],
         ["virtual:6b889b60629dbb69f3aed0c31b5bfceed289a8913baa3cbe4214085fba47a5c638b80625211885040630eac7a15b6bb2b81743ec6325b7436ef0cc84687677d4#workspace:packages/eslint-config-typescript", {
           "packageLocation": "./.yarn/$$virtual/@azimutlabs-eslint-config-typescript-virtual-d8d22d4477/1/packages/eslint-config-typescript/",
           "packageDependencies": [
@@ -279,11 +347,37 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           ],
           "linkType": "SOFT",
         }],
-        ["virtual:d4a16caa3696dffc0f3a5ad755982ebcdef80ca039e381193a33b09c582c884e8a65ac739b1f0f88e557fad014ac59eccb81da2cc977db9cc4ddfbed225e84b8#workspace:packages/eslint-config-typescript", {
-          "packageLocation": "./.yarn/$$virtual/@azimutlabs-eslint-config-typescript-virtual-de6c4a4b6a/1/packages/eslint-config-typescript/",
+        ["virtual:d4a16caa3696dffc0f3a5ad755982ebcdef80ca039e381193a33b09c582c884e8a65ac739b1f0f88e557fad014ac59eccb81da2cc977db9cc4ddfbed225e84b8#file:packages/eslint-config-typescript#packages/eslint-config-typescript::hash=2690e3&locator=%40azimutlabs%2Feslint%40workspace%3A.", {
+          "packageLocation": "./.yarn/$$virtual/@azimutlabs-eslint-config-typescript-virtual-8cb4e422d7/0/cache/@azimutlabs-eslint-config-typescript-file-8aed276354-62e87bbade.zip/node_modules/@azimutlabs/eslint-config-typescript/",
           "packageDependencies": [
-            ["@azimutlabs/eslint-config-typescript", "virtual:d4a16caa3696dffc0f3a5ad755982ebcdef80ca039e381193a33b09c582c884e8a65ac739b1f0f88e557fad014ac59eccb81da2cc977db9cc4ddfbed225e84b8#workspace:packages/eslint-config-typescript"],
-            ["@azimutlabs/eslint-env", "virtual:d68eddf3625d15b5bb9c3dc73872a309f120a4eeb2c2106f6b29b195a6cddb6600accab2fa333096510a55545bbb809bcc110571880457cc7e9e561b253133f0#workspace:packages/eslint-env"],
+            ["@azimutlabs/eslint-config-typescript", "virtual:d4a16caa3696dffc0f3a5ad755982ebcdef80ca039e381193a33b09c582c884e8a65ac739b1f0f88e557fad014ac59eccb81da2cc977db9cc4ddfbed225e84b8#file:packages/eslint-config-typescript#packages/eslint-config-typescript::hash=2690e3&locator=%40azimutlabs%2Feslint%40workspace%3A."],
+            ["@azimutlabs/eslint-env", "virtual:19af56e23e7fff4e83501c0a9c0c409f279fab58c93ed627c058cfda737c3a09e4e2cb21085e6fd7e4b9eb5b7f92cad7db6ae22e3b7e9ded8e2449e10a8bc4bb#workspace:packages/eslint-env"],
+            ["@types/eslint", "npm:7.2.6"],
+            ["@types/typescript", null],
+            ["@types/typescript-eslint__eslint-plugin", null],
+            ["@types/typescript-eslint__parser", null],
+            ["@typescript-eslint/eslint-plugin", "virtual:d4a16caa3696dffc0f3a5ad755982ebcdef80ca039e381193a33b09c582c884e8a65ac739b1f0f88e557fad014ac59eccb81da2cc977db9cc4ddfbed225e84b8#npm:4.14.0"],
+            ["@typescript-eslint/parser", "virtual:d4a16caa3696dffc0f3a5ad755982ebcdef80ca039e381193a33b09c582c884e8a65ac739b1f0f88e557fad014ac59eccb81da2cc977db9cc4ddfbed225e84b8#npm:4.14.0"],
+            ["eslint", "npm:7.18.0"],
+            ["typescript", "patch:typescript@npm%3A4.1.3#builtin<compat/typescript>::version=4.1.3&hash=cc6730"]
+          ],
+          "packagePeers": [
+            "@types/eslint",
+            "@types/typescript-eslint__eslint-plugin",
+            "@types/typescript-eslint__parser",
+            "@types/typescript",
+            "@typescript-eslint/eslint-plugin",
+            "@typescript-eslint/parser",
+            "eslint",
+            "typescript"
+          ],
+          "linkType": "HARD",
+        }],
+        ["virtual:ec14d56dcd966b019f771d2462dd3953feb63f073dac9da9552b9f395e3305b60c984bd8abf173a9f330b1c8f1380490487a72dd60a476dd1f3efe07d1395e58#workspace:packages/eslint-config-typescript", {
+          "packageLocation": "./.yarn/$$virtual/@azimutlabs-eslint-config-typescript-virtual-8afcd6e685/1/packages/eslint-config-typescript/",
+          "packageDependencies": [
+            ["@azimutlabs/eslint-config-typescript", "virtual:ec14d56dcd966b019f771d2462dd3953feb63f073dac9da9552b9f395e3305b60c984bd8abf173a9f330b1c8f1380490487a72dd60a476dd1f3efe07d1395e58#workspace:packages/eslint-config-typescript"],
+            ["@azimutlabs/eslint-env", "virtual:19af56e23e7fff4e83501c0a9c0c409f279fab58c93ed627c058cfda737c3a09e4e2cb21085e6fd7e4b9eb5b7f92cad7db6ae22e3b7e9ded8e2449e10a8bc4bb#workspace:packages/eslint-env"],
             ["@types/eslint", "npm:7.2.6"],
             ["@types/typescript", null],
             ["@types/typescript-eslint__eslint-plugin", null],
@@ -315,12 +409,12 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]
       ]],
       ["@azimutlabs/eslint-env", [
-        ["virtual:4fc21b1fd19702867c97da84ef196a00e7b6b50268aa9737d6f8c5b7c8ed16dfb8d54bc404b87837491fc7dbeda73853399fb0b5755ccb35732ce826298e8d87#workspace:packages/eslint-env", {
-          "packageLocation": "./.yarn/$$virtual/@azimutlabs-eslint-env-virtual-0f59332c18/1/packages/eslint-env/",
+        ["virtual:19af56e23e7fff4e83501c0a9c0c409f279fab58c93ed627c058cfda737c3a09e4e2cb21085e6fd7e4b9eb5b7f92cad7db6ae22e3b7e9ded8e2449e10a8bc4bb#workspace:packages/eslint-env", {
+          "packageLocation": "./.yarn/$$virtual/@azimutlabs-eslint-env-virtual-0d933713bf/1/packages/eslint-env/",
           "packageDependencies": [
-            ["@azimutlabs/eslint-env", "virtual:4fc21b1fd19702867c97da84ef196a00e7b6b50268aa9737d6f8c5b7c8ed16dfb8d54bc404b87837491fc7dbeda73853399fb0b5755ccb35732ce826298e8d87#workspace:packages/eslint-env"],
-            ["@types/eslint", null],
-            ["eslint", null]
+            ["@azimutlabs/eslint-env", "virtual:19af56e23e7fff4e83501c0a9c0c409f279fab58c93ed627c058cfda737c3a09e4e2cb21085e6fd7e4b9eb5b7f92cad7db6ae22e3b7e9ded8e2449e10a8bc4bb#workspace:packages/eslint-env"],
+            ["@types/eslint", "npm:7.2.6"],
+            ["eslint", "npm:7.18.0"]
           ],
           "packagePeers": [
             "@types/eslint",
@@ -328,12 +422,12 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           ],
           "linkType": "SOFT",
         }],
-        ["virtual:d68eddf3625d15b5bb9c3dc73872a309f120a4eeb2c2106f6b29b195a6cddb6600accab2fa333096510a55545bbb809bcc110571880457cc7e9e561b253133f0#workspace:packages/eslint-env", {
-          "packageLocation": "./.yarn/$$virtual/@azimutlabs-eslint-env-virtual-381bc4703e/1/packages/eslint-env/",
+        ["virtual:4fc21b1fd19702867c97da84ef196a00e7b6b50268aa9737d6f8c5b7c8ed16dfb8d54bc404b87837491fc7dbeda73853399fb0b5755ccb35732ce826298e8d87#workspace:packages/eslint-env", {
+          "packageLocation": "./.yarn/$$virtual/@azimutlabs-eslint-env-virtual-0f59332c18/1/packages/eslint-env/",
           "packageDependencies": [
-            ["@azimutlabs/eslint-env", "virtual:d68eddf3625d15b5bb9c3dc73872a309f120a4eeb2c2106f6b29b195a6cddb6600accab2fa333096510a55545bbb809bcc110571880457cc7e9e561b253133f0#workspace:packages/eslint-env"],
-            ["@types/eslint", "npm:7.2.6"],
-            ["eslint", "npm:7.18.0"]
+            ["@azimutlabs/eslint-env", "virtual:4fc21b1fd19702867c97da84ef196a00e7b6b50268aa9737d6f8c5b7c8ed16dfb8d54bc404b87837491fc7dbeda73853399fb0b5755ccb35732ce826298e8d87#workspace:packages/eslint-env"],
+            ["@types/eslint", null],
+            ["eslint", null]
           ],
           "packagePeers": [
             "@types/eslint",

@@ -45,10 +45,10 @@
     "preset": "ts-jest"
   },
   "devDependencies": {
-    "@azimutlabs/eslint-config": "^0.4.0",
-    "@azimutlabs/eslint-config-core": "^0.1.0",
-    "@azimutlabs/eslint-config-prettier": "^0.1.0",
-    "@azimutlabs/eslint-config-typescript": "^0.1.0",
+    "@azimutlabs/eslint-config": "file:packages/eslint-config",
+    "@azimutlabs/eslint-config-core": "file:packages/eslint-config-core",
+    "@azimutlabs/eslint-config-prettier": "file:packages/eslint-config-typescript",
+    "@azimutlabs/eslint-config-typescript": "file:packages/eslint-config-typescript",
     "@types/eslint": "^7.2.6",
     "@types/jest": "^26.0.20",
     "@types/node": "^14.14.21",
