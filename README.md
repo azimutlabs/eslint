@@ -1,4 +1,5 @@
 <h1>
+  🌈
   <img
     height="22.5"
     src="https://raw.githubusercontent.com/azimutlabs/logos/master/little_logo.png"

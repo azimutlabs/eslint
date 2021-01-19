@@ -41,6 +41,19 @@ __metadata:
   languageName: unknown
   linkType: soft
 
+"@azimutlabs/eslint-config@^0.3.0, @azimutlabs/eslint-config@workspace:packages/eslint-config":
+  version: 0.0.0-use.local
+  resolution: "@azimutlabs/eslint-config@workspace:packages/eslint-config"
+  dependencies:
+    "@azimutlabs/eslint-config-core": ^0.0.0
+    "@azimutlabs/eslint-config-prettier": ^0.0.0
+    "@azimutlabs/eslint-config-typescript": ^0.0.0
+  peerDependencies:
+    eslint: ^7
+    typescript: ^3.8 || ^4
+  languageName: unknown
+  linkType: soft
+
 "@azimutlabs/eslint-env@^0.0.0, @azimutlabs/eslint-env@workspace:packages/eslint-env":
   version: 0.0.0-use.local
   resolution: "@azimutlabs/eslint-env@workspace:packages/eslint-env"
@@ -53,6 +66,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@azimutlabs/eslint@workspace:."
   dependencies:
+    "@azimutlabs/eslint-config": ^0.3.0
     "@azimutlabs/eslint-config-core": ^0.0.0
     "@azimutlabs/eslint-config-prettier": ^0.0.0
     "@azimutlabs/eslint-config-typescript": ^0.0.0
