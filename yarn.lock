@@ -5,21 +5,21 @@ __metadata:
   version: 4
   cacheKey: 7
 
-"@azimutlabs/eslint-config-core@^0.0.0, @azimutlabs/eslint-config-core@workspace:packages/eslint-config-core":
+"@azimutlabs/eslint-config-core@^0.1.0, @azimutlabs/eslint-config-core@workspace:packages/eslint-config-core":
   version: 0.0.0-use.local
   resolution: "@azimutlabs/eslint-config-core@workspace:packages/eslint-config-core"
   dependencies:
-    "@azimutlabs/eslint-env": ^0.0.0
+    "@azimutlabs/eslint-env": ^0.1.0
   peerDependencies:
     eslint: ^7
   languageName: unknown
   linkType: soft
 
-"@azimutlabs/eslint-config-prettier@^0.0.0, @azimutlabs/eslint-config-prettier@workspace:packages/eslint-config-prettier":
+"@azimutlabs/eslint-config-prettier@^0.1.0, @azimutlabs/eslint-config-prettier@workspace:packages/eslint-config-prettier":
   version: 0.0.0-use.local
   resolution: "@azimutlabs/eslint-config-prettier@workspace:packages/eslint-config-prettier"
   dependencies:
-    "@azimutlabs/eslint-env": ^0.0.0
+    "@azimutlabs/eslint-env": ^0.1.0
     eslint-config-prettier: ^7.1.0
     eslint-plugin-prettier: ^3.3.1
     prettier: ^2.2.1
@@ -28,11 +28,11 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@azimutlabs/eslint-config-typescript@^0.0.0, @azimutlabs/eslint-config-typescript@workspace:packages/eslint-config-typescript":
+"@azimutlabs/eslint-config-typescript@^0.1.0, @azimutlabs/eslint-config-typescript@workspace:packages/eslint-config-typescript":
   version: 0.0.0-use.local
   resolution: "@azimutlabs/eslint-config-typescript@workspace:packages/eslint-config-typescript"
   dependencies:
-    "@azimutlabs/eslint-env": ^0.0.0
+    "@azimutlabs/eslint-env": ^0.1.0
     "@typescript-eslint/eslint-plugin": ^4.14.0
     "@typescript-eslint/parser": ^4.14.0
   peerDependencies:
@@ -41,20 +41,20 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@azimutlabs/eslint-config@^0.3.0, @azimutlabs/eslint-config@workspace:packages/eslint-config":
+"@azimutlabs/eslint-config@^0.4.0, @azimutlabs/eslint-config@workspace:packages/eslint-config":
   version: 0.0.0-use.local
   resolution: "@azimutlabs/eslint-config@workspace:packages/eslint-config"
   dependencies:
-    "@azimutlabs/eslint-config-core": ^0.0.0
-    "@azimutlabs/eslint-config-prettier": ^0.0.0
-    "@azimutlabs/eslint-config-typescript": ^0.0.0
+    "@azimutlabs/eslint-config-core": ^0.1.0
+    "@azimutlabs/eslint-config-prettier": ^0.1.0
+    "@azimutlabs/eslint-config-typescript": ^0.1.0
   peerDependencies:
     eslint: ^7
     typescript: ^3.8 || ^4
   languageName: unknown
   linkType: soft
 
-"@azimutlabs/eslint-env@^0.0.0, @azimutlabs/eslint-env@workspace:packages/eslint-env":
+"@azimutlabs/eslint-env@^0.1.0, @azimutlabs/eslint-env@workspace:packages/eslint-env":
   version: 0.0.0-use.local
   resolution: "@azimutlabs/eslint-env@workspace:packages/eslint-env"
   peerDependencies:
@@ -66,10 +66,10 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@azimutlabs/eslint@workspace:."
   dependencies:
-    "@azimutlabs/eslint-config": ^0.3.0
-    "@azimutlabs/eslint-config-core": ^0.0.0
-    "@azimutlabs/eslint-config-prettier": ^0.0.0
-    "@azimutlabs/eslint-config-typescript": ^0.0.0
+    "@azimutlabs/eslint-config": ^0.4.0
+    "@azimutlabs/eslint-config-core": ^0.1.0
+    "@azimutlabs/eslint-config-prettier": ^0.1.0
+    "@azimutlabs/eslint-config-typescript": ^0.1.0
     "@types/eslint": ^7.2.6
     "@types/jest": ^26.0.20
     "@types/node": ^14.14.21
