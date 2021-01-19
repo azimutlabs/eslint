@@ -32,7 +32,11 @@
     "@azimutlabs/eslint-config-typescript": "^0.1.0"
   },
   "peerDependencies": {
+    "@typescript-eslint/eslint-plugin": "^4",
+    "@typescript-eslint/parser": "^4",
     "eslint": "^7",
+    "eslint-plugin-prettier": "^3",
+    "prettier": "^2",
     "typescript": "^3.8 || ^4"
   },
   "publishConfig": {
