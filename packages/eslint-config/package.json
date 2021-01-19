@@ -1,7 +1,27 @@
 {
   "name": "@azimutlabs/eslint-config",
   "version": "0.3.0",
+  "description": "Collection of all @azimutlabs/eslint-config packages",
+  "keywords": [
+    "config",
+    "eslint",
+    "eslint-config",
+    "alabs",
+    "azimutlabs",
+    "styleguide"
+  ],
+  "homepage": "https://github.com/azimutlabs/eslint#readme",
+  "bugs": {
+    "url": "https://github.com/azimutlabs/eslint/issues",
+    "email": "npm@alabs.team"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/azimutlabs/eslint.git",
+    "directory": "packages/eslint-config"
+  },
   "license": "MIT",
+  "author": "Azimut Labs <opensource@alabs.team>",
   "main": "index.js",
   "files": [
     "*.js"
