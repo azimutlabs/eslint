@@ -56,6 +56,8 @@ Button.defaultProps = {
   disabled: true,
 };
 `;
-    expect(getMessagesFromLintResults(await eslint.lintText(file))).toEqual([]);
+    expect(
+      getMessagesFromLintResults(await eslint.lintText(file, { filePath: 'component.jsx' }))
+    ).toEqual([]);
   });
 });
