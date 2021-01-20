@@ -64,7 +64,7 @@ __metadata:
 
 "@azimutlabs/eslint-config-prettier@file:packages/eslint-config-typescript::locator=%40azimutlabs%2Feslint%40workspace%3A.":
   version: 0.2.1
-  resolution: "@azimutlabs/eslint-config-prettier@file:packages/eslint-config-typescript#packages/eslint-config-typescript::hash=cc6020&locator=%40azimutlabs%2Feslint%40workspace%3A."
+  resolution: "@azimutlabs/eslint-config-prettier@file:packages/eslint-config-typescript#packages/eslint-config-typescript::hash=3469bc&locator=%40azimutlabs%2Feslint%40workspace%3A."
   dependencies:
     "@azimutlabs/eslint-env": ^0.1.2
   peerDependencies:
@@ -72,7 +72,7 @@ __metadata:
     "@typescript-eslint/parser": ^4
     eslint: ^7
     typescript: ^3.8 || ^4
-  checksum: 3b077adcf5724192cb7b07cdd155251c72e6db240570b08719a46575f07a1ca902b76bf6102a99e8544218b12e2eca729381c6fc0604e45ab1c073dabfd4fe85
+  checksum: a02ae0ff2a4ad3ef50f7b63cd112eaeff899fb18fe43d8a2a8632c0be3ff5c2f2d5ec3dfc7ccd41144873417c7cda6f0639c7650419ef530b92464adf90e9b74
   languageName: node
   linkType: hard
 
@@ -90,14 +90,14 @@ __metadata:
 
 "@azimutlabs/eslint-config-react@file:packages/eslint-config-react::locator=%40azimutlabs%2Feslint%40workspace%3A.":
   version: 0.1.1
-  resolution: "@azimutlabs/eslint-config-react@file:packages/eslint-config-react#packages/eslint-config-react::hash=1b6def&locator=%40azimutlabs%2Feslint%40workspace%3A."
+  resolution: "@azimutlabs/eslint-config-react@file:packages/eslint-config-react#packages/eslint-config-react::hash=8857aa&locator=%40azimutlabs%2Feslint%40workspace%3A."
   dependencies:
     "@azimutlabs/eslint-env": ^0.1.2
   peerDependencies:
     eslint: ^7
     eslint-plugin-react: ^7
     eslint-plugin-react-hooks: ^4
-  checksum: c9a02144525d2e56ba2b1a45bada8adff00e390c012f257737e4c33d99cde8d892fe1dba404e331f7e738d5933a22cb5dae88850074e6cb947401d816e7970bf
+  checksum: 4bbe7aae34f257d9ff30f460883b89065ea4b1ef6a8776540bce2c1427823a897d0e63bc258e94721453b0e43e485957a6d1219f7f31c725188497e44780d348
   languageName: node
   linkType: hard
 
@@ -116,7 +116,7 @@ __metadata:
 
 "@azimutlabs/eslint-config-typescript@file:packages/eslint-config-typescript::locator=%40azimutlabs%2Feslint%40workspace%3A.":
   version: 0.2.1
-  resolution: "@azimutlabs/eslint-config-typescript@file:packages/eslint-config-typescript#packages/eslint-config-typescript::hash=0401b8&locator=%40azimutlabs%2Feslint%40workspace%3A."
+  resolution: "@azimutlabs/eslint-config-typescript@file:packages/eslint-config-typescript#packages/eslint-config-typescript::hash=3722ce&locator=%40azimutlabs%2Feslint%40workspace%3A."
   dependencies:
     "@azimutlabs/eslint-env": ^0.1.2
   peerDependencies:
@@ -124,7 +124,7 @@ __metadata:
     "@typescript-eslint/parser": ^4
     eslint: ^7
     typescript: ^3.8 || ^4
-  checksum: c47114d1857ced75d0c901adb2d0c30560f78136c86faf81b773b19d7411bd42781e0d25c508826a08cb952ef7939a8b2a888f2a94c079a9ab0e57ce35e4d4db
+  checksum: d671af1d32160a191bae04c42baf0886ad5581ff7ce9b95a1879ff3407e0b341ef17356d51765e9f96b36c6cb4e719b82b2a10f69d62711edb9b5fbf9738ea66
   languageName: node
   linkType: hard
 

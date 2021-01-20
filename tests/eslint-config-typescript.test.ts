@@ -42,6 +42,7 @@ http.createServer(requestListener).listen(port);
 
   it('should lint a client-side react component without jsx', async () => {
     const file = `import { createElement, forwardRef } from 'react';
+import type { FC } from 'react';
 
 enum Colors {
   Blue = 'blue',
@@ -58,7 +59,9 @@ interface ColorProps<C extends Color = AnyColor> {
 
 interface ButtonProps extends ColorProps<Colors.Blue | Colors.Red> {}
 
-export const Button = forwardRef<ButtonProps>(({ children, color: _color, ...rest }, ref) =>
+export const isBordered = true;
+
+export const Button: FC<ButtonProps> = forwardRef(({ children, color: _color, ...rest }, ref) =>
   createElement(
     'button',
     {

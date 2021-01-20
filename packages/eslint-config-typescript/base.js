@@ -257,6 +257,12 @@ module.exports = {
         selector: 'enumMember',
         format: ['StrictPascalCase'],
       },
+      {
+        selector: 'variable',
+        types: ['boolean'],
+        format: ['PascalCase'],
+        prefix: ['is', 'should', 'has', 'can', 'did', 'will'],
+      },
       /**
        * For React components.
        * @example
@@ -275,7 +281,6 @@ module.exports = {
       {
         selector: 'variable',
         modifiers: ['const'],
-        types: ['function'],
         format: ['strictCamelCase', 'StrictPascalCase'],
       },
       /**
@@ -283,19 +288,18 @@ module.exports = {
        * @example 'Accept-Language'
        */
       {
-        selector: 'memberLike',
-        modifiers: ['requiresQuotes'],
+        selector: [
+          'classProperty',
+          'objectLiteralProperty',
+          'typeProperty',
+          'classMethod',
+          'objectLiteralMethod',
+          'typeMethod',
+          'accessor',
+          'enumMember',
+        ],
         format: null,
-      },
-      {
-        selector: 'property',
         modifiers: ['requiresQuotes'],
-        format: null,
-      },
-      {
-        selector: 'method',
-        modifiers: ['requiresQuotes'],
-        format: null,
       },
     ],
     // Disallows awaiting a value that is not a Thenable.
