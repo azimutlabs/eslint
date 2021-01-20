@@ -1,8 +1,5 @@
 import * as configBase from '@azimutlabs/eslint-config-typescript/base';
 import * as configDeclarations from '@azimutlabs/eslint-config-typescript/declarations';
-import * as http from 'http';
-
-http.createServer()
 
 import { buildESLint } from './services/builders';
 import { getMessagesFromLintResults } from './services/getMessagesFromLintResults';
@@ -44,8 +41,7 @@ http.createServer(requestListener).listen(port);
   });
 
   it('should lint a client-side react component without jsx', async () => {
-    const file = `import { createElement } from 'react';
-import type { FC } from 'react';
+    const file = `import { createElement, forwardRef } from 'react';
 
 enum Colors {
   Blue = 'blue',
@@ -62,12 +58,17 @@ interface ColorProps<C extends Color = AnyColor> {
 
 interface ButtonProps extends ColorProps<Colors.Blue | Colors.Red> {}
 
-export const Button: FC<ButtonProps> = ({ children, color: _color, ...rest }) =>
+export const Button = forwardRef<ButtonProps>(({ children, color: _color, ...rest }, ref) =>
   createElement(
     'button',
-    { ...rest, 'aria-disabled': disabled ? 'disabled' : 'not' },
+    {
+      ...rest,
+      ref,
+      'aria-disabled': disabled ? 'disabled' : 'not',
+    },
     children,
-  );
+  ),
+);
 
 Button.defaultProps = {
   disabled: true,
