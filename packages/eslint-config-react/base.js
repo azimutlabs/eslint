@@ -233,10 +233,7 @@ module.exports = {
       'error',
       {
         allow: 'as-needed',
-        extensions: [
-          '.tsx',
-          '.jsx',
-        ]
+        extensions: ['.tsx', '.jsx'],
       },
     ],
     // Prevent usage of javascript: URLs.
