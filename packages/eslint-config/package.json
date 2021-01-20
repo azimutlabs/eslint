@@ -28,6 +28,7 @@
   ],
   "dependencies": {
     "@azimutlabs/eslint-config-core": "^0.1.2",
+    "@azimutlabs/eslint-config-jsx-a11y": "^0.1.0",
     "@azimutlabs/eslint-config-prettier": "^0.1.2",
     "@azimutlabs/eslint-config-react": "^0.1.1",
     "@azimutlabs/eslint-config-typescript": "^0.2.1"
