@@ -90,14 +90,14 @@ __metadata:
 
 "@azimutlabs/eslint-config-react@file:packages/eslint-config-react::locator=%40azimutlabs%2Feslint%40workspace%3A.":
   version: 0.1.1
-  resolution: "@azimutlabs/eslint-config-react@file:packages/eslint-config-react#packages/eslint-config-react::hash=f1cbec&locator=%40azimutlabs%2Feslint%40workspace%3A."
+  resolution: "@azimutlabs/eslint-config-react@file:packages/eslint-config-react#packages/eslint-config-react::hash=1b6def&locator=%40azimutlabs%2Feslint%40workspace%3A."
   dependencies:
     "@azimutlabs/eslint-env": ^0.1.2
   peerDependencies:
     eslint: ^7
     eslint-plugin-react: ^7
     eslint-plugin-react-hooks: ^4
-  checksum: 5be706e43f6e66f8740fe5b8f8a67545ef6f65d598be5c7697ac67c19e2e632f0571cf53404fa71c22b6d70abe5fdb0e3a5b52038a7a0da00cfe79d154202a70
+  checksum: c9a02144525d2e56ba2b1a45bada8adff00e390c012f257737e4c33d99cde8d892fe1dba404e331f7e738d5933a22cb5dae88850074e6cb947401d816e7970bf
   languageName: node
   linkType: hard
 
@@ -129,8 +129,8 @@ __metadata:
   linkType: hard
 
 "@azimutlabs/eslint-config@file:packages/eslint-config::locator=%40azimutlabs%2Feslint%40workspace%3A.":
-  version: 0.6.0
-  resolution: "@azimutlabs/eslint-config@file:packages/eslint-config#packages/eslint-config::hash=e80a21&locator=%40azimutlabs%2Feslint%40workspace%3A."
+  version: 0.6.1
+  resolution: "@azimutlabs/eslint-config@file:packages/eslint-config#packages/eslint-config::hash=4c1a6e&locator=%40azimutlabs%2Feslint%40workspace%3A."
   dependencies:
     "@azimutlabs/eslint-config-core": ^0.1.2
     "@azimutlabs/eslint-config-jsx-a11y": ^0.1.0
@@ -147,7 +147,7 @@ __metadata:
     eslint-plugin-react-hooks: ^4
     prettier: ^2
     typescript: ^3.8 || ^4
-  checksum: 1e3134fc9e555f9766748659d2cc54fa9c353ea5d7c3db33027eac3ccfe24109656f6b05073b725c1dc5f4fdf1c30eacf8f46b200bf352ce6973dfa976e4679e
+  checksum: e7997a2565e7f3ff6fc6248f8339c2f6d14a1f8fbad414575e6641c64e92ff61703e57338eb11536e8f7ef2ab15ff3cbb6e331501ad7e47743966aeed03ebb56
   languageName: node
   linkType: hard
 
