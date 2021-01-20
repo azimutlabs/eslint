@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.2.0](https://github.com/azimutlabs/eslint/compare/@azimutlabs/eslint-config-typescript@0.1.1...@azimutlabs/eslint-config-typescript@0.2.0) (2021-01-20)
+
+
+### Features
+
+* add eslint-config-react ([f5e0915](https://github.com/azimutlabs/eslint/commit/f5e0915542c5880c29a2ab9032133be770d9e500))
+* **eslint-config-typescript:** add proper tests ([e143149](https://github.com/azimutlabs/eslint/commit/e14314969f9b3279d64bb7079d31388a9564da8e))
+
+
+
+
+
 ## [0.1.1](https://github.com/azimutlabs/eslint/compare/@azimutlabs/eslint-config-typescript@0.1.0...@azimutlabs/eslint-config-typescript@0.1.1) (2021-01-19)
 
 

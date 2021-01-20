@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.5.0](https://github.com/azimutlabs/eslint/compare/@azimutlabs/eslint-config@0.4.2...@azimutlabs/eslint-config@0.5.0) (2021-01-20)
+
+
+### Features
+
+* add eslint-config-react ([f5e0915](https://github.com/azimutlabs/eslint/commit/f5e0915542c5880c29a2ab9032133be770d9e500))
+
+
+
+
+
 ## [0.4.2](https://github.com/azimutlabs/eslint/compare/@azimutlabs/eslint-config@0.4.1...@azimutlabs/eslint-config@0.4.2) (2021-01-19)
 
 
