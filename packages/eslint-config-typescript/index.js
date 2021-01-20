@@ -1,7 +1,7 @@
 const env = require('@azimutlabs/eslint-env');
 
 const configBase = require('./base');
-const configDeclarations= require('./declarations');
+const configDeclarations = require('./declarations');
 
 module.exports = {
   ...env,

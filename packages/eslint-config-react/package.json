@@ -1,14 +1,16 @@
 {
-  "name": "@azimutlabs/eslint-config",
-  "version": "0.4.2",
-  "description": "Collection of all @azimutlabs/eslint-config packages",
+  "name": "@azimutlabs/eslint-config-react",
+  "version": "0.0.0",
+  "description": "ESLint configuration for React/ReactHooks",
   "keywords": [
     "config",
     "eslint",
     "eslint-config",
     "alabs",
     "azimutlabs",
-    "styleguide"
+    "styleguide",
+    "react",
+    "react-hooks"
   ],
   "homepage": "https://github.com/azimutlabs/eslint#readme",
   "bugs": {
@@ -18,7 +20,7 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/azimutlabs/eslint.git",
-    "directory": "packages/eslint-config"
+    "directory": "packages/eslint-config-react"
   },
   "license": "MIT",
   "author": "Azimut Labs <opensource@alabs.team>",
@@ -27,20 +29,12 @@
     "*.js"
   ],
   "dependencies": {
-    "@azimutlabs/eslint-config-core": "^0.1.1",
-    "@azimutlabs/eslint-config-prettier": "^0.1.1",
-    "@azimutlabs/eslint-config-react": "^0.0.0",
-    "@azimutlabs/eslint-config-typescript": "^0.1.1"
+    "@azimutlabs/eslint-env": "^0.1.1"
   },
   "peerDependencies": {
-    "@typescript-eslint/eslint-plugin": "^4",
-    "@typescript-eslint/parser": "^4",
     "eslint": "^7",
-    "eslint-plugin-prettier": "^3",
     "eslint-plugin-react": "^7",
-    "eslint-plugin-react-hooks": "^4",
-    "prettier": "^2",
-    "typescript": "^3.8 || ^4"
+    "eslint-plugin-react-hooks": "^4"
   },
   "publishConfig": {
     "access": "public"

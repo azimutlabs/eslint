@@ -1,9 +1,9 @@
 import * as config from '@azimutlabs/eslint-config';
 
-import { buildESLint } from './services/builders';
+import { buildEslint } from './services/builders';
 import { getMessagesFromLintResults } from './services/getMessagesFromLintResults';
 
-const eslint = buildESLint(config);
+const eslint = buildEslint(config);
 
 describe('successful cases', () => {
   it('should lint a node.js http server start', async () => {
@@ -33,6 +33,24 @@ const ButtonStyled = styled.button({
 
 export const Button = ({ children, color: _color, ...rest }) =>
   createElement(ButtonStyled, rest, children);
+
+Button.defaultProps = {
+  disabled: true,
+};
+`;
+    expect(getMessagesFromLintResults(await eslint.lintText(file))).toEqual([]);
+  });
+
+  it('should lint a client-side react component', async () => {
+    const file = `import { forwardRef } from 'react';
+
+export const Button = forwardRef(({ children, color: _color, ...rest }, ref) => (
+  <button ref={ref} type="button" {...rest}>
+    <span className="d-flex">{children}</span>
+  </button>
+));
+
+Button.displayName = 'Button';
 
 Button.defaultProps = {
   disabled: true,

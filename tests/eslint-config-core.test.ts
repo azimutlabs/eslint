@@ -1,9 +1,9 @@
 import * as config from '@azimutlabs/eslint-config-core';
 
-import { buildESLint } from './services/builders';
+import { buildEslint } from './services/builders';
 import { getMessagesFromLintResults } from './services/getMessagesFromLintResults';
 
-const eslint = buildESLint(config);
+const eslint = buildEslint(config);
 
 describe('successful cases', () => {
   it('should lint a node.js http server start', async () => {

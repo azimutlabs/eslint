@@ -1,7 +1,7 @@
 import * as configBase from '@azimutlabs/eslint-config-typescript/base';
 import * as configDeclarations from '@azimutlabs/eslint-config-typescript/declarations';
 
-import { buildESLint } from './services/builders';
+import { buildEslint } from './services/builders';
 import { getMessagesFromLintResults } from './services/getMessagesFromLintResults';
 import type { Linter } from 'eslint';
 
@@ -18,9 +18,9 @@ const withCreateDefaultProgram = (config: Linter.Config): Linter.Config => ({
   },
 });
 
-const eslintBase = buildESLint(withCreateDefaultProgram(configBase));
-const eslintDeclarations = buildESLint(withCreateDefaultProgram(configBase), {
-  overrideConfig: configDeclarations,
+const eslintBase = buildEslint(withCreateDefaultProgram(configBase));
+const eslintDeclarations = buildEslint(withCreateDefaultProgram(configBase), {
+  overrideConfig: configDeclarations as Linter.Config,
 });
 
 describe('successful cases', () => {
