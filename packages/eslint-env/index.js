@@ -8,6 +8,15 @@ module.exports = {
     node: true,
   },
   overrides: [
+    // Enable jsx for all jsx file extensions.
+    {
+      files: ['**/*.[jt]sx'],
+      parserOptions: {
+        ecmaFeatures: {
+          jsx: true,
+        },
+      },
+    },
     // Set `env.jest` to `true` for possible test files.
     {
       /**
