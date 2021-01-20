@@ -1,6 +1,6 @@
 {
   "name": "@azimutlabs/eslint-config-typescript",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "ESLint configuration for TypeScript",
   "keywords": [
     "config",
@@ -30,7 +30,7 @@
     "*.js"
   ],
   "dependencies": {
-    "@azimutlabs/eslint-env": "^0.1.1"
+    "@azimutlabs/eslint-env": "^0.1.2"
   },
   "peerDependencies": {
     "@typescript-eslint/eslint-plugin": "^4",
