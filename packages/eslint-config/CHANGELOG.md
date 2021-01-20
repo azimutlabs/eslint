@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.6.1](https://github.com/azimutlabs/eslint/compare/@azimutlabs/eslint-config@0.6.0...@azimutlabs/eslint-config@0.6.1) (2021-01-20)
+
+
+### Bug Fixes
+
+* **eslint-config:** include jsx-a11y config to dependencies ([68254dc](https://github.com/azimutlabs/eslint/commit/68254dce234d845e659d4615295cd362e3ac7a63))
+
+
+
+
+
 # [0.6.0](https://github.com/azimutlabs/eslint/compare/@azimutlabs/eslint-config@0.5.0...@azimutlabs/eslint-config@0.6.0) (2021-01-20)
 
 
