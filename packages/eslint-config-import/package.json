@@ -1,0 +1,42 @@
+{
+  "name": "@azimutlabs/eslint-config-import",
+  "version": "0.0.0",
+  "description": "ESLint configuration for ES6 Imports and Exports",
+  "keywords": [
+    "config",
+    "eslint",
+    "eslint-config",
+    "alabs",
+    "azimutlabs",
+    "styleguide",
+    "import"
+  ],
+  "homepage": "https://github.com/azimutlabs/eslint#readme",
+  "bugs": {
+    "url": "https://github.com/azimutlabs/eslint/issues",
+    "email": "npm@alabs.team"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/azimutlabs/eslint.git",
+    "directory": "packages/eslint-config-import"
+  },
+  "license": "MIT",
+  "author": "Azimut Labs <opensource@alabs.team>",
+  "main": "index.js",
+  "files": [
+    "*.js"
+  ],
+  "dependencies": {
+    "@azimutlabs/eslint-env": "^0.1.2",
+    "eslint-import-resolver-node": "^0.3.4"
+  },
+  "peerDependencies": {
+    "eslint": "^7",
+    "eslint-plugin-import": "^2",
+    "eslint-plugin-simple-import-sort": "^7"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
