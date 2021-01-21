@@ -66,6 +66,7 @@ could find them useful as well.
 [![azimutlabs eslint config typescript npm package version](https://img.shields.io/npm/v/@azimutlabs/eslint-config-typescript.svg?label=@azimutlabs/eslint-config-typescript)](packages/eslint-config-typescript)
 [![azimutlabs eslint config react npm package version](https://img.shields.io/npm/v/@azimutlabs/eslint-config-react.svg?label=@azimutlabs/eslint-config-react)](packages/eslint-config-react)
 [![azimutlabs eslint config jsx a11y npm package version](https://img.shields.io/npm/v/@azimutlabs/eslint-config-jsx-a11y.svg?label=@azimutlabs/eslint-config-jsx-a11y)](packages/eslint-config-jsx-a11y)
+[![azimutlabs eslint config import npm package version](https://img.shields.io/npm/v/@azimutlabs/eslint-config-import.svg?label=@azimutlabs/eslint-config-import)](packages/eslint-config-import)
 
 ## Contributing
 Any PR is welcomed by our **@js-opensource** team.
