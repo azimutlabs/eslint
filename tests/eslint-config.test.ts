@@ -23,16 +23,10 @@ http.createServer(requestListener).listen(port);
   });
 
   it('should lint a client-side react component without jsx', async () => {
-    const file = `import styled from '@emotion/styled';
-import { createElement } from 'react';
-
-const ButtonStyled = styled.button({
-  backgroundColor: 'red',
-  borderRadius: 4,
-});
+    const file = `import { createElement } from 'react';
 
 export const Button = ({ children, color: _color, ...rest }) =>
-  createElement(ButtonStyled, rest, children);
+  createElement('button', rest, children);
 
 Button.defaultProps = {
   disabled: true,
