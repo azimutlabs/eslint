@@ -1,6 +1,6 @@
 {
   "name": "@azimutlabs/eslint-config",
-  "version": "0.6.2",
+  "version": "0.7.0",
   "description": "Collection of all @azimutlabs/eslint-config packages",
   "keywords": [
     "config",
@@ -28,7 +28,7 @@
   ],
   "dependencies": {
     "@azimutlabs/eslint-config-core": "^0.1.2",
-    "@azimutlabs/eslint-config-import": "^0.0.0",
+    "@azimutlabs/eslint-config-import": "^0.1.0",
     "@azimutlabs/eslint-config-jsx-a11y": "^0.1.0",
     "@azimutlabs/eslint-config-prettier": "^0.1.2",
     "@azimutlabs/eslint-config-react": "^0.1.2",
