@@ -41,7 +41,7 @@ __metadata:
 
 "@azimutlabs/eslint-config-import@file:packages/eslint-config-import::locator=%40azimutlabs%2Feslint%40workspace%3A.":
   version: 0.0.0
-  resolution: "@azimutlabs/eslint-config-import@file:packages/eslint-config-import#packages/eslint-config-import::hash=3f78b3&locator=%40azimutlabs%2Feslint%40workspace%3A."
+  resolution: "@azimutlabs/eslint-config-import@file:packages/eslint-config-import#packages/eslint-config-import::hash=1ed580&locator=%40azimutlabs%2Feslint%40workspace%3A."
   dependencies:
     "@azimutlabs/eslint-env": ^0.1.2
     eslint-import-resolver-node: ^0.3.4
@@ -49,7 +49,7 @@ __metadata:
     eslint: ^7
     eslint-plugin-import: ^2
     eslint-plugin-simple-import-sort: ^7
-  checksum: 603c8139cc6e8d959322c3fa7df774d123300e2864b0fbd612016f7700d63b989ed5f3078afb690ddf1e00c15e8e5ee2f9c2e8a37c1826086b967da6435ebe09
+  checksum: 26a5de45dae0751bd2b662c441ef7f65ab5f4f04b6571cff2057287e20227e9a5e0fa30e5f9e64975dcf5bb5304eb1a6a0d59acc7a68fa327cfcfc7311d524e3
   languageName: node
   linkType: hard
 

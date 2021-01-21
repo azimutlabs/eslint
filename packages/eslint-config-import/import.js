@@ -26,6 +26,8 @@ module.exports = {
     'import/dynamic-import-chunkname': 'off',
     // Report potentially ambiguous parse goal (script vs. module).
     'import/unambiguous': 'off',
+    // Prevent importing the submodules of other modules.
+    'import/no-internal-modules': 'off',
     // Ensure imports point to a file/module that can be resolved.
     'import/no-unresolved': 'warn',
     // Ensure named imports correspond to a named export in the remote file.
@@ -36,8 +38,6 @@ module.exports = {
     'import/namespace': 'warn',
     // Forbid require() calls with expressions.
     'import/no-dynamic-require': 'warn',
-    // Prevent importing the submodules of other modules.
-    'import/no-internal-modules': 'warn',
     // Prevent unnecessary path segments in import and require statements.
     'import/no-useless-path-segments': [
       'warn',

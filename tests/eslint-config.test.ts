@@ -1,3 +1,5 @@
+// TODO: add declaration files for packages to safely import without namespace.
+// eslint-disable-next-line import/no-namespace
 import * as config from '@azimutlabs/eslint-config';
 
 import { buildEslint } from './services/builders';

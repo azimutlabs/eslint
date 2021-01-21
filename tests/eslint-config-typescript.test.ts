@@ -1,9 +1,12 @@
+// TODO: add declaration files for packages to safely import without namespace.
+/* eslint-disable import/no-namespace */
 import * as configBase from '@azimutlabs/eslint-config-typescript/base';
 import * as configDeclarations from '@azimutlabs/eslint-config-typescript/declarations';
+/* eslint-enable */
+import type { Linter } from 'eslint';
 
 import { buildEslint } from './services/builders';
 import { getMessagesFromLintResults } from './services/getMessagesFromLintResults';
-import type { Linter } from 'eslint';
 
 const withCreateDefaultProgram = (config: Linter.Config): Linter.Config => ({
   ...config,
