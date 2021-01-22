@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.2.3](https://github.com/azimutlabs/eslint/compare/@azimutlabs/eslint-config-typescript@0.2.2...@azimutlabs/eslint-config-typescript@0.2.3) (2021-01-22)
+
+
+### Bug Fixes
+
+* **eslint-config-typescript:** use type literals instead of interfaces ([93b78e2](https://github.com/azimutlabs/eslint/commit/93b78e2ebd5486386edb0390015e623b7f2f6e0f))
+
+
+
+
+
 ## [0.2.2](https://github.com/azimutlabs/eslint/compare/@azimutlabs/eslint-config-typescript@0.2.1...@azimutlabs/eslint-config-typescript@0.2.2) (2021-01-20)
 
 **Note:** Version bump only for package @azimutlabs/eslint-config-typescript

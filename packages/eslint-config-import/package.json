@@ -1,6 +1,6 @@
 {
   "name": "@azimutlabs/eslint-config-import",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "ESLint configuration for ES6 Imports and Exports",
   "keywords": [
     "config",

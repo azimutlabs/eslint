@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.2.0](https://github.com/azimutlabs/eslint/compare/@azimutlabs/eslint-config-import@0.1.0...@azimutlabs/eslint-config-import@0.2.0) (2021-01-22)
+
+
+### Features
+
+* **eslint-config-import:** add typescript import resolver ([a99590c](https://github.com/azimutlabs/eslint/commit/a99590c8b75e2b326516a6d6a9a0ec0a562fb5e1))
+
+
+
+
+
 # 0.1.0 (2021-01-21)
 
 
