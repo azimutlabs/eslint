@@ -29,7 +29,8 @@
   ],
   "dependencies": {
     "@azimutlabs/eslint-env": "^0.1.2",
-    "eslint-import-resolver-node": "^0.3.4"
+    "eslint-import-resolver-node": "^0.3.4",
+    "eslint-import-resolver-typescript": "^2.3.0"
   },
   "peerDependencies": {
     "eslint": "^7",

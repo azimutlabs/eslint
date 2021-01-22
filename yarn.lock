@@ -26,12 +26,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@azimutlabs/eslint-config-import@^0.0.0, @azimutlabs/eslint-config-import@workspace:packages/eslint-config-import":
+"@azimutlabs/eslint-config-import@^0.1.0, @azimutlabs/eslint-config-import@workspace:packages/eslint-config-import":
   version: 0.0.0-use.local
   resolution: "@azimutlabs/eslint-config-import@workspace:packages/eslint-config-import"
   dependencies:
     "@azimutlabs/eslint-env": ^0.1.2
     eslint-import-resolver-node: ^0.3.4
+    eslint-import-resolver-typescript: ^2.3.0
   peerDependencies:
     eslint: ^7
     eslint-plugin-import: ^2
@@ -40,16 +41,17 @@ __metadata:
   linkType: soft
 
 "@azimutlabs/eslint-config-import@file:packages/eslint-config-import::locator=%40azimutlabs%2Feslint%40workspace%3A.":
-  version: 0.0.0
-  resolution: "@azimutlabs/eslint-config-import@file:packages/eslint-config-import#packages/eslint-config-import::hash=1ed580&locator=%40azimutlabs%2Feslint%40workspace%3A."
+  version: 0.1.0
+  resolution: "@azimutlabs/eslint-config-import@file:packages/eslint-config-import#packages/eslint-config-import::hash=6652dc&locator=%40azimutlabs%2Feslint%40workspace%3A."
   dependencies:
     "@azimutlabs/eslint-env": ^0.1.2
     eslint-import-resolver-node: ^0.3.4
+    eslint-import-resolver-typescript: ^2.3.0
   peerDependencies:
     eslint: ^7
     eslint-plugin-import: ^2
     eslint-plugin-simple-import-sort: ^7
-  checksum: 26a5de45dae0751bd2b662c441ef7f65ab5f4f04b6571cff2057287e20227e9a5e0fa30e5f9e64975dcf5bb5304eb1a6a0d59acc7a68fa327cfcfc7311d524e3
+  checksum: e45244a7f7d3f46cf0ec93de66b863c015694360449b19b4f0d01741fed5e31fe2d721b0757a11e872a46bcf234c8008abed144b32effc2c4a2304016058feda
   languageName: node
   linkType: hard
 
@@ -156,11 +158,11 @@ __metadata:
   linkType: hard
 
 "@azimutlabs/eslint-config@file:packages/eslint-config::locator=%40azimutlabs%2Feslint%40workspace%3A.":
-  version: 0.6.2
-  resolution: "@azimutlabs/eslint-config@file:packages/eslint-config#packages/eslint-config::hash=7f617d&locator=%40azimutlabs%2Feslint%40workspace%3A."
+  version: 0.7.0
+  resolution: "@azimutlabs/eslint-config@file:packages/eslint-config#packages/eslint-config::hash=343b6a&locator=%40azimutlabs%2Feslint%40workspace%3A."
   dependencies:
     "@azimutlabs/eslint-config-core": ^0.1.2
-    "@azimutlabs/eslint-config-import": ^0.0.0
+    "@azimutlabs/eslint-config-import": ^0.1.0
     "@azimutlabs/eslint-config-jsx-a11y": ^0.1.0
     "@azimutlabs/eslint-config-prettier": ^0.1.2
     "@azimutlabs/eslint-config-react": ^0.1.2
@@ -177,7 +179,7 @@ __metadata:
     eslint-plugin-simple-import-sort: ^7
     prettier: ^2
     typescript: ^3.8 || ^4
-  checksum: 2f699f4be3af07a695be7e342b46ecab2e3ba11bf5bb3f63ca10a78b60eef5a2496f933ceffe8def01cf7534e84ab7de5eb6214568c2c0f15bc89fa9fa21520b
+  checksum: 4bbd2cf40cf3e8c2aeb9d4ba173c368b5d1d16617d346f19bf0f51eb8121a4a4ca6e1f6868667ad161b40fc130ff79521f84838ff330f0f24a8e3e230157a750
   languageName: node
   linkType: hard
 
@@ -186,7 +188,7 @@ __metadata:
   resolution: "@azimutlabs/eslint-config@workspace:packages/eslint-config"
   dependencies:
     "@azimutlabs/eslint-config-core": ^0.1.2
-    "@azimutlabs/eslint-config-import": ^0.0.0
+    "@azimutlabs/eslint-config-import": ^0.1.0
     "@azimutlabs/eslint-config-jsx-a11y": ^0.1.0
     "@azimutlabs/eslint-config-prettier": ^0.1.2
     "@azimutlabs/eslint-config-react": ^0.1.2
@@ -4199,6 +4201,22 @@ __metadata:
   languageName: node
   linkType: hard
 
+"eslint-import-resolver-typescript@npm:^2.3.0":
+  version: 2.3.0
+  resolution: "eslint-import-resolver-typescript@npm:2.3.0"
+  dependencies:
+    debug: ^4.1.1
+    glob: ^7.1.6
+    is-glob: ^4.0.1
+    resolve: ^1.17.0
+    tsconfig-paths: ^3.9.0
+  peerDependencies:
+    eslint: "*"
+    eslint-plugin-import: "*"
+  checksum: 2d2c9e852897f27d7f442f3ee46a84482a4e227ad2aff73acd1dc4a85e0605e12bba194564a81f1ff436588678a8d256679ef9a03c26dc6c6a2ef5f407530315
+  languageName: node
+  linkType: hard
+
 "eslint-module-utils@npm:^2.6.0":
   version: 2.6.0
   resolution: "eslint-module-utils@npm:2.6.0"
@@ -5114,7 +5132,7 @@ fsevents@^2.1.2:
   languageName: node
   linkType: hard
 
-"glob@npm:^7.1.1, glob@npm:^7.1.2, glob@npm:^7.1.3, glob@npm:^7.1.4":
+"glob@npm:^7.1.1, glob@npm:^7.1.2, glob@npm:^7.1.3, glob@npm:^7.1.4, glob@npm:^7.1.6":
   version: 7.1.6
   resolution: "glob@npm:7.1.6"
   dependencies:

@@ -3,6 +3,11 @@ module.exports = {
     'import/parsers': {
       '@typescript-eslint/parser': ['.ts', '.tsx', '.d.ts'],
     },
+    'import/resolver': {
+      [require.resolve('eslint-import-resolver-typescript')]: {
+        project: ['**/tsconfig.json', '**/tsconfig.*.json'],
+      },
+    },
   },
   rules: {
     // Report potentially ambiguous parse goal (script vs. module).
