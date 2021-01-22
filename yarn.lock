@@ -17,12 +17,12 @@ __metadata:
 
 "@azimutlabs/eslint-config-core@file:packages/eslint-config-core::locator=%40azimutlabs%2Feslint%40workspace%3A.":
   version: 0.1.2
-  resolution: "@azimutlabs/eslint-config-core@file:packages/eslint-config-core#packages/eslint-config-core::hash=ccad78&locator=%40azimutlabs%2Feslint%40workspace%3A."
+  resolution: "@azimutlabs/eslint-config-core@file:packages/eslint-config-core#packages/eslint-config-core::hash=75b56c&locator=%40azimutlabs%2Feslint%40workspace%3A."
   dependencies:
     "@azimutlabs/eslint-env": ^0.1.2
   peerDependencies:
     eslint: ^7
-  checksum: 4d1986c814b6ae81c9270f32c93a314a3754a4ad12aecfd66bc8761688fa9b910b02b3be8b9f91804aa273f270c1ed6672e3082c70914ad46bf13724dcdb0022
+  checksum: 6366d982cb402d417665f53ee5b9a4af2d9eba623449b4aaf3cf317879a522f372a1a069462fb54197e221025fecc3338a672f07755a0a204877249bb84f6e04
   languageName: node
   linkType: hard
 
@@ -42,7 +42,7 @@ __metadata:
 
 "@azimutlabs/eslint-config-import@file:packages/eslint-config-import::locator=%40azimutlabs%2Feslint%40workspace%3A.":
   version: 0.1.0
-  resolution: "@azimutlabs/eslint-config-import@file:packages/eslint-config-import#packages/eslint-config-import::hash=6652dc&locator=%40azimutlabs%2Feslint%40workspace%3A."
+  resolution: "@azimutlabs/eslint-config-import@file:packages/eslint-config-import#packages/eslint-config-import::hash=464d4f&locator=%40azimutlabs%2Feslint%40workspace%3A."
   dependencies:
     "@azimutlabs/eslint-env": ^0.1.2
     eslint-import-resolver-node: ^0.3.4
@@ -51,7 +51,7 @@ __metadata:
     eslint: ^7
     eslint-plugin-import: ^2
     eslint-plugin-simple-import-sort: ^7
-  checksum: e45244a7f7d3f46cf0ec93de66b863c015694360449b19b4f0d01741fed5e31fe2d721b0757a11e872a46bcf234c8008abed144b32effc2c4a2304016058feda
+  checksum: 8c63f842a8dcf8dbc8bb59ba904bbca5d95e04ec65ff1a44d53c45b6f7448878e28d9691ac3b533b463be318e86c5699eca1a6a9290ba3f1eaf46e9c94d8fe79
   languageName: node
   linkType: hard
 
@@ -93,7 +93,7 @@ __metadata:
 
 "@azimutlabs/eslint-config-prettier@file:packages/eslint-config-typescript::locator=%40azimutlabs%2Feslint%40workspace%3A.":
   version: 0.2.2
-  resolution: "@azimutlabs/eslint-config-prettier@file:packages/eslint-config-typescript#packages/eslint-config-typescript::hash=bf4fa2&locator=%40azimutlabs%2Feslint%40workspace%3A."
+  resolution: "@azimutlabs/eslint-config-prettier@file:packages/eslint-config-typescript#packages/eslint-config-typescript::hash=7d2845&locator=%40azimutlabs%2Feslint%40workspace%3A."
   dependencies:
     "@azimutlabs/eslint-env": ^0.1.2
   peerDependencies:
@@ -101,7 +101,7 @@ __metadata:
     "@typescript-eslint/parser": ^4
     eslint: ^7
     typescript: ^3.8 || ^4
-  checksum: 6957c9ade16297be2c2df2e96c14ddd35df100dbd180bb68b435f5ac240052fe59278e972bd0a0f3832d40230f6b601496128b63ffcbff317fd77e35dd4c3c04
+  checksum: 8308da4a33d3fe44aa46f85b0d3a49ad5e847543e50b150dc7e143b275ab8e916076b18dfe242d8b43db88b3086bb2713943cb55de9aca982f3c8563833cc0c8
   languageName: node
   linkType: hard
 
@@ -145,7 +145,7 @@ __metadata:
 
 "@azimutlabs/eslint-config-typescript@file:packages/eslint-config-typescript::locator=%40azimutlabs%2Feslint%40workspace%3A.":
   version: 0.2.2
-  resolution: "@azimutlabs/eslint-config-typescript@file:packages/eslint-config-typescript#packages/eslint-config-typescript::hash=752414&locator=%40azimutlabs%2Feslint%40workspace%3A."
+  resolution: "@azimutlabs/eslint-config-typescript@file:packages/eslint-config-typescript#packages/eslint-config-typescript::hash=52d91c&locator=%40azimutlabs%2Feslint%40workspace%3A."
   dependencies:
     "@azimutlabs/eslint-env": ^0.1.2
   peerDependencies:
@@ -153,7 +153,7 @@ __metadata:
     "@typescript-eslint/parser": ^4
     eslint: ^7
     typescript: ^3.8 || ^4
-  checksum: 0ffd0e1527f405bbdc91a6a3ad3ac01b086636e2a13ad954c95df2e22d180de540230c33157f4eba73a16515377d8a5f6057022de70fc4455d455d4ddb60d84b
+  checksum: 773c8688a4e9066919da413a196f724939446a71eaeacc1128fcae837941a4ecf644867d700957a8eaa2df882eb5bdc2483e43d57bcd606ffe29ff775faa1ded
   languageName: node
   linkType: hard
 

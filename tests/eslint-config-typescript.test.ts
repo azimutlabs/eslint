@@ -56,11 +56,11 @@ enum Colors {
 type AnyColor = string;
 type Color = AnyColor | Colors;
 
-interface ColorProps<C extends Color = AnyColor> {
+type ColorProps<C extends Color = AnyColor> = {
   readonly color: C;
-}
+};
 
-interface ButtonProps extends ColorProps<Colors.Blue | Colors.Red> {}
+type ButtonProps = ColorProps<Colors.Blue | Colors.Red>;
 
 export const isBordered = true;
 

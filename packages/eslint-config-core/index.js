@@ -273,7 +273,12 @@ module.exports = {
     // Enforce a maximum depth that callbacks can be nested.
     'max-nested-callbacks': 'warn',
     // Enforce a maximum number of parameters in function definitions.
-    'max-params': 'warn',
+    'max-params': [
+      'warn',
+      {
+        max: 5,
+      },
+    ],
     // Enforce a maximum number of statements allowed per line.
     'max-statements-per-line': [
       'warn',

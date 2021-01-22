@@ -15,14 +15,14 @@ module.exports = {
     '@typescript-eslint/no-parameter-properties': 'off',
     // Prefers a non-null assertion over explicit type cast when possible.
     '@typescript-eslint/non-nullable-type-assertion-style': 'off',
-    // Use function types instead of interfaces with call signatures.
-    '@typescript-eslint/prefer-function-type': 'off',
     // Restricts the types allowed in boolean expressions.
     '@typescript-eslint/strict-boolean-expressions': 'off',
     // Requires type annotations to exist.
     '@typescript-eslint/typedef': 'off',
     // Requires that function parameters are typed as readonly to prevent accidental mutation of inputs.
     '@typescript-eslint/prefer-readonly-parameter-types': 'off',
+    // Disallow the use of type aliases.
+    '@typescript-eslint/no-type-alias': 'off',
     // Require that member overloads be consecutive.
     '@typescript-eslint/adjacent-overload-signatures': 'warn',
     // Requires using either T[] or Array<T> for arrays.
@@ -302,6 +302,8 @@ module.exports = {
         modifiers: ['requiresQuotes'],
       },
     ],
+    // Use function types instead of interfaces with call signatures.
+    '@typescript-eslint/prefer-function-type': 'error',
     // Disallows awaiting a value that is not a Thenable.
     '@typescript-eslint/await-thenable': 'error',
     // Bans specific types from being used.
@@ -316,7 +318,7 @@ module.exports = {
     // Enforce or disallow the use of the record type.
     '@typescript-eslint/consistent-indexed-object-style': 'error',
     // Consistent with type definition either interface or type.
-    '@typescript-eslint/consistent-type-definitions': ['error', 'interface'],
+    '@typescript-eslint/consistent-type-definitions': ['error', 'type'],
     // Enforces consistent usage of type imports.
     '@typescript-eslint/consistent-type-imports': [
       'error',
@@ -350,19 +352,6 @@ module.exports = {
     '@typescript-eslint/no-require-imports': 'error',
     // Disallow aliasing this.
     '@typescript-eslint/no-this-alias': 'error',
-    // Disallow the use of type aliases.
-    '@typescript-eslint/no-type-alias': [
-      'error',
-      {
-        allowAliases: 'always',
-        allowCallbacks: 'never',
-        allowConditionalTypes: 'always',
-        allowConstructors: 'never',
-        allowLiterals: 'never',
-        allowMappedTypes: 'always',
-        allowTupleTypes: 'always',
-      },
-    ],
     // Disallows the use of require statements except in import statements.
     '@typescript-eslint/no-var-requires': 'error',
     // Prefer a ‘for-of’ loop over a standard ‘for’ loop if the index is only used to access the array being iterated.
