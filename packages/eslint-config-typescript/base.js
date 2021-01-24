@@ -23,6 +23,8 @@ module.exports = {
     '@typescript-eslint/prefer-readonly-parameter-types': 'off',
     // Disallow the use of type aliases.
     '@typescript-eslint/no-type-alias': 'off',
+    // Enforce template literal expressions to be of string type.
+    '@typescript-eslint/restrict-template-expressions': 'off',
     // Require that member overloads be consecutive.
     '@typescript-eslint/adjacent-overload-signatures': 'warn',
     // Requires using either T[] or Array<T> for arrays.
@@ -52,7 +54,12 @@ module.exports = {
       },
     ],
     // Require explicit return types on functions and class methods.
-    '@typescript-eslint/explicit-function-return-type': 'warn',
+    '@typescript-eslint/explicit-function-return-type': [
+      'warn',
+      {
+        allowExpressions: true,
+      },
+    ],
     // Require explicit return and argument types on exported functions' and classes' public class methods.
     '@typescript-eslint/explicit-module-boundary-types': 'warn',
     // Require a specific member delimiter style for interfaces and type literals.
@@ -134,8 +141,6 @@ module.exports = {
     '@typescript-eslint/require-array-sort-compare': 'warn',
     // When adding two variables, operands must both be of type number or of type string.
     '@typescript-eslint/restrict-plus-operands': 'warn',
-    // Enforce template literal expressions to be of string type.
-    '@typescript-eslint/restrict-template-expressions': 'warn',
     // Enforces that members of a type union/intersection are sorted alphabetically.
     '@typescript-eslint/sort-type-union-intersection-members': 'warn',
     // Exhaustiveness checking in switch with union type.
