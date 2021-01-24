@@ -106,7 +106,7 @@ module.exports = {
     // Configure the position of the first property.
     'react/jsx-first-prop-new-line': 'warn',
     // Enforce shorthand or standard form for React fragments.
-    'react/jsx-fragments': ['warn', 'element'],
+    'react/jsx-fragments': 'warn',
     // Enforce event handler naming conventions in JSX.
     'react/jsx-handler-names': [
       'warn',
