@@ -25,6 +25,14 @@ module.exports = {
     '@typescript-eslint/no-type-alias': 'off',
     // Enforce template literal expressions to be of string type.
     '@typescript-eslint/restrict-template-expressions': 'off',
+    // Disallows assigning any to variables and properties.
+    '@typescript-eslint/no-unsafe-assignment': 'off',
+    // Disallows calling an any type value.
+    '@typescript-eslint/no-unsafe-call': 'off',
+    // Disallows member access on any typed variables.
+    '@typescript-eslint/no-unsafe-member-access': 'off',
+    // Disallows returning any from a function.
+    '@typescript-eslint/no-unsafe-return': 'off',
     // Require that member overloads be consecutive.
     '@typescript-eslint/adjacent-overload-signatures': 'warn',
     // Requires using either T[] or Array<T> for arrays.
@@ -113,14 +121,6 @@ module.exports = {
     '@typescript-eslint/no-unnecessary-type-assertion': 'warn',
     // Disallows unnecessary constraints on generic types.
     '@typescript-eslint/no-unnecessary-type-constraint': 'warn',
-    // Disallows assigning any to variables and properties.
-    '@typescript-eslint/no-unsafe-assignment': 'warn',
-    // Disallows calling an any type value.
-    '@typescript-eslint/no-unsafe-call': 'warn',
-    // Disallows member access on any typed variables.
-    '@typescript-eslint/no-unsafe-member-access': 'warn',
-    // Disallows returning any from a function.
-    '@typescript-eslint/no-unsafe-return': 'warn',
     // Prefer usage of as const over literal type.
     '@typescript-eslint/prefer-as-const': 'warn',
     // Prefer initializing each enums member value.
