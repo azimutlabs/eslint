@@ -240,7 +240,13 @@ module.exports = {
     // Enforce consistent line breaks inside function parentheses.
     'function-paren-newline': 'warn',
     // Enforce minimum and maximum identifier lengths.
-    'id-length': 'warn',
+    'id-length': [
+      'warn',
+      {
+        min: 2,
+        properties: 'never',
+      },
+    ],
     // Enforce the location of arrow function bodies with implicit returns.
     'implicit-arrow-linebreak': 'warn',
     // Enforce consistent indentation.
