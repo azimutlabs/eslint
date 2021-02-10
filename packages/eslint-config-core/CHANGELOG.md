@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.1.4](https://github.com/azimutlabs/eslint/compare/@azimutlabs/eslint-config-core@0.1.3...@azimutlabs/eslint-config-core@0.1.4) (2021-02-10)
+
+
+### Bug Fixes
+
+* **eslint-config-core:** set properties to never for id-length ([0533d24](https://github.com/azimutlabs/eslint/commit/0533d241440888470ed5d06cf9e2b6c234547f5d))
+
+
+
+
+
 ## [0.1.3](https://github.com/azimutlabs/eslint/compare/@azimutlabs/eslint-config-core@0.1.2...@azimutlabs/eslint-config-core@0.1.3) (2021-01-22)
 
 

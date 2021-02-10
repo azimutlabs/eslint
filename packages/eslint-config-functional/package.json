@@ -1,6 +1,6 @@
 {
   "name": "@azimutlabs/eslint-config-functional",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "ESLint configuration for Functional Programming",
   "keywords": [
     "config",

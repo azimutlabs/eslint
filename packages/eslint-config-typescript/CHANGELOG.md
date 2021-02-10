@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.2.6](https://github.com/azimutlabs/eslint/compare/@azimutlabs/eslint-config-typescript@0.2.5...@azimutlabs/eslint-config-typescript@0.2.6) (2021-02-10)
+
+
+### Bug Fixes
+
+* **eslint-config-typescript:** disable all no-unsafe-any rules ([ad3cb23](https://github.com/azimutlabs/eslint/commit/ad3cb23b8e013c6b42dd6bc04c5ff00b5a91a18f))
+
+
+
+
+
 ## [0.2.5](https://github.com/azimutlabs/eslint/compare/@azimutlabs/eslint-config-typescript@0.2.4...@azimutlabs/eslint-config-typescript@0.2.5) (2021-01-24)
 
 **Note:** Version bump only for package @azimutlabs/eslint-config-typescript
