@@ -28,6 +28,7 @@
   ],
   "dependencies": {
     "@azimutlabs/eslint-config-core": "^0.1.3",
+    "@azimutlabs/eslint-config-functional": "^0.0.0",
     "@azimutlabs/eslint-config-import": "^0.2.0",
     "@azimutlabs/eslint-config-jsx-a11y": "^0.1.0",
     "@azimutlabs/eslint-config-prettier": "^0.1.2",
@@ -38,6 +39,7 @@
     "@typescript-eslint/eslint-plugin": "^4",
     "@typescript-eslint/parser": "^4",
     "eslint": "^7",
+    "eslint-plugin-functional": "^3",
     "eslint-plugin-import": "^2",
     "eslint-plugin-jsx-a11y": "^6",
     "eslint-plugin-prettier": "^3",
