@@ -28,7 +28,7 @@
     "packages/*"
   ],
   "scripts": {
-    "lint": "yarn eslint --max-warnings 0 packages tests",
+    "lint": "yarn eslint --cache --max-warnings 0 packages tests",
     "test": "yarn jest"
   },
   "eslintConfig": {
