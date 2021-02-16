@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.2.7](https://github.com/azimutlabs/eslint/compare/@azimutlabs/eslint-config-typescript@0.2.6...@azimutlabs/eslint-config-typescript@0.2.7) (2021-02-16)
+
+
+### Bug Fixes
+
+* **eslint-config-typescript:** add no-magic-number ignores just like in core config ([85230f2](https://github.com/azimutlabs/eslint/commit/85230f2be5d2181ba8485474f84a275b2c0153b5))
+
+
+
+
+
 ## [0.2.6](https://github.com/azimutlabs/eslint/compare/@azimutlabs/eslint-config-typescript@0.2.5...@azimutlabs/eslint-config-typescript@0.2.6) (2021-02-10)
 
 
