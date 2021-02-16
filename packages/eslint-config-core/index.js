@@ -127,7 +127,12 @@ module.exports = {
     // Disallow the type conversion with shorter notations.
     'no-implicit-coercion': 'warn',
     // Disallow Magic Numbers.
-    'no-magic-numbers': 'warn',
+    'no-magic-numbers': [
+      'warn',
+      {
+        ignore: [0, 1],
+      },
+    ],
     // Disallow multiple spaces.
     'no-multi-spaces': 'warn',
     // Disallow Multiline Strings.
