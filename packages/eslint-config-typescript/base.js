@@ -199,6 +199,7 @@ module.exports = {
       'warn',
       {
         ignoreEnums: true,
+        ignore: [0, 1],
       },
     ],
     // Disallow variable declarations from shadowing variables declared in the outer scope.
