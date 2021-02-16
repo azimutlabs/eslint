@@ -1,4 +1,5 @@
 const env = require('@azimutlabs/eslint-env');
+const patterns = require('@azimutlabs/eslint-env/patterns');
 
 const configBase = require('./base');
 const configDeclarations = require('./declarations');
@@ -8,11 +9,11 @@ module.exports = {
   // Enable `@typescript-eslint` only for `*.ts?(x)` files.
   overrides: [
     {
-      files: ['**/*.ts?(x)'],
+      files: [patterns.typescript],
       ...configBase,
     },
     {
-      files: ['**/*.d.ts?(x)'],
+      files: [patterns.typescriptDeclarations],
       ...configDeclarations,
     },
   ],

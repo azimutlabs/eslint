@@ -1,7 +1,14 @@
+const extensions = require('@azimutlabs/eslint-env/extensions');
+
 module.exports = {
   settings: {
     'import/parsers': {
-      '@typescript-eslint/parser': ['.ts', '.tsx', '.d.ts'],
+      '@typescript-eslint/parser': [
+        extensions.ts,
+        extensions.tsx,
+        extensions.toDeclaration(extensions.ts),
+        extensions.toDeclaration(extensions.tsx),
+      ],
     },
     'import/resolver': {
       [require.resolve('eslint-import-resolver-typescript')]: {

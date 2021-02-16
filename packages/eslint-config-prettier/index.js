@@ -1,5 +1,6 @@
 const env = require('@azimutlabs/eslint-env');
 const { indentSize, maxLineLength, endOfLine } = require('@azimutlabs/eslint-env/editorconfig');
+const patterns = require('@azimutlabs/eslint-env/patterns');
 
 module.exports = {
   ...env,
@@ -23,7 +24,7 @@ module.exports = {
   },
   overrides: [
     {
-      files: ['**/*.ts?(x)'],
+      files: [patterns.typescript],
       extends: ['prettier/@typescript-eslint'],
     },
   ],

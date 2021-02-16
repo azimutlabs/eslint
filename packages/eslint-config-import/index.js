@@ -1,4 +1,6 @@
 const env = require('@azimutlabs/eslint-env');
+const extensions = require('@azimutlabs/eslint-env/extensions');
+const patterns = require('@azimutlabs/eslint-env/patterns');
 
 const configImport = require('./import');
 const configSort = require('./sort');
@@ -10,7 +12,7 @@ module.exports = {
   settings: {
     'import/resolver': {
       [require.resolve('eslint-import-resolver-node')]: {
-        extensions: ['.js', '.jsx'],
+        extensions: [extensions.js, extensions.jsx],
       },
     },
   },
@@ -21,11 +23,11 @@ module.exports = {
   },
   overrides: [
     {
-      files: ['**/*.ts?(x)'],
+      files: [patterns.typescript],
       ...configTypescript,
     },
     {
-      files: ['**/*.d.ts?(x)'],
+      files: [patterns.typescriptDeclarations],
       ...configDeclarations,
     },
   ],

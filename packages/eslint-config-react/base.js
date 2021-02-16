@@ -1,4 +1,5 @@
 const { indentSize } = require('@azimutlabs/eslint-env/editorconfig');
+const extensions = require('@azimutlabs/eslint-env/extensions');
 
 module.exports = {
   rules: {
@@ -233,7 +234,7 @@ module.exports = {
       'error',
       {
         allow: 'as-needed',
-        extensions: ['.tsx', '.jsx'],
+        extensions: [extensions.tsx, extensions.jsx],
       },
     ],
     // Prevent usage of javascript: URLs.
