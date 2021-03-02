@@ -1,0 +1,43 @@
+{
+  "private": true,
+  "jest": {
+    "globals": {
+      "ts-jest": {
+        "isolatedModules": true
+      }
+    },
+    "preset": "ts-jest"
+  },
+  "scripts": {
+    "test": "yarn jest"
+  },
+  "devDependencies": {
+    "@azimutlabs/eslint-config": "file:../eslint-config",
+    "@azimutlabs/eslint-config-core": "file:../eslint-config-core",
+    "@azimutlabs/eslint-config-functional": "file:../eslint-config-functional",
+    "@azimutlabs/eslint-config-import": "file:../eslint-config-import",
+    "@azimutlabs/eslint-config-jsx-a11y": "file:../eslint-config-jsx-a11y",
+    "@azimutlabs/eslint-config-prettier": "file:../eslint-config-typescript",
+    "@azimutlabs/eslint-config-react": "file:../eslint-config-react",
+    "@azimutlabs/eslint-config-typescript": "file:../eslint-config-typescript",
+    "@types/eslint": "^7.2.6",
+    "@types/jest": "^26.0.20",
+    "@types/node": "^14.14.21",
+    "@types/react": "^17.0.0",
+    "@typescript-eslint/eslint-plugin": "^4.16.1",
+    "@typescript-eslint/parser": "^4.16.1",
+    "eslint": "^7.21.0",
+    "eslint-plugin-functional": "^3.2.1",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-jsx-a11y": "^6.4.1",
+    "eslint-plugin-prettier": "^3.3.1",
+    "eslint-plugin-react": "^7.22.0",
+    "eslint-plugin-react-hooks": "^4.2.0",
+    "eslint-plugin-simple-import-sort": "^7.0.0",
+    "jest": "^26.6.3",
+    "prettier": "^2.2.1",
+    "react": "^17.0.1",
+    "ts-jest": "^26.5.2",
+    "typescript": "4.1.5"
+  }
+}
