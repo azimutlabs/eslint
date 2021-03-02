@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.1.7](https://github.com/azimutlabs/eslint/compare/@azimutlabs/eslint-config-core@0.1.6...@azimutlabs/eslint-config-core@0.1.7) (2021-03-02)
+
+**Note:** Version bump only for package @azimutlabs/eslint-config-core
+
+
+
+
+
 ## [0.1.6](https://github.com/azimutlabs/eslint/compare/@azimutlabs/eslint-config-core@0.1.5...@azimutlabs/eslint-config-core@0.1.6) (2021-02-16)
 
 **Note:** Version bump only for package @azimutlabs/eslint-config-core
