@@ -60,17 +60,30 @@ All you have to do is to extend the config you want, and we'll take it from ther
 All configurations were made and tested with care. We tried to match our needs, but maybe you
 could find them useful as well.
 
-[![azimutlabs eslint config npm package version](https://img.shields.io/npm/v/@azimutlabs/eslint-config.svg?label=@azimutlabs/eslint-config)](packages/eslint-config)
-[![azimutlabs eslint config core npm package version](https://img.shields.io/npm/v/@azimutlabs/eslint-config-core.svg?label=@azimutlabs/eslint-config-core)](packages/eslint-config-core)
-[![azimutlabs eslint config prettier npm package version](https://img.shields.io/npm/v/@azimutlabs/eslint-config-prettier.svg?label=@azimutlabs/eslint-config-prettier)](packages/eslint-config-prettier)
-[![azimutlabs eslint config typescript npm package version](https://img.shields.io/npm/v/@azimutlabs/eslint-config-typescript.svg?label=@azimutlabs/eslint-config-typescript)](packages/eslint-config-typescript)
-[![azimutlabs eslint config react npm package version](https://img.shields.io/npm/v/@azimutlabs/eslint-config-react.svg?label=@azimutlabs/eslint-config-react)](packages/eslint-config-react)
-[![azimutlabs eslint config jsx a11y npm package version](https://img.shields.io/npm/v/@azimutlabs/eslint-config-jsx-a11y.svg?label=@azimutlabs/eslint-config-jsx-a11y)](packages/eslint-config-jsx-a11y)
-[![azimutlabs eslint config import npm package version](https://img.shields.io/npm/v/@azimutlabs/eslint-config-import.svg?label=@azimutlabs/eslint-config-import)](packages/eslint-config-import)
+| | |
+| --- | --- |
+| [![azimutlabs eslint config npm package version][config]](packages/eslint-config) | Collection of all `@azimutlabs/eslint-config-*` packages |
+| [![azimutlabs eslint config core npm package version][config-core]](packages/eslint-config-core) | ESLint configuration core rules |
+| [![azimutlabs eslint config prettier npm package version][config-prettier]](packages/eslint-config-prettier) | ESLint configuration for Prettier |
+| [![azimutlabs eslint config import npm package version][config-import]](packages/eslint-config-import) | ESLint configuration for ES6 Imports and Exports |
+| [![azimutlabs eslint config typescript npm package version][config-typescript]](packages/eslint-config-typescript) | ESLint configuration for TypeScript |
+| [![azimutlabs eslint config react npm package version][config-react]](packages/eslint-config-react) | ESLint configuration for React/ReactHooks |
+| [![azimutlabs eslint config jsx a11y npm package version][config-jsx-a11y]](packages/eslint-config-jsx-a11y) | ESLint configuration for JSX Accessibility |
+| [![azimutlabs eslint config functional npm package version][config-functional]](packages/eslint-config-functional) | ESLint configuration for Functional Programming |
+| | |
+
+[config]: https://img.shields.io/npm/v/@azimutlabs/eslint-config.svg?label=@azimutlabs/eslint-config&color
+[config-core]: https://img.shields.io/npm/v/@azimutlabs/eslint-config-core.svg?label=@azimutlabs/eslint-config-core&color
+[config-prettier]: https://img.shields.io/npm/v/@azimutlabs/eslint-config-prettier.svg?label=@azimutlabs/eslint-config-prettier&color
+[config-typescript]: https://img.shields.io/npm/v/@azimutlabs/eslint-config-typescript.svg?label=@azimutlabs/eslint-config-typescript&color
+[config-react]: https://img.shields.io/npm/v/@azimutlabs/eslint-config-react.svg?label=@azimutlabs/eslint-config-react&color
+[config-jsx-a11y]: https://img.shields.io/npm/v/@azimutlabs/eslint-config-jsx-a11y.svg?label=@azimutlabs/eslint-config-jsx-a11y&color
+[config-import]: https://img.shields.io/npm/v/@azimutlabs/eslint-config-import.svg?label=@azimutlabs/eslint-config-import&color
+[config-functional]: https://img.shields.io/npm/v/@azimutlabs/eslint-config-functional.svg?label=@azimutlabs/eslint-config-functional&color
 
 ## Contributing
 Any PR is welcomed by our **@js-opensource** team.
-There are no specific guidelines yet, so just roll with our Issue templates.
+Check out our [contributing](CONTRIBUTING.md) guidelines for more info.
 
 ## License
 [![azimutlabs eslint config license](https://img.shields.io/github/license/azimutlabs/eslint?label=as%20always&color=informational)](LICENSE)
