@@ -31,7 +31,6 @@
   ],
   "dependencies": {
     "@azimutlabs/eslint-config-env": "^0.0.0",
-    "@azimutlabs/eslint-env": "^0.1.4",
     "tslib": "^2.1.0"
   },
   "devDependencies": {
