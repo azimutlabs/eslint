@@ -1,11 +1,9 @@
-// TODO: add declaration files for packages to safely import without namespace.
-// eslint-disable-next-line import/no-namespace
-import * as config from '@azimutlabs/eslint-config-react';
+import { eslintConfigReact } from '@azimutlabs/eslint-config-react/lib/config';
 
 import { buildEslint } from './services/builders';
 import { getMessagesFromLintResults } from './services/getMessagesFromLintResults';
 
-const eslintBase = buildEslint(config);
+const eslintBase = buildEslint(eslintConfigReact);
 
 describe('successful cases', () => {
   it('should lint a client-side react component without jsx', async () => {

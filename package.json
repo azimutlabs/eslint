@@ -25,9 +25,11 @@
     "packages/*"
   ],
   "scripts": {
+    "compile": "yarn rollup -c",
     "postinstall": "yarn husky install",
     "lint": "yarn lint:files packages",
     "lint:files": "yarn eslint --cache --max-warnings 0",
+    "start": "yarn compile -w",
     "test": "yarn packages/tests test"
   },
   "commitlint": {
@@ -50,13 +52,7 @@
   ],
   "devDependencies": {
     "@azimutlabs/eslint-config": "file:packages/eslint-config",
-    "@azimutlabs/eslint-config-core": "file:packages/eslint-config-core",
-    "@azimutlabs/eslint-config-functional": "file:packages/eslint-config-functional",
-    "@azimutlabs/eslint-config-import": "file:packages/eslint-config-import",
-    "@azimutlabs/eslint-config-jsx-a11y": "file:packages/eslint-config-jsx-a11y",
-    "@azimutlabs/eslint-config-prettier": "file:packages/eslint-config-typescript",
-    "@azimutlabs/eslint-config-react": "file:packages/eslint-config-react",
-    "@azimutlabs/eslint-config-typescript": "file:packages/eslint-config-typescript",
+    "@azimutlabs/rollup": "^0.1.1",
     "@commitlint/cli": "^12.0.1",
     "@commitlint/config-conventional": "^12.0.1",
     "@typescript-eslint/eslint-plugin": "^4.16.1",
@@ -74,6 +70,7 @@
     "lint-staged": "^10.5.4",
     "prettier": "^2.2.1",
     "react": "^17.0.1",
+    "rollup": "^2.40.0",
     "typescript": "4.1.5"
   }
 }

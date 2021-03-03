@@ -1,11 +1,9 @@
-// TODO: add declaration files for packages to safely import without namespace.
-// eslint-disable-next-line import/no-namespace
-import * as config from '@azimutlabs/eslint-config';
+import { eslintConfig } from '@azimutlabs/eslint-config/lib/config';
 
 import { buildEslint } from './services/builders';
 import { getMessagesFromLintResults } from './services/getMessagesFromLintResults';
 
-const eslint = buildEslint(config);
+const eslint = buildEslint(eslintConfig);
 
 describe('successful cases', () => {
   it('should lint a node.js http server start', async () => {

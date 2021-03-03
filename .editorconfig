@@ -33,19 +33,6 @@ ij_json_spaces_within_braces = false
 ij_json_spaces_within_brackets = false
 ij_json_wrap_long_lines = false
 
-[{*.zsh,*.bash,*.sh}]
-ij_shell_binary_ops_start_line = false
-ij_shell_keep_column_alignment_padding = false
-ij_shell_minify_program = false
-ij_shell_redirect_followed_by_space = false
-ij_shell_switch_cases_indented = false
-
-[*.scss]
-ij_scss_use_double_quotes = false
-ij_scss_space_before_opening_brace = true
-ij_scss_hex_color_short_format = true
-ij_scss_hex_color_lower_case = true
-
 [{*.ts,*.tsx}]
 ij_typescript_chained_call_dot_on_new_line = true
 ij_typescript_spaces_within_imports = true

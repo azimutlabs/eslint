@@ -10,6 +10,14 @@ __metadata:
   resolution: "@azimutlabs/eslint-config-core@workspace:packages/eslint-config-core"
   dependencies:
     "@azimutlabs/eslint-env": ^0.1.4
+    "@azimutlabs/rollup-config": ^0.2.0
+    "@azimutlabs/rollup-config-typescript": ^0.2.1
+    "@types/eslint": ^7.2.6
+    "@types/node": ^14.14.31
+    eslint: ^7.21.0
+    rollup: ^2.40.0
+    tslib: ^2.1.0
+    typescript: 4.1.5
   peerDependencies:
     eslint: ^7
   languageName: unknown
@@ -17,23 +25,13 @@ __metadata:
 
 "@azimutlabs/eslint-config-core@file:../eslint-config-core::locator=tests-a0e1f4%40workspace%3Apackages%2Ftests":
   version: 0.1.7
-  resolution: "@azimutlabs/eslint-config-core@file:../eslint-config-core#../eslint-config-core::hash=63d039&locator=tests-a0e1f4%40workspace%3Apackages%2Ftests"
+  resolution: "@azimutlabs/eslint-config-core@file:../eslint-config-core#../eslint-config-core::hash=187a9f&locator=tests-a0e1f4%40workspace%3Apackages%2Ftests"
   dependencies:
     "@azimutlabs/eslint-env": ^0.1.4
+    tslib: ^2.1.0
   peerDependencies:
     eslint: ^7
-  checksum: eda1e704c8b5d4169998cfb8b25f3a1644acde26f59854d28a90d72e93d1bdfd685e8d52359f01c402fb1b54f7f7b6627a38af132ee9104fa7bf6827eec01caf
-  languageName: node
-  linkType: hard
-
-"@azimutlabs/eslint-config-core@file:packages/eslint-config-core::locator=%40azimutlabs%2Feslint%40workspace%3A.":
-  version: 0.1.7
-  resolution: "@azimutlabs/eslint-config-core@file:packages/eslint-config-core#packages/eslint-config-core::hash=63d039&locator=%40azimutlabs%2Feslint%40workspace%3A."
-  dependencies:
-    "@azimutlabs/eslint-env": ^0.1.4
-  peerDependencies:
-    eslint: ^7
-  checksum: eda1e704c8b5d4169998cfb8b25f3a1644acde26f59854d28a90d72e93d1bdfd685e8d52359f01c402fb1b54f7f7b6627a38af132ee9104fa7bf6827eec01caf
+  checksum: 75eb2c276a4019f60b90ac1b71add2d31b9eebd2980e4de8faba9a26b14e3c785bb38298a5eca80def4991bd4745d40bb996bb458b1b4f055e73085f7943ed88
   languageName: node
   linkType: hard
 
@@ -42,6 +40,14 @@ __metadata:
   resolution: "@azimutlabs/eslint-config-functional@workspace:packages/eslint-config-functional"
   dependencies:
     "@azimutlabs/eslint-env": ^0.1.4
+    "@azimutlabs/rollup-config": ^0.2.0
+    "@azimutlabs/rollup-config-typescript": ^0.2.1
+    "@types/eslint": ^7.2.6
+    "@types/node": ^14.14.31
+    eslint: ^7.21.0
+    rollup: ^2.40.0
+    tslib: ^2.1.0
+    typescript: 4.1.5
   peerDependencies:
     eslint: ^7
     eslint-plugin-functional: ^3
@@ -50,25 +56,14 @@ __metadata:
 
 "@azimutlabs/eslint-config-functional@file:../eslint-config-functional::locator=tests-a0e1f4%40workspace%3Apackages%2Ftests":
   version: 0.1.2
-  resolution: "@azimutlabs/eslint-config-functional@file:../eslint-config-functional#../eslint-config-functional::hash=31493f&locator=tests-a0e1f4%40workspace%3Apackages%2Ftests"
+  resolution: "@azimutlabs/eslint-config-functional@file:../eslint-config-functional#../eslint-config-functional::hash=dd7253&locator=tests-a0e1f4%40workspace%3Apackages%2Ftests"
   dependencies:
     "@azimutlabs/eslint-env": ^0.1.4
+    tslib: ^2.1.0
   peerDependencies:
     eslint: ^7
     eslint-plugin-functional: ^3
-  checksum: 943bd670b901f4bc03dff9ee3ffe33ce5e07f73314ed701a513e3a8d19dc57e4cc4b0d69557efc35347d78c43f21c5504612c4082b97e784b69b788d2b5ca6aa
-  languageName: node
-  linkType: hard
-
-"@azimutlabs/eslint-config-functional@file:packages/eslint-config-functional::locator=%40azimutlabs%2Feslint%40workspace%3A.":
-  version: 0.1.2
-  resolution: "@azimutlabs/eslint-config-functional@file:packages/eslint-config-functional#packages/eslint-config-functional::hash=31493f&locator=%40azimutlabs%2Feslint%40workspace%3A."
-  dependencies:
-    "@azimutlabs/eslint-env": ^0.1.4
-  peerDependencies:
-    eslint: ^7
-    eslint-plugin-functional: ^3
-  checksum: 943bd670b901f4bc03dff9ee3ffe33ce5e07f73314ed701a513e3a8d19dc57e4cc4b0d69557efc35347d78c43f21c5504612c4082b97e784b69b788d2b5ca6aa
+  checksum: e05ccce3e35454b8677fa87afbd76753ed8dea248d197451519ff933a7293a40183aaa645473b5e0ce8836b84e5ccbb7f84c2fe806cc30e4144a5d02dfaeeb5d
   languageName: node
   linkType: hard
 
@@ -77,8 +72,16 @@ __metadata:
   resolution: "@azimutlabs/eslint-config-import@workspace:packages/eslint-config-import"
   dependencies:
     "@azimutlabs/eslint-env": ^0.1.4
+    "@azimutlabs/rollup-config": ^0.2.0
+    "@azimutlabs/rollup-config-typescript": ^0.2.1
+    "@types/eslint": ^7.2.6
+    "@types/node": ^14.14.31
+    eslint: ^7.21.0
     eslint-import-resolver-node: ^0.3.4
     eslint-import-resolver-typescript: ^2.3.0
+    rollup: ^2.40.0
+    tslib: ^2.1.0
+    typescript: 4.1.5
   peerDependencies:
     eslint: ^7
     eslint-plugin-import: ^2
@@ -88,31 +91,17 @@ __metadata:
 
 "@azimutlabs/eslint-config-import@file:../eslint-config-import::locator=tests-a0e1f4%40workspace%3Apackages%2Ftests":
   version: 0.2.2
-  resolution: "@azimutlabs/eslint-config-import@file:../eslint-config-import#../eslint-config-import::hash=2c9ada&locator=tests-a0e1f4%40workspace%3Apackages%2Ftests"
+  resolution: "@azimutlabs/eslint-config-import@file:../eslint-config-import#../eslint-config-import::hash=9f3d03&locator=tests-a0e1f4%40workspace%3Apackages%2Ftests"
   dependencies:
     "@azimutlabs/eslint-env": ^0.1.4
     eslint-import-resolver-node: ^0.3.4
     eslint-import-resolver-typescript: ^2.3.0
+    tslib: ^2.1.0
   peerDependencies:
     eslint: ^7
     eslint-plugin-import: ^2
     eslint-plugin-simple-import-sort: ^7
-  checksum: 7f5c4889ae09732c27ee84536504d16cdae07df076755e4fdb72237f5e5e9879fc9577cddb4f4ea5daa23c1e0390fac52c66391e3aafdc6fc9ebb99c5199a4f6
-  languageName: node
-  linkType: hard
-
-"@azimutlabs/eslint-config-import@file:packages/eslint-config-import::locator=%40azimutlabs%2Feslint%40workspace%3A.":
-  version: 0.2.2
-  resolution: "@azimutlabs/eslint-config-import@file:packages/eslint-config-import#packages/eslint-config-import::hash=2c9ada&locator=%40azimutlabs%2Feslint%40workspace%3A."
-  dependencies:
-    "@azimutlabs/eslint-env": ^0.1.4
-    eslint-import-resolver-node: ^0.3.4
-    eslint-import-resolver-typescript: ^2.3.0
-  peerDependencies:
-    eslint: ^7
-    eslint-plugin-import: ^2
-    eslint-plugin-simple-import-sort: ^7
-  checksum: 7f5c4889ae09732c27ee84536504d16cdae07df076755e4fdb72237f5e5e9879fc9577cddb4f4ea5daa23c1e0390fac52c66391e3aafdc6fc9ebb99c5199a4f6
+  checksum: 684cec70dd21507ea5b97065109ef5038cfcb020002ca2e977f9ba15d3f043e5ea498488ac7ca986adb535bafcf4c8065b2dfa79a2b2aae37e65b5b80f517f2a
   languageName: node
   linkType: hard
 
@@ -121,6 +110,14 @@ __metadata:
   resolution: "@azimutlabs/eslint-config-jsx-a11y@workspace:packages/eslint-config-jsx-a11y"
   dependencies:
     "@azimutlabs/eslint-env": ^0.1.4
+    "@azimutlabs/rollup-config": ^0.2.0
+    "@azimutlabs/rollup-config-typescript": ^0.2.1
+    "@types/eslint": ^7.2.6
+    "@types/node": ^14.14.31
+    eslint: ^7.21.0
+    rollup: ^2.40.0
+    tslib: ^2.1.0
+    typescript: 4.1.5
   peerDependencies:
     eslint: ^7
     eslint-plugin-jsx-a11y: ^6
@@ -129,25 +126,14 @@ __metadata:
 
 "@azimutlabs/eslint-config-jsx-a11y@file:../eslint-config-jsx-a11y::locator=tests-a0e1f4%40workspace%3Apackages%2Ftests":
   version: 0.1.2
-  resolution: "@azimutlabs/eslint-config-jsx-a11y@file:../eslint-config-jsx-a11y#../eslint-config-jsx-a11y::hash=2fb237&locator=tests-a0e1f4%40workspace%3Apackages%2Ftests"
+  resolution: "@azimutlabs/eslint-config-jsx-a11y@file:../eslint-config-jsx-a11y#../eslint-config-jsx-a11y::hash=6efb81&locator=tests-a0e1f4%40workspace%3Apackages%2Ftests"
   dependencies:
     "@azimutlabs/eslint-env": ^0.1.4
+    tslib: ^2.1.0
   peerDependencies:
     eslint: ^7
     eslint-plugin-jsx-a11y: ^6
-  checksum: 6c970bd31604334bfda511f846e2b94164c51dafd8308728136350e4811718ca9ec26fe6a8837ebcb2a54f9683e2cc5af7e639112ef27d8005deb0a393a8585c
-  languageName: node
-  linkType: hard
-
-"@azimutlabs/eslint-config-jsx-a11y@file:packages/eslint-config-jsx-a11y::locator=%40azimutlabs%2Feslint%40workspace%3A.":
-  version: 0.1.2
-  resolution: "@azimutlabs/eslint-config-jsx-a11y@file:packages/eslint-config-jsx-a11y#packages/eslint-config-jsx-a11y::hash=2fb237&locator=%40azimutlabs%2Feslint%40workspace%3A."
-  dependencies:
-    "@azimutlabs/eslint-env": ^0.1.4
-  peerDependencies:
-    eslint: ^7
-    eslint-plugin-jsx-a11y: ^6
-  checksum: 6c970bd31604334bfda511f846e2b94164c51dafd8308728136350e4811718ca9ec26fe6a8837ebcb2a54f9683e2cc5af7e639112ef27d8005deb0a393a8585c
+  checksum: 6ad72796d8e6cc71a0fe0a3d01c28c329d5ce96396f14e4eb7f246de7f693abe7b489a2ae5d4fbb19e4c4c5ac538b0f4428168dca9c3b4fc4bd8767a96d67993
   languageName: node
   linkType: hard
 
@@ -156,7 +142,15 @@ __metadata:
   resolution: "@azimutlabs/eslint-config-prettier@workspace:packages/eslint-config-prettier"
   dependencies:
     "@azimutlabs/eslint-env": ^0.1.4
-    eslint-config-prettier: ^7.1.0
+    "@azimutlabs/rollup-config": ^0.2.0
+    "@azimutlabs/rollup-config-typescript": ^0.2.1
+    "@types/eslint": ^7.2.6
+    "@types/node": ^14.14.31
+    eslint: ^7.21.0
+    eslint-config-prettier: ^8.1.0
+    rollup: ^2.40.0
+    tslib: ^2.1.0
+    typescript: 4.1.5
   peerDependencies:
     eslint: ^7
     eslint-plugin-prettier: ^3
@@ -166,29 +160,16 @@ __metadata:
 
 "@azimutlabs/eslint-config-prettier@file:../eslint-config-typescript::locator=tests-a0e1f4%40workspace%3Apackages%2Ftests":
   version: 0.2.9
-  resolution: "@azimutlabs/eslint-config-prettier@file:../eslint-config-typescript#../eslint-config-typescript::hash=55c622&locator=tests-a0e1f4%40workspace%3Apackages%2Ftests"
+  resolution: "@azimutlabs/eslint-config-prettier@file:../eslint-config-typescript#../eslint-config-typescript::hash=ee3d99&locator=tests-a0e1f4%40workspace%3Apackages%2Ftests"
   dependencies:
     "@azimutlabs/eslint-env": ^0.1.4
+    tslib: ^2.1.0
   peerDependencies:
     "@typescript-eslint/eslint-plugin": ^4
     "@typescript-eslint/parser": ^4
     eslint: ^7
     typescript: ^3.8 || ^4
-  checksum: 8839d9600a87b498c9ecac76a0281fe618162dfc9a868a0b3a661f7e4b6859547bd1e6fcea1c48b520e894a23843a6bb91294ff6a4e8a1f86e178ebd8aac8097
-  languageName: node
-  linkType: hard
-
-"@azimutlabs/eslint-config-prettier@file:packages/eslint-config-typescript::locator=%40azimutlabs%2Feslint%40workspace%3A.":
-  version: 0.2.9
-  resolution: "@azimutlabs/eslint-config-prettier@file:packages/eslint-config-typescript#packages/eslint-config-typescript::hash=55c622&locator=%40azimutlabs%2Feslint%40workspace%3A."
-  dependencies:
-    "@azimutlabs/eslint-env": ^0.1.4
-  peerDependencies:
-    "@typescript-eslint/eslint-plugin": ^4
-    "@typescript-eslint/parser": ^4
-    eslint: ^7
-    typescript: ^3.8 || ^4
-  checksum: 8839d9600a87b498c9ecac76a0281fe618162dfc9a868a0b3a661f7e4b6859547bd1e6fcea1c48b520e894a23843a6bb91294ff6a4e8a1f86e178ebd8aac8097
+  checksum: 40cbcec5d85ec5046cdbf6fce98a7efbf047948a853522db09ddcc5613bf55f88f86ceaf41c4c22f1f9ca4eff1c80096b1d2a5b2621909d50b96138f8ce85214
   languageName: node
   linkType: hard
 
@@ -197,6 +178,14 @@ __metadata:
   resolution: "@azimutlabs/eslint-config-react@workspace:packages/eslint-config-react"
   dependencies:
     "@azimutlabs/eslint-env": ^0.1.4
+    "@azimutlabs/rollup-config": ^0.2.0
+    "@azimutlabs/rollup-config-typescript": ^0.2.1
+    "@types/eslint": ^7.2.6
+    "@types/node": ^14.14.31
+    eslint: ^7.21.0
+    rollup: ^2.40.0
+    tslib: ^2.1.0
+    typescript: 4.1.5
   peerDependencies:
     eslint: ^7
     eslint-plugin-react: ^7
@@ -206,27 +195,15 @@ __metadata:
 
 "@azimutlabs/eslint-config-react@file:../eslint-config-react::locator=tests-a0e1f4%40workspace%3Apackages%2Ftests":
   version: 0.1.5
-  resolution: "@azimutlabs/eslint-config-react@file:../eslint-config-react#../eslint-config-react::hash=2a6913&locator=tests-a0e1f4%40workspace%3Apackages%2Ftests"
+  resolution: "@azimutlabs/eslint-config-react@file:../eslint-config-react#../eslint-config-react::hash=3a1e48&locator=tests-a0e1f4%40workspace%3Apackages%2Ftests"
   dependencies:
     "@azimutlabs/eslint-env": ^0.1.4
+    tslib: ^2.1.0
   peerDependencies:
     eslint: ^7
     eslint-plugin-react: ^7
     eslint-plugin-react-hooks: ^4
-  checksum: 2580f3ca7fb68c61f9ae5467d0ae4b63a13af32f868f58271d3daea3e270159a3e58f739a392a8f5bd1aaa8cbd9b9e1b52ec0664505359aea39c2f8bf509e448
-  languageName: node
-  linkType: hard
-
-"@azimutlabs/eslint-config-react@file:packages/eslint-config-react::locator=%40azimutlabs%2Feslint%40workspace%3A.":
-  version: 0.1.5
-  resolution: "@azimutlabs/eslint-config-react@file:packages/eslint-config-react#packages/eslint-config-react::hash=2a6913&locator=%40azimutlabs%2Feslint%40workspace%3A."
-  dependencies:
-    "@azimutlabs/eslint-env": ^0.1.4
-  peerDependencies:
-    eslint: ^7
-    eslint-plugin-react: ^7
-    eslint-plugin-react-hooks: ^4
-  checksum: 2580f3ca7fb68c61f9ae5467d0ae4b63a13af32f868f58271d3daea3e270159a3e58f739a392a8f5bd1aaa8cbd9b9e1b52ec0664505359aea39c2f8bf509e448
+  checksum: 2a2d48ee630d03e825bf87321d0fededd44d289163d5d2fe64ac3d8f272dcd63b6857fa82865d06cc7e9d07f3942d8000df3ce0c1470554a39e32e7166e974a7
   languageName: node
   linkType: hard
 
@@ -235,6 +212,14 @@ __metadata:
   resolution: "@azimutlabs/eslint-config-typescript@workspace:packages/eslint-config-typescript"
   dependencies:
     "@azimutlabs/eslint-env": ^0.1.4
+    "@azimutlabs/rollup-config": ^0.2.0
+    "@azimutlabs/rollup-config-typescript": ^0.2.1
+    "@types/eslint": ^7.2.6
+    "@types/node": ^14.14.31
+    eslint: ^7.21.0
+    rollup: ^2.40.0
+    tslib: ^2.1.0
+    typescript: 4.1.5
   peerDependencies:
     "@typescript-eslint/eslint-plugin": ^4
     "@typescript-eslint/parser": ^4
@@ -245,35 +230,22 @@ __metadata:
 
 "@azimutlabs/eslint-config-typescript@file:../eslint-config-typescript::locator=tests-a0e1f4%40workspace%3Apackages%2Ftests":
   version: 0.2.9
-  resolution: "@azimutlabs/eslint-config-typescript@file:../eslint-config-typescript#../eslint-config-typescript::hash=9ebe7e&locator=tests-a0e1f4%40workspace%3Apackages%2Ftests"
+  resolution: "@azimutlabs/eslint-config-typescript@file:../eslint-config-typescript#../eslint-config-typescript::hash=4739ef&locator=tests-a0e1f4%40workspace%3Apackages%2Ftests"
   dependencies:
     "@azimutlabs/eslint-env": ^0.1.4
+    tslib: ^2.1.0
   peerDependencies:
     "@typescript-eslint/eslint-plugin": ^4
     "@typescript-eslint/parser": ^4
     eslint: ^7
     typescript: ^3.8 || ^4
-  checksum: 029d862428f6ed63aa9e651dfd24e916b5900b41bf516d43f1f79d3113db3ac7ff4663ac89288753438cd0071018cc8947917f5ee44cbe3a314bc60e1f31c888
-  languageName: node
-  linkType: hard
-
-"@azimutlabs/eslint-config-typescript@file:packages/eslint-config-typescript::locator=%40azimutlabs%2Feslint%40workspace%3A.":
-  version: 0.2.9
-  resolution: "@azimutlabs/eslint-config-typescript@file:packages/eslint-config-typescript#packages/eslint-config-typescript::hash=9ebe7e&locator=%40azimutlabs%2Feslint%40workspace%3A."
-  dependencies:
-    "@azimutlabs/eslint-env": ^0.1.4
-  peerDependencies:
-    "@typescript-eslint/eslint-plugin": ^4
-    "@typescript-eslint/parser": ^4
-    eslint: ^7
-    typescript: ^3.8 || ^4
-  checksum: 029d862428f6ed63aa9e651dfd24e916b5900b41bf516d43f1f79d3113db3ac7ff4663ac89288753438cd0071018cc8947917f5ee44cbe3a314bc60e1f31c888
+  checksum: 7ff38d1ecbd39e214e1eb9472b5427566bb57927d25ddc5dda4665f26848c04427451984dde0088f2263c471670da69e77d128524add48e9dedc034b456acd87
   languageName: node
   linkType: hard
 
 "@azimutlabs/eslint-config@file:../eslint-config::locator=tests-a0e1f4%40workspace%3Apackages%2Ftests":
   version: 0.8.4
-  resolution: "@azimutlabs/eslint-config@file:../eslint-config#../eslint-config::hash=db7c32&locator=tests-a0e1f4%40workspace%3Apackages%2Ftests"
+  resolution: "@azimutlabs/eslint-config@file:../eslint-config#../eslint-config::hash=a8bb98&locator=tests-a0e1f4%40workspace%3Apackages%2Ftests"
   dependencies:
     "@azimutlabs/eslint-config-core": ^0.1.7
     "@azimutlabs/eslint-config-functional": ^0.1.2
@@ -295,13 +267,13 @@ __metadata:
     eslint-plugin-simple-import-sort: ^7
     prettier: ^2
     typescript: ^3.8 || ^4
-  checksum: 1138cea205e99ce34dd582abe33e18fdea1d62b078113a080b53b7ad3d999689f009bf00055bfc74461b0b836cf0f542fa6673067f95b39cb5bc4047863dc0b3
+  checksum: f4fa4c20008efde1337b1a858bc5d14729ca6782528c972714e299c12494060bac9d2daa312e05c3550d36e639b1d88467d72b645b148c77707951ff3f250812
   languageName: node
   linkType: hard
 
 "@azimutlabs/eslint-config@file:packages/eslint-config::locator=%40azimutlabs%2Feslint%40workspace%3A.":
   version: 0.8.4
-  resolution: "@azimutlabs/eslint-config@file:packages/eslint-config#packages/eslint-config::hash=db7c32&locator=%40azimutlabs%2Feslint%40workspace%3A."
+  resolution: "@azimutlabs/eslint-config@file:packages/eslint-config#packages/eslint-config::hash=a8bb98&locator=%40azimutlabs%2Feslint%40workspace%3A."
   dependencies:
     "@azimutlabs/eslint-config-core": ^0.1.7
     "@azimutlabs/eslint-config-functional": ^0.1.2
@@ -323,7 +295,7 @@ __metadata:
     eslint-plugin-simple-import-sort: ^7
     prettier: ^2
     typescript: ^3.8 || ^4
-  checksum: 1138cea205e99ce34dd582abe33e18fdea1d62b078113a080b53b7ad3d999689f009bf00055bfc74461b0b836cf0f542fa6673067f95b39cb5bc4047863dc0b3
+  checksum: f4fa4c20008efde1337b1a858bc5d14729ca6782528c972714e299c12494060bac9d2daa312e05c3550d36e639b1d88467d72b645b148c77707951ff3f250812
   languageName: node
   linkType: hard
 
@@ -338,6 +310,14 @@ __metadata:
     "@azimutlabs/eslint-config-prettier": ^0.1.4
     "@azimutlabs/eslint-config-react": ^0.1.5
     "@azimutlabs/eslint-config-typescript": ^0.2.9
+    "@azimutlabs/rollup-config": ^0.2.0
+    "@azimutlabs/rollup-config-typescript": ^0.2.1
+    "@types/eslint": ^7.2.6
+    "@types/node": ^14.14.31
+    eslint: ^7.21.0
+    rollup: ^2.40.0
+    tslib: ^2.1.0
+    typescript: 4.1.5
   peerDependencies:
     "@typescript-eslint/eslint-plugin": ^4
     "@typescript-eslint/parser": ^4
@@ -357,6 +337,15 @@ __metadata:
 "@azimutlabs/eslint-env@^0.1.4, @azimutlabs/eslint-env@workspace:packages/eslint-env":
   version: 0.0.0-use.local
   resolution: "@azimutlabs/eslint-env@workspace:packages/eslint-env"
+  dependencies:
+    "@azimutlabs/rollup-config": ^0.2.0
+    "@azimutlabs/rollup-config-typescript": ^0.2.1
+    "@types/eslint": ^7.2.6
+    "@types/node": ^14.14.31
+    editorconfig: ^0.15.3
+    eslint: ^7.21.0
+    rollup: ^2.40.0
+    typescript: 4.1.5
   peerDependencies:
     eslint: ^7
   languageName: unknown
@@ -367,13 +356,7 @@ __metadata:
   resolution: "@azimutlabs/eslint@workspace:."
   dependencies:
     "@azimutlabs/eslint-config": "file:packages/eslint-config"
-    "@azimutlabs/eslint-config-core": "file:packages/eslint-config-core"
-    "@azimutlabs/eslint-config-functional": "file:packages/eslint-config-functional"
-    "@azimutlabs/eslint-config-import": "file:packages/eslint-config-import"
-    "@azimutlabs/eslint-config-jsx-a11y": "file:packages/eslint-config-jsx-a11y"
-    "@azimutlabs/eslint-config-prettier": "file:packages/eslint-config-typescript"
-    "@azimutlabs/eslint-config-react": "file:packages/eslint-config-react"
-    "@azimutlabs/eslint-config-typescript": "file:packages/eslint-config-typescript"
+    "@azimutlabs/rollup": ^0.1.1
     "@commitlint/cli": ^12.0.1
     "@commitlint/config-conventional": ^12.0.1
     "@typescript-eslint/eslint-plugin": ^4.16.1
@@ -391,9 +374,76 @@ __metadata:
     lint-staged: ^10.5.4
     prettier: ^2.2.1
     react: ^17.0.1
+    rollup: ^2.40.0
     typescript: 4.1.5
   languageName: unknown
   linkType: soft
+
+"@azimutlabs/rollup-config-essentials@npm:^0.3.0":
+  version: 0.3.0
+  resolution: "@azimutlabs/rollup-config-essentials@npm:0.3.0"
+  dependencies:
+    "@azimutlabs/rollup-plugin-external": ^0.1.0
+    "@rollup/plugin-alias": ^3.1.2
+    "@rollup/plugin-node-resolve": ^11.2.0
+  peerDependencies:
+    "@azimutlabs/rollup-config": ">=0"
+    rollup: ^2.15
+  checksum: 778e69947c0637118c7056df2338690d1654fd70560a6b9ac3ad4dc7b3c3f0766f7f555fd122bf67a32499ab9399d9c6f3af6ac88f263b664ad92dbada634a21
+  languageName: node
+  linkType: hard
+
+"@azimutlabs/rollup-config-typescript@npm:^0.2.1":
+  version: 0.2.1
+  resolution: "@azimutlabs/rollup-config-typescript@npm:0.2.1"
+  dependencies:
+    "@azimutlabs/rollup-config-essentials": ^0.3.0
+    "@rollup/plugin-typescript": ^8.2.0
+    tsconfig: ^7.0.0
+    tslib: ^2.1.0
+  peerDependencies:
+    "@azimutlabs/rollup-config": ">=0"
+    rollup: ^2.15
+    typescript: ">=3.4.0"
+  checksum: b6569f3da569469a831e9dc08a8010021e30272d207cd49c5d4844aa66494acb17a090e93b0d972be4eb2d87d850a895abf63c067166cfa5fc25834abbd9e705
+  languageName: node
+  linkType: hard
+
+"@azimutlabs/rollup-config@npm:^0.2.0":
+  version: 0.2.0
+  resolution: "@azimutlabs/rollup-config@npm:0.2.0"
+  dependencies:
+    lodash.clonedeep: ^4.5.0
+    lodash.mergewith: ^4.6.2
+  peerDependencies:
+    rollup: ^2.15
+  checksum: 7270ec18fd9d80f84ae96f6719d5a0daf9025ca0bb8f96b5dbc7c85477433cf85218cb31b1841a29dfcea6633d81dae8e3c0e4b7b4b83923a51f7c86a3cfdc81
+  languageName: node
+  linkType: hard
+
+"@azimutlabs/rollup-plugin-external@npm:^0.1.0":
+  version: 0.1.0
+  resolution: "@azimutlabs/rollup-plugin-external@npm:0.1.0"
+  dependencies:
+    builtin-modules: ^3.2.0
+    is-valid-path: ^0.1.1
+    lodash.concat: ^4.5.0
+    read-pkg-up: ^7.0.1
+  checksum: b8fd8c296e72addf4df357cba28c1d0b8a759217871b82670128e7d69761ca1e79b7f950d46a3f9c5ae7f25798a8f08a988c19b08f6dcbf7a33cf8278482de94
+  languageName: node
+  linkType: hard
+
+"@azimutlabs/rollup@npm:^0.1.1":
+  version: 0.1.1
+  resolution: "@azimutlabs/rollup@npm:0.1.1"
+  dependencies:
+    glob: ^7.1.6
+    read-pkg-up: ^7.0.1
+  peerDependencies:
+    rollup: ^2.15
+  checksum: 7319106eb91417ed89eebe3f60131d484e6e00e34600e5e525074440d35154f7493a8acf0db187df90cf9d28a7d8e95f54e0542238cbf43d5ae9c2d55f311a16
+  languageName: node
+  linkType: hard
 
 "@babel/code-frame@npm:7.12.11, @babel/code-frame@npm:^7.0.0, @babel/code-frame@npm:^7.10.4, @babel/code-frame@npm:^7.12.11":
   version: 7.12.11
@@ -2329,6 +2379,60 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@rollup/plugin-alias@npm:^3.1.2":
+  version: 3.1.2
+  resolution: "@rollup/plugin-alias@npm:3.1.2"
+  dependencies:
+    slash: ^3.0.0
+  peerDependencies:
+    rollup: ^1.20.0||^2.0.0
+  checksum: cb0e59b25308d10c5bde8cc1f6e200d74fc98d4739800b4bd4b91d6b8ff07514a068d3a63a0c8fb125e7bc5602566c69687c291330580ca85425269413d7639c
+  languageName: node
+  linkType: hard
+
+"@rollup/plugin-node-resolve@npm:^11.2.0":
+  version: 11.2.0
+  resolution: "@rollup/plugin-node-resolve@npm:11.2.0"
+  dependencies:
+    "@rollup/pluginutils": ^3.1.0
+    "@types/resolve": 1.17.1
+    builtin-modules: ^3.1.0
+    deepmerge: ^4.2.2
+    is-module: ^1.0.0
+    resolve: ^1.19.0
+  peerDependencies:
+    rollup: ^1.20.0||^2.0.0
+  checksum: 173bb5822b8a6fd3a2c09303efd437711062885099dd1a4a6e91b449b99fcf5a4dc43e7d3836edeaca85ef7235547a193a3011314298ecbc529e8b123c371718
+  languageName: node
+  linkType: hard
+
+"@rollup/plugin-typescript@npm:^8.2.0":
+  version: 8.2.0
+  resolution: "@rollup/plugin-typescript@npm:8.2.0"
+  dependencies:
+    "@rollup/pluginutils": ^3.1.0
+    resolve: ^1.17.0
+  peerDependencies:
+    rollup: ^2.14.0
+    tslib: "*"
+    typescript: ">=3.4.0"
+  checksum: 123b975f4f70476c535f20f8b806b52df86471fb812263828648016ea736d8571fc254633206e418367a384f5baa4b5e61677e1975414aa1cbc17ae250c6bd6a
+  languageName: node
+  linkType: hard
+
+"@rollup/pluginutils@npm:^3.1.0":
+  version: 3.1.0
+  resolution: "@rollup/pluginutils@npm:3.1.0"
+  dependencies:
+    "@types/estree": 0.0.39
+    estree-walker: ^1.0.1
+    picomatch: ^2.2.2
+  peerDependencies:
+    rollup: ^1.20.0||^2.0.0
+  checksum: 45da6411e045d1b034242a8144f4a5e8c02ff1b68a2e0857807f5bb4b091c416f2015e075057f0f0dec200e7b35efe6ed4e301b43e365cedea09192f01a6839b
+  languageName: node
+  linkType: hard
+
 "@sinonjs/commons@npm:^1.7.0":
   version: 1.8.2
   resolution: "@sinonjs/commons@npm:1.8.2"
@@ -2402,6 +2506,13 @@ __metadata:
   version: 0.0.46
   resolution: "@types/estree@npm:0.0.46"
   checksum: 69fcf647706f5b6a475ec2f9aacf73b40866f577eef6c6f33de95cc3b4897381c2a8257646f13cd5d91fffc5debfe6289b6864ba29ad349ae68703f8b993c9f6
+  languageName: node
+  linkType: hard
+
+"@types/estree@npm:0.0.39":
+  version: 0.0.39
+  resolution: "@types/estree@npm:0.0.39"
+  checksum: 43e5361de39969def145f32f4599391ab13055ec94841f1633a7cfe10f0e8a940ebf0e9a4b2770454a6bddd034b57e7e0d51a4d565cb2714ee2accf10a7718be
   languageName: node
   linkType: hard
 
@@ -2501,6 +2612,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@types/node@npm:^14.14.31":
+  version: 14.14.31
+  resolution: "@types/node@npm:14.14.31"
+  checksum: 635dc8a0898a923621e02ca179e17baa39fdfa44f0096fcc1b7046c9b32317e74a99956a7b45ca0e8069874f51f4e7873a418239a318a4b6e7936f6510ac5992
+  languageName: node
+  linkType: hard
+
 "@types/normalize-package-data@npm:^2.4.0":
   version: 2.4.0
   resolution: "@types/normalize-package-data@npm:2.4.0"
@@ -2539,10 +2657,33 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@types/resolve@npm:1.17.1":
+  version: 1.17.1
+  resolution: "@types/resolve@npm:1.17.1"
+  dependencies:
+    "@types/node": "*"
+  checksum: 8e72a73574f9489760662498c1ad512a8d4084a5db15f327e0d785cb277bb0a3146cd049241a8e3268bd0ed204ad3ee7b4a6b4622ef681e70547be9af258ca6a
+  languageName: node
+  linkType: hard
+
 "@types/stack-utils@npm:^2.0.0":
   version: 2.0.0
   resolution: "@types/stack-utils@npm:2.0.0"
   checksum: 662312302e07685c99a1c45c6753eb997b31d2af66e646c5937f62d593a63a111289503d0b06a8d1e6f3922b67fc2ed94889d84653a08861a7fee67b81ce5b92
+  languageName: node
+  linkType: hard
+
+"@types/strip-bom@npm:^3.0.0":
+  version: 3.0.0
+  resolution: "@types/strip-bom@npm:3.0.0"
+  checksum: 4aef75266bd5f06d57b133f68ae47eb6a4b966de4c407d1b2f681165bf106e5c7c5508c755da5ae5e32b636c72b1286656157a340bbb80cf5db7f09066c72619
+  languageName: node
+  linkType: hard
+
+"@types/strip-json-comments@npm:0.0.30":
+  version: 0.0.30
+  resolution: "@types/strip-json-comments@npm:0.0.30"
+  checksum: 2b9eff26906f14903835a3ecd316e7df130bdfbbd0b784fba15b9ff99ac1ef041aeb7a37c9535dfc0e733211ef3cb881cc91940a52aa9076982ea0cbca50e088
   languageName: node
   linkType: hard
 
@@ -3417,6 +3558,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"builtin-modules@npm:^3.1.0, builtin-modules@npm:^3.2.0":
+  version: 3.2.0
+  resolution: "builtin-modules@npm:3.2.0"
+  checksum: f0e7240f70ae472a0a0167bf76d2e828c73028fe60be8cd229939c38a27527ea68c92f700553dac1316fa124af3037bc7a765ca0e029a03d2e9201dfb372ea24
+  languageName: node
+  linkType: hard
+
 "builtins@npm:^1.0.3":
   version: 1.0.3
   resolution: "builtins@npm:1.0.3"
@@ -3860,6 +4008,13 @@ __metadata:
   dependencies:
     delayed-stream: ~1.0.0
   checksum: 5791ce7944530f0db74a97e77ea28b6fdbf89afcf038e41d6b4195019c4c803cd19ed2905a54959e5b3830d50bd5d6f93c681c6d3aaea8614ad43b48e62e9d65
+  languageName: node
+  linkType: hard
+
+"commander@npm:^2.19.0":
+  version: 2.20.3
+  resolution: "commander@npm:2.20.3"
+  checksum: b73428e97de7624323f81ba13f8ed9271de487017432d18b4da3f07cfc528ad754bbd199004bd5d14e0ccd67d1fdfe0ec8dbbd4c438b401df3c4cc387bfd1daa
   languageName: node
   linkType: hard
 
@@ -4560,6 +4715,20 @@ __metadata:
   languageName: node
   linkType: hard
 
+"editorconfig@npm:^0.15.3":
+  version: 0.15.3
+  resolution: "editorconfig@npm:0.15.3"
+  dependencies:
+    commander: ^2.19.0
+    lru-cache: ^4.1.5
+    semver: ^5.6.0
+    sigmund: ^1.0.1
+  bin:
+    editorconfig: bin/editorconfig
+  checksum: ed8491cac424b93c00b9ead7b1d67267901bc87807b3f977b328f83f118018aa216225bd05fc1aa72a5b3e76fa93e19097ee7a0b9409779864a0ceef0ed2e0ea
+  languageName: node
+  linkType: hard
+
 "emittery@npm:^0.7.1":
   version: 0.7.2
   resolution: "emittery@npm:0.7.2"
@@ -4760,14 +4929,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-config-prettier@npm:^7.1.0":
-  version: 7.2.0
-  resolution: "eslint-config-prettier@npm:7.2.0"
+"eslint-config-prettier@npm:^8.1.0":
+  version: 8.1.0
+  resolution: "eslint-config-prettier@npm:8.1.0"
   peerDependencies:
     eslint: ">=7.0.0"
   bin:
     eslint-config-prettier: bin/cli.js
-  checksum: 6812150ea49703cd64035527205b4905bc1edcd34646e71f71665e1acff9ab4648f872598389bdb209964093ad73993830a2c821ba12642764a5293513b92a58
+  checksum: 409d3a071f8228d4c958a6a9be9d5ec2b357ce21b7b6cbb137096cade2c31f008a0a3c3533dee8979c0cd944f220a959710b30fd86f8b96f0ef1f4f557d740b3
   languageName: node
   linkType: hard
 
@@ -5054,6 +5223,13 @@ __metadata:
   version: 5.2.0
   resolution: "estraverse@npm:5.2.0"
   checksum: 7dc1b027aebf937bab10c3254d9d73ed21672d7382518c9ddb9dc45560cb2f4e6548cc8ff1a07b7f431e94bd0fb0bf5da75b602e2473f966fea141c4c31b31d6
+  languageName: node
+  linkType: hard
+
+"estree-walker@npm:^1.0.1":
+  version: 1.0.1
+  resolution: "estree-walker@npm:1.0.1"
+  checksum: 85e7cee763e9125a7d8a947b3a06a8b9282873936df220dd0d791d9b3315e45e40ab096b43ba71bdc99140c11a6d23fdcf686642dc119a7b2d6181004fdb24d2
   languageName: node
   linkType: hard
 
@@ -5536,6 +5712,24 @@ fsevents@^2.1.2:
   dependencies:
     node-gyp: latest
   checksum: 66b24358e15cdd0f705b456346e58b4613f2bf54206b47874decda4152614fb0632d2d662c92b0ea54810109f646e5233e4cdd64dbb2a1949070ee5dc14dab87
+  languageName: node
+  linkType: hard
+
+"fsevents@patch:fsevents@~2.3.1#builtin<compat/fsevents>":
+  version: 2.3.2
+  resolution: "fsevents@patch:fsevents@npm%3A2.3.2#builtin<compat/fsevents>::version=2.3.2&hash=11e9ea"
+  dependencies:
+    node-gyp: latest
+  checksum: 7b25d9251aefe433d508a0eb614217f0495ae05a9e8af15f7dbf9998e08c4e675acd1cf32361e0fcf71d917d9e8c4b76301fdc72a1ec1105a3ea0994f5e15a8d
+  languageName: node
+  linkType: hard
+
+fsevents@~2.3.1:
+  version: 2.3.2
+  resolution: "fsevents@npm:2.3.2"
+  dependencies:
+    node-gyp: latest
+  checksum: a1883f4ca12b8b403ec528f1a4cb312b0877eacd24719da535cabea78d6fdd78530e3538bdba590a1c0f6c295128f964a89182621885296353a44dcfa4f9db53
   languageName: node
   linkType: hard
 
@@ -6352,7 +6546,7 @@ fsevents@^2.1.2:
   languageName: node
   linkType: hard
 
-"is-core-module@npm:^2.1.0":
+"is-core-module@npm:^2.1.0, is-core-module@npm:^2.2.0":
   version: 2.2.0
   resolution: "is-core-module@npm:2.2.0"
   dependencies:
@@ -6440,6 +6634,13 @@ fsevents@^2.1.2:
   languageName: node
   linkType: hard
 
+"is-extglob@npm:^1.0.0":
+  version: 1.0.0
+  resolution: "is-extglob@npm:1.0.0"
+  checksum: 77073b0ebe962261395f4f72e594ca53157cdb14e41070fd856aca1422f0c1c49a26a55dabdf3c66559c98ca1a6a1ac8b9342034c5577714008b21fd314595a4
+  languageName: node
+  linkType: hard
+
 "is-extglob@npm:^2.1.0, is-extglob@npm:^2.1.1":
   version: 2.1.1
   resolution: "is-extglob@npm:2.1.1"
@@ -6484,6 +6685,15 @@ fsevents@^2.1.2:
   languageName: node
   linkType: hard
 
+"is-glob@npm:^2.0.0":
+  version: 2.0.1
+  resolution: "is-glob@npm:2.0.1"
+  dependencies:
+    is-extglob: ^1.0.0
+  checksum: b3190fc9ca6ad047f6e1856bb80b5b7de740c727025300b078a5557a27c5d1d25594baf8bd582529963eda61cc73c5d8cb546dba8e8afeaeef58012343c52600
+  languageName: node
+  linkType: hard
+
 "is-glob@npm:^3.1.0":
   version: 3.1.0
   resolution: "is-glob@npm:3.1.0"
@@ -6499,6 +6709,22 @@ fsevents@^2.1.2:
   dependencies:
     is-extglob: ^2.1.1
   checksum: 98cd4f715f0fb81da34aa6c8be4a5ef02d8cfac3ebc885153012abc2a0410df5a572f9d0393134fcba9192c7a845da96142c5f74a3c02787efe178ed798615e6
+  languageName: node
+  linkType: hard
+
+"is-invalid-path@npm:^0.1.0":
+  version: 0.1.0
+  resolution: "is-invalid-path@npm:0.1.0"
+  dependencies:
+    is-glob: ^2.0.0
+  checksum: fc8aaadd59193478d92523a12d9bc773f8ed66699b9ecbbaf942788f3e8a93d73f34b6d0a17b694a21bc8f701573c60da82e9dbd416427fb82737587f1d21ecc
+  languageName: node
+  linkType: hard
+
+"is-module@npm:^1.0.0":
+  version: 1.0.0
+  resolution: "is-module@npm:1.0.0"
+  checksum: 2cbd41e2760874130b76aee84cc53120c4feef0d0f196fa665326857b444c8549909cc840f3f3a59652a7e8df46146a77f6c0f3f70a578704e03670975843e74
   languageName: node
   linkType: hard
 
@@ -6644,6 +6870,15 @@ fsevents@^2.1.2:
   version: 0.2.1
   resolution: "is-utf8@npm:0.2.1"
   checksum: c72f604d72b72f6a57f9b2e22c9b6f480e869b3f0efe141bd1dfbc36655225043ca8c1316ff8e343ef641cf80868c9e4a37345492f31402abd5ab68e09367977
+  languageName: node
+  linkType: hard
+
+"is-valid-path@npm:^0.1.1":
+  version: 0.1.1
+  resolution: "is-valid-path@npm:0.1.1"
+  dependencies:
+    is-invalid-path: ^0.1.0
+  checksum: dd48bba8863e57515807474d2517a4f5ef582a0975af6cb88812788b7371b16f781876fc16920422c060e4077de04e4f16af30e6bee80e5c04806e57d95c3580
   languageName: node
   linkType: hard
 
@@ -7660,6 +7895,13 @@ fsevents@^2.1.2:
   languageName: node
   linkType: hard
 
+"lodash.concat@npm:^4.5.0":
+  version: 4.5.0
+  resolution: "lodash.concat@npm:4.5.0"
+  checksum: 98bbb1adb7fb62a30bfdbeaaac6fcdebad514ea657c5672540db9f858c83e3eb0a825e5dcd96d8b2824686bea6fa60d4395252e773c3a8f6a98c531b974d1958
+  languageName: node
+  linkType: hard
+
 "lodash.get@npm:^4.4.2":
   version: 4.4.2
   resolution: "lodash.get@npm:4.4.2"
@@ -7671,6 +7913,13 @@ fsevents@^2.1.2:
   version: 4.4.0
   resolution: "lodash.ismatch@npm:4.4.0"
   checksum: f6e3ef9fd357b9bb8d3e496916fe4761be816721fbd6019e12cb13dc2c59780bf57f8c1b1a7aed98f2a0f57fe7fa12496b454a315f659bc4bad1100184ed589c
+  languageName: node
+  linkType: hard
+
+"lodash.mergewith@npm:^4.6.2":
+  version: 4.6.2
+  resolution: "lodash.mergewith@npm:4.6.2"
+  checksum: 3561b63cebc629721ab4c016627fc54929ee33cdef1854b4a15ade71dd8eb5f2fc602830efe5395aed41c607d65e2cce356667116aa7156b82468594b42ab95f
   languageName: node
   linkType: hard
 
@@ -7767,6 +8016,16 @@ fsevents@^2.1.2:
     currently-unhandled: ^0.4.1
     signal-exit: ^3.0.0
   checksum: 9d57f7bc81da9a167dca46f9cc986dd18b0ae822811c69c2374f4945418234bb1ee102ca3a34bacf74e3bee122b27eed15604e57d5e1974f6fef8984861ed9ca
+  languageName: node
+  linkType: hard
+
+"lru-cache@npm:^4.1.5":
+  version: 4.1.5
+  resolution: "lru-cache@npm:4.1.5"
+  dependencies:
+    pseudomap: ^1.0.2
+    yallist: ^2.1.2
+  checksum: 6a098d23629357451d4324e1e4fefccdd6df316df29e25571c6148220ced923258381ebeafdf919f90e28c780b650427390582618c1d5fe097873e656d062511
   languageName: node
   linkType: hard
 
@@ -9104,7 +9363,7 @@ fsevents@^2.1.2:
   languageName: node
   linkType: hard
 
-"picomatch@npm:^2.0.4, picomatch@npm:^2.0.5, picomatch@npm:^2.2.1":
+"picomatch@npm:^2.0.4, picomatch@npm:^2.0.5, picomatch@npm:^2.2.1, picomatch@npm:^2.2.2":
   version: 2.2.2
   resolution: "picomatch@npm:2.2.2"
   checksum: 20fa75e0a58b39d83425b3db68744d5f6f361fd4fd66ec7745d884036d502abba0d553a637703af79939b844164b13e60eea339ccb043d7fbd74c3da2592b864
@@ -9325,6 +9584,13 @@ fsevents@^2.1.2:
   dependencies:
     genfun: ^5.0.0
   checksum: 457d23035d5199f63f93c2d98ece54a9b4fb77c04360a41b84b93f119740ae75a587b5a6e8760bbc150ae0e72f1e26bac6926ea7cea39293f3633f7dd1d19984
+  languageName: node
+  linkType: hard
+
+"pseudomap@npm:^1.0.2":
+  version: 1.0.2
+  resolution: "pseudomap@npm:1.0.2"
+  checksum: 1ad1802645e830d99f9c1db97efc6902d2316b660454633229f636dd59e751d00498dd325d3b18d49f2be990a2c9d28f8bfe6f9b544a8220a5faa2bfb4694bb7
   languageName: node
   linkType: hard
 
@@ -9822,6 +10088,16 @@ fsevents@^2.1.2:
   languageName: node
   linkType: hard
 
+resolve@^1.19.0:
+  version: 1.20.0
+  resolution: "resolve@npm:1.20.0"
+  dependencies:
+    is-core-module: ^2.2.0
+    path-parse: ^1.0.6
+  checksum: 0f5206d454b30e74d9b2d575b5f8aedf443c4d8b90b84cdf79474ade29bb459075220da3127b682896872a16022ed65cc4db09e0f23849654144d3d75c65cd1b
+  languageName: node
+  linkType: hard
+
 "resolve@patch:resolve@^1.10.0#builtin<compat/resolve>, resolve@patch:resolve@^1.13.1#builtin<compat/resolve>, resolve@patch:resolve@^1.17.0#builtin<compat/resolve>, resolve@patch:resolve@^1.18.1#builtin<compat/resolve>":
   version: 1.19.0
   resolution: "resolve@patch:resolve@npm%3A1.19.0#builtin<compat/resolve>::version=1.19.0&hash=3388aa"
@@ -9829,6 +10105,16 @@ fsevents@^2.1.2:
     is-core-module: ^2.1.0
     path-parse: ^1.0.6
   checksum: 188d5167e8578a9af8d194faf382b8f3526aad5145391c24ecdc6246c6fc82c10fc66d6352267f8e93c5977c503d61803169c91b9e2ee36dd2de759915c9b673
+  languageName: node
+  linkType: hard
+
+"resolve@patch:resolve@^1.19.0#builtin<compat/resolve>":
+  version: 1.20.0
+  resolution: "resolve@patch:resolve@npm%3A1.20.0#builtin<compat/resolve>::version=1.20.0&hash=3388aa"
+  dependencies:
+    is-core-module: ^2.2.0
+    path-parse: ^1.0.6
+  checksum: c4a515b76026806b5b26513fc7bdb80458c532bc91c02ef45ac928d1025585f93bec0b904be39c02131118a37ff7e3f9258f1526850b025d2ec0948bb5fd03d0
   languageName: node
   linkType: hard
 
@@ -9892,6 +10178,20 @@ fsevents@^2.1.2:
   bin:
     rimraf: bin.js
   checksum: f0de3e445581e64a8a077af476cc30708e659f5779ec2ca2a161556d0792aa318a685923798ae22055b4ecd02b9aff444ef619578f7af53cf8e0e248031e3dee
+  languageName: node
+  linkType: hard
+
+"rollup@npm:^2.40.0":
+  version: 2.40.0
+  resolution: "rollup@npm:2.40.0"
+  dependencies:
+    fsevents: ~2.3.1
+  dependenciesMeta:
+    fsevents:
+      optional: true
+  bin:
+    rollup: dist/bin/rollup
+  checksum: c512236087c32f661181d65489341a01fdd8a41ff3992479d049e999d9070387b20c8b37a5fbdda6af9507fce435e0b9dc510dbf058573575a157d3e61bd2bd4
   languageName: node
   linkType: hard
 
@@ -10112,6 +10412,13 @@ fsevents@^2.1.2:
     get-intrinsic: ^1.0.2
     object-inspect: ^1.9.0
   checksum: 84258ce3edb1ad35810ca17eccd52fd504b5d4da59447a6829cfd1ae8e3cff97b7df2a14f9a45b7aaa3b507ded95626cf20a500735d3b797e9ffb1eba3cfa9e7
+  languageName: node
+  linkType: hard
+
+"sigmund@npm:^1.0.1":
+  version: 1.0.1
+  resolution: "sigmund@npm:1.0.1"
+  checksum: f1a6ed3c5477c5d38e43d700a8c80f3042fbffbaf98ca7aeab223f6b922d6786bdf3c51d971a19f04e044f12d97310902d1fe6a5ed9bcc41556c2a8eff0f421e
   languageName: node
   linkType: hard
 
@@ -10669,6 +10976,13 @@ fsevents@^2.1.2:
   languageName: node
   linkType: hard
 
+"strip-json-comments@npm:^2.0.0":
+  version: 2.0.1
+  resolution: "strip-json-comments@npm:2.0.1"
+  checksum: e60d99aa2849c27a04dce0620334f45822197df6b83664dd3746971e9a0a766d989dbb8d87f9cb7350725d2b5df401a2343222ad06e36a1ba7d62c6633267fcb
+  languageName: node
+  linkType: hard
+
 "strip-json-comments@npm:^3.1.0, strip-json-comments@npm:^3.1.1":
   version: 3.1.1
   resolution: "strip-json-comments@npm:3.1.1"
@@ -11082,10 +11396,29 @@ fsevents@^2.1.2:
   languageName: node
   linkType: hard
 
+"tsconfig@npm:^7.0.0":
+  version: 7.0.0
+  resolution: "tsconfig@npm:7.0.0"
+  dependencies:
+    "@types/strip-bom": ^3.0.0
+    "@types/strip-json-comments": 0.0.30
+    strip-bom: ^3.0.0
+    strip-json-comments: ^2.0.0
+  checksum: c2d07c1030896f6341a819d403679cf0ff9ede086d0860f909f293c4a2e456001f173e2efb8073738b5d20ed7e4218254bc1163ef7fc3fefd97426b38cb89234
+  languageName: node
+  linkType: hard
+
 "tslib@npm:^1.8.1, tslib@npm:^1.9.0":
   version: 1.14.1
   resolution: "tslib@npm:1.14.1"
   checksum: f44fe7f216946b17d3e3074df3746372703cf24e9127b4c045511456e8e4bf25515fb0a1bb3937676cc305651c5d4fcb6377b0588a4c6a957e748c4c28905d17
+  languageName: node
+  linkType: hard
+
+"tslib@npm:^2.1.0":
+  version: 2.1.0
+  resolution: "tslib@npm:2.1.0"
+  checksum: d8f5bdd067611651c6b846c2388f4dc8ba1f5af124e66105f5263d1ad56da17f4b8c6566887ca2f205c5a9758451871ceca87d5d06087af2dca1699c5e33db69
   languageName: node
   linkType: hard
 
@@ -11721,6 +12054,13 @@ typescript@4.1.5:
   version: 5.0.5
   resolution: "y18n@npm:5.0.5"
   checksum: a7d41b0cccca1c98ebab270a944df48eb3b5352d3be0affb8afc8369823f6aa97a5fbead2c5b35e59a5650cb786b2b37627b45be5ff31f02a80dd3b881aceb17
+  languageName: node
+  linkType: hard
+
+"yallist@npm:^2.1.2":
+  version: 2.1.2
+  resolution: "yallist@npm:2.1.2"
+  checksum: f83e3d18eeba68a0276be2ab09260be3f2a300307e84b1565c620ef71f03f106c3df9bec4c3a91e5fa621a038f8826c19b3786804d3795dd4f999e5b6be66ea3
   languageName: node
   linkType: hard
 
