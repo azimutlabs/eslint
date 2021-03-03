@@ -1,9 +1,11 @@
-import { eslintEnvConfig, eslintEnvEditorconfig } from '@azimutlabs/eslint-env';
+import { eslintEnvEditorconfig } from '@azimutlabs/eslint-env';
 import type { Linter } from 'eslint';
 
 export const eslintConfigPrettier: Linter.BaseConfig = {
-  ...eslintEnvConfig,
-  extends: [require.resolve('eslint-config-prettier')],
+  extends: [
+    require.resolve('@azimutlabs/eslint-config-env'),
+    require.resolve('eslint-config-prettier'),
+  ],
   plugins: ['prettier'],
   rules: {
     'prettier/prettier': [

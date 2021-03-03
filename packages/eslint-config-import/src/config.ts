@@ -1,4 +1,4 @@
-import { eslintEnvConfig, EslintEnvExtensions } from '@azimutlabs/eslint-env';
+import { EslintEnvExtensions } from '@azimutlabs/eslint-env';
 import type { Linter } from 'eslint';
 
 import { eslintConfigImportBase } from './base';
@@ -7,7 +7,7 @@ import { eslintConfigImportSort } from './sort';
 import { eslintConfigImportTypescript } from './typescript';
 
 export const eslintConfigImport: Linter.BaseConfig = {
-  ...eslintEnvConfig,
+  extends: [require.resolve('@azimutlabs/eslint-config-env')],
   settings: {
     'import/resolver': {
       [require.resolve('eslint-import-resolver-node')]: {

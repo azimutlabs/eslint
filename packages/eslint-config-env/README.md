@@ -6,11 +6,11 @@
       src="https://raw.githubusercontent.com/azimutlabs/logos/master/little_logo.png"
       alt="azimutlabs logo"
     />
-    /eslint-env
+    /eslint-config-env
   </a>
 </h1>
 
-<p align="center">Base ESLint environment settings</p>
+<p align="center">Base ESLint environment configuration for all <a href="https://github.com/azimutlabs/eslint">@azimutlabs/eslint-config</a> packages</p>
 
 <p align="center">
   <a href="https://github.com/azimutlabs/eslint/actions?query=workflow%3A%22Lint+and+Test%22">
@@ -27,8 +27,8 @@
   </a>
    <a href="https://www.npmjs.com/package/@azimutlabs/rollup">
      <img
-       src="https://img.shields.io/npm/v/@azimutlabs/eslint-env?color=blue&logo=npm&label="
-       alt="@azimutlabs/eslint-env"
+       src="https://img.shields.io/npm/v/@azimutlabs/eslint-config-env?color=blue&logo=npm&label="
+       alt="@azimutlabs/eslint-config-env"
      />
    </a>
 </p>
@@ -40,7 +40,7 @@ $ yarn add -D eslint
 ```
 ...then install config packages:
 ```shell
-$ yarn add -D @azimutlabs/eslint-env
+$ yarn add -D @azimutlabs/eslint-config-env
 ```
 
 ## Contributing

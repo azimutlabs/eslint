@@ -1,11 +1,10 @@
-import { eslintEnvConfig } from '@azimutlabs/eslint-env';
 import type { Linter } from 'eslint';
 
 import { eslintConfigFunctionalBase } from './base';
 import { eslintConfigFunctionalTypescript } from './typescript';
 
 export const eslintConfigFunctional: Linter.BaseConfig = {
-  ...eslintEnvConfig,
+  extends: [require.resolve('@azimutlabs/eslint-config-env')],
   plugins: ['functional'],
   rules: eslintConfigFunctionalBase.rules,
   overrides: [
