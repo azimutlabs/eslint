@@ -8,6 +8,7 @@ export const eslintConfigTypescriptBase: Linter.BaseConfig = {
     project: ['**/tsconfig.json', '**/tsconfig.*.json'],
   },
   rules: {
+    'no-undef': 'off',
     // Bans // tslint:<rule-flag> comments from being used.
     '@typescript-eslint/ban-tslint-comment': 'off',
     // Forbids the use of classes as namespaces.
@@ -250,6 +251,7 @@ export const eslintConfigTypescriptBase: Linter.BaseConfig = {
     'space-infix-ops': 'off',
     '@typescript-eslint/space-infix-ops': 'warn',
     // Enforces naming conventions for everything across a codebase.
+    'camelcase': 'off',
     '@typescript-eslint/naming-convention': [
       'warn',
       {

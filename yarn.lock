@@ -160,7 +160,7 @@ __metadata:
 
 "@azimutlabs/eslint-config-prettier@file:../eslint-config-typescript::locator=tests-a0e1f4%40workspace%3Apackages%2Ftests":
   version: 0.2.9
-  resolution: "@azimutlabs/eslint-config-prettier@file:../eslint-config-typescript#../eslint-config-typescript::hash=ee3d99&locator=tests-a0e1f4%40workspace%3Apackages%2Ftests"
+  resolution: "@azimutlabs/eslint-config-prettier@file:../eslint-config-typescript#../eslint-config-typescript::hash=62efe7&locator=tests-a0e1f4%40workspace%3Apackages%2Ftests"
   dependencies:
     "@azimutlabs/eslint-env": ^0.1.4
     tslib: ^2.1.0
@@ -169,7 +169,7 @@ __metadata:
     "@typescript-eslint/parser": ^4
     eslint: ^7
     typescript: ^3.8 || ^4
-  checksum: 40cbcec5d85ec5046cdbf6fce98a7efbf047948a853522db09ddcc5613bf55f88f86ceaf41c4c22f1f9ca4eff1c80096b1d2a5b2621909d50b96138f8ce85214
+  checksum: 2c10bc313b70952ef811b674e18513286aa1f6c5d29deb608482fbd36d935f72274d4e65e1ad1cabd145f5ff7e5f47c37ff1b345146dc1cd1b466d0bb5eff3d5
   languageName: node
   linkType: hard
 
@@ -230,7 +230,7 @@ __metadata:
 
 "@azimutlabs/eslint-config-typescript@file:../eslint-config-typescript::locator=tests-a0e1f4%40workspace%3Apackages%2Ftests":
   version: 0.2.9
-  resolution: "@azimutlabs/eslint-config-typescript@file:../eslint-config-typescript#../eslint-config-typescript::hash=4739ef&locator=tests-a0e1f4%40workspace%3Apackages%2Ftests"
+  resolution: "@azimutlabs/eslint-config-typescript@file:../eslint-config-typescript#../eslint-config-typescript::hash=8bf5e3&locator=tests-a0e1f4%40workspace%3Apackages%2Ftests"
   dependencies:
     "@azimutlabs/eslint-env": ^0.1.4
     tslib: ^2.1.0
@@ -239,7 +239,7 @@ __metadata:
     "@typescript-eslint/parser": ^4
     eslint: ^7
     typescript: ^3.8 || ^4
-  checksum: 7ff38d1ecbd39e214e1eb9472b5427566bb57927d25ddc5dda4665f26848c04427451984dde0088f2263c471670da69e77d128524add48e9dedc034b456acd87
+  checksum: d7f5caed79fe747a5e660746ac76e594d5dd58ad14937c06b6b49415856293614e92d1868dd904be056490640307b43d5fd83108815eb74a1f3d360a70b0023d
   languageName: node
   linkType: hard
 
