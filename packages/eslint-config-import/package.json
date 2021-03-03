@@ -29,6 +29,7 @@
     "lib"
   ],
   "dependencies": {
+    "@azimutlabs/eslint-config-env": "^0.0.0",
     "@azimutlabs/eslint-env": "^0.1.4",
     "eslint-import-resolver-node": "^0.3.4",
     "eslint-import-resolver-typescript": "^2.3.0",

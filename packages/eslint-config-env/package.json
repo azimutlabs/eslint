@@ -1,17 +1,14 @@
 {
-  "name": "@azimutlabs/eslint-config-typescript",
-  "version": "0.2.9",
-  "description": "ESLint configuration for TypeScript",
+  "name": "@azimutlabs/eslint-config-env",
+  "version": "0.0.0",
+  "description": "Base ESLint environment configuration for all @azimutlabs/eslint-config packages",
   "keywords": [
     "config",
     "eslint",
     "eslint-config",
     "alabs",
     "azimutlabs",
-    "styleguide",
-    "typescript",
-    "@typescript-eslint/eslint-plugin",
-    "@typescript-eslint/parser"
+    "styleguide"
   ],
   "homepage": "https://github.com/azimutlabs/eslint#readme",
   "bugs": {
@@ -21,20 +18,16 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/azimutlabs/eslint.git",
-    "directory": "packages/eslint-config-typescript"
+    "directory": "packages/eslint-config-env"
   },
   "license": "MIT",
   "author": "Azimut Labs <opensource@alabs.team>",
   "main": "lib/index.js",
   "typings": "lib/index.d.ts",
   "files": [
-    "lib"
+    "lib",
+    ".editorconfig"
   ],
-  "dependencies": {
-    "@azimutlabs/eslint-config-env": "^0.0.0",
-    "@azimutlabs/eslint-env": "^0.1.4",
-    "tslib": "^2.1.0"
-  },
   "devDependencies": {
     "@azimutlabs/rollup-config": "^0.2.0",
     "@azimutlabs/rollup-config-typescript": "^0.2.1",
@@ -45,10 +38,7 @@
     "typescript": "4.1.5"
   },
   "peerDependencies": {
-    "@typescript-eslint/eslint-plugin": "^4",
-    "@typescript-eslint/parser": "^4",
-    "eslint": "^7",
-    "typescript": "^3.8 || ^4"
+    "eslint": "^7"
   },
   "publishConfig": {
     "access": "public"

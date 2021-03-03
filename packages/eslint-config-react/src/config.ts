@@ -1,11 +1,11 @@
-import { eslintEnvConfig } from '@azimutlabs/eslint-env';
 import type { Linter } from 'eslint';
 
 import { eslintConfigReactBase } from './base';
 import { eslintConfigReactHooks } from './hooks';
+import { eslintConfigReactJsx } from './jsx';
 
 export const eslintConfigReact: Linter.BaseConfig = {
-  ...eslintEnvConfig,
+  extends: [require.resolve('@azimutlabs/eslint-config-env')],
   settings: {
     react: {
       version: 'detect',
@@ -16,4 +16,10 @@ export const eslintConfigReact: Linter.BaseConfig = {
     ...eslintConfigReactBase.rules,
     ...eslintConfigReactHooks.rules,
   },
+  overrides: [
+    {
+      files: ['**/**.[jt]sx'],
+      ...eslintConfigReactJsx,
+    },
+  ],
 };

@@ -1,8 +1,8 @@
-import { eslintEnvConfig, eslintEnvEditorconfig } from '@azimutlabs/eslint-env';
+import { eslintEnvEditorconfig } from '@azimutlabs/eslint-env';
 import type { Linter } from 'eslint';
 
 export const eslintConfigCore: Linter.BaseConfig = {
-  ...eslintEnvConfig,
+  extends: [require.resolve('@azimutlabs/eslint-config-env')],
   rules: {
     // Enforces getter/setter pairs in objects and classes.
     'accessor-pairs': 'off',

@@ -1,11 +1,10 @@
-import { eslintEnvConfig } from '@azimutlabs/eslint-env';
 import type { Linter } from 'eslint';
 
 import { eslintConfigTypescriptBase } from './base';
 import { eslintConfigTypescriptDeclarations } from './declarations';
 
 export const eslintConfigTypescript: Linter.BaseConfig = {
-  ...eslintEnvConfig,
+  extends: [require.resolve('@azimutlabs/eslint-config-env')],
   // Enable `@typescript-eslint` only for `*.ts?(x)` files.
   overrides: [
     {

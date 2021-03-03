@@ -3,10 +3,10 @@
     "lib": [
       "esnext"
     ],
-    "target": "esnext",
+    "target": "es5",
     "allowJs": true,
     "skipLibCheck": true,
-    "module": "esnext",
+    "module": "commonjs",
     "checkJs": false,
     "resolveJsonModule": true,
     "jsx": "preserve",
