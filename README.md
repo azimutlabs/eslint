@@ -70,6 +70,7 @@ could find them useful as well.
 | [![azimutlabs eslint config react npm package version][config-react]](packages/eslint-config-react) | ESLint configuration for React/ReactHooks |
 | [![azimutlabs eslint config jsx a11y npm package version][config-jsx-a11y]](packages/eslint-config-jsx-a11y) | ESLint configuration for JSX Accessibility |
 | [![azimutlabs eslint config functional npm package version][config-functional]](packages/eslint-config-functional) | ESLint configuration for Functional Programming |
+| [![azimutlabs eslint config jest npm package version][config-jest]](packages/eslint-config-jest) | ESLint configuration for Jest testing library |
 | | |
 
 [config]: https://img.shields.io/npm/v/@azimutlabs/eslint-config.svg?label=@azimutlabs/eslint-config&color
@@ -80,6 +81,7 @@ could find them useful as well.
 [config-jsx-a11y]: https://img.shields.io/npm/v/@azimutlabs/eslint-config-jsx-a11y.svg?label=@azimutlabs/eslint-config-jsx-a11y&color
 [config-import]: https://img.shields.io/npm/v/@azimutlabs/eslint-config-import.svg?label=@azimutlabs/eslint-config-import&color
 [config-functional]: https://img.shields.io/npm/v/@azimutlabs/eslint-config-functional.svg?label=@azimutlabs/eslint-config-functional&color
+[config-jest]: https://img.shields.io/npm/v/@azimutlabs/eslint-config-jest.svg?label=@azimutlabs/eslint-config-jest&color
 
 ## Contributing
 Any PR is welcomed by our **@js-opensource** team.
