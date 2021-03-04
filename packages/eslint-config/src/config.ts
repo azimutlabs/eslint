@@ -8,6 +8,7 @@ export const eslintConfig: Linter.BaseConfig = {
     require.resolve('@azimutlabs/eslint-config-typescript'),
     require.resolve('@azimutlabs/eslint-config-import'),
     require.resolve('@azimutlabs/eslint-config-functional'),
+    require.resolve('@azimutlabs/eslint-config-jest'),
     // Prettier has a lot of code-style overrides, so it must be last to extend.
     require.resolve('@azimutlabs/eslint-config-prettier'),
   ],
