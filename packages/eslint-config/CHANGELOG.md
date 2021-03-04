@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.9.0](https://github.com/azimutlabs/eslint/compare/@azimutlabs/eslint-config@0.8.5...@azimutlabs/eslint-config@0.9.0) (2021-03-04)
+
+
+### Features
+
+* **eslint-config:** add config-jest ([6e4390a](https://github.com/azimutlabs/eslint/commit/6e4390ae0623f5756d4808f35d12e8cd371cc07a))
+
+
+
+
+
 ## [0.8.5](https://github.com/azimutlabs/eslint/compare/@azimutlabs/eslint-config@0.8.4...@azimutlabs/eslint-config@0.8.5) (2021-03-04)
 
 **Note:** Version bump only for package @azimutlabs/eslint-config
