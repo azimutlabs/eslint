@@ -40,7 +40,7 @@ const requestListener: http.RequestListener = (_, res) => {
 
 http.createServer(requestListener).listen(port);
 `;
-    expect(getMessagesFromLintResults(await eslintBase.lintText(file))).toEqual([]);
+    expect(getMessagesFromLintResults(await eslintBase.lintText(file))).toStrictEqual([]);
   });
 
   it('should lint a client-side react component without jsx', async () => {
@@ -80,13 +80,13 @@ Button.defaultProps = {
   disabled: true,
 };
 `;
-    expect(getMessagesFromLintResults(await eslintBase.lintText(file))).toEqual([]);
+    expect(getMessagesFromLintResults(await eslintBase.lintText(file))).toStrictEqual([]);
   });
 
   it('should lint a next-env.d.ts', async () => {
     const file = `/// <reference types="next" />
 /// <reference types="next/types/global" />
 `;
-    expect(getMessagesFromLintResults(await eslintDeclarations.lintText(file))).toEqual([]);
+    expect(getMessagesFromLintResults(await eslintDeclarations.lintText(file))).toStrictEqual([]);
   });
 });

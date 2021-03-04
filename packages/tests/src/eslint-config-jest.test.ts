@@ -33,6 +33,6 @@ describe('successful cases', () => {
         })
       })
     `;
-    expect(getMessagesFromLintResults(await eslintBase.lintText(file))).toEqual([]);
+    expect(getMessagesFromLintResults(await eslintBase.lintText(file))).toStrictEqual([]);
   });
 });

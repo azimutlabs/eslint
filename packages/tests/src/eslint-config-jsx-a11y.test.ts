@@ -33,6 +33,6 @@ export const CardInteractive = forwardRef(({ children, color: _color, ...rest },
 `;
     expect(
       getMessagesFromLintResults(await eslint.lintText(file, { filePath: 'component.jsx' }))
-    ).toEqual([]);
+    ).toStrictEqual([]);
   });
 });

@@ -29,6 +29,6 @@ Button.defaultProps = {
 `;
     expect(
       getMessagesFromLintResults(await eslintBase.lintText(file, { filePath: 'component.jsx' }))
-    ).toEqual([]);
+    ).toStrictEqual([]);
   });
 });

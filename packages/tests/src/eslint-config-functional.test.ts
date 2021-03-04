@@ -23,7 +23,7 @@ module.exports = {
   requestListener,
 };
 `;
-    expect(getMessagesFromLintResults(await eslint.lintText(file))).toEqual([]);
+    expect(getMessagesFromLintResults(await eslint.lintText(file))).toStrictEqual([]);
   });
 
   it('should lint a client-side react component without jsx', async () => {
@@ -39,6 +39,6 @@ Button.defaultProps = {
   disabled: true,
 };
 `;
-    expect(getMessagesFromLintResults(await eslint.lintText(file))).toEqual([]);
+    expect(getMessagesFromLintResults(await eslint.lintText(file))).toStrictEqual([]);
   });
 });
