@@ -11,8 +11,6 @@ export const eslintConfigJest: Linter.BaseConfig = {
        */
       files: ['**/__tests__/**/**.[jt]s?(x)', '**/?(*.)+(spec|test).[jt]s?(x)'],
       rules: {
-        // Have control over test and it usages.
-        'jest/consistent-test-it': 'off',
         // Enforce lowercase test names.
         'jest/lowercase-name': 'off',
         // Disallow setup and teardown hooks.
@@ -23,22 +21,14 @@ export const eslintConfigJest: Linter.BaseConfig = {
         'jest/no-restricted-matchers': 'off',
         // Suggest using expect.assertions() OR expect.hasAssertions().
         'jest/prefer-expect-assertions': 'off',
-        // Suggest using test.todo.
-        'jest/prefer-todo': 'off',
         // Require a message for toThrow().
         'jest/require-to-throw-message': 'off',
-        // Require test cases and hooks to be inside a describe block.
-        'jest/require-top-level-describe': 'off',
         // Enforce having return statement when testing with promises.
         'jest/valid-expect-in-promise': 'off',
-        // Enforce valid titles.
-        'jest/valid-title': 'off',
         // Ensure that there is at least one expect call made in a test.
         'jest/expect-expect': 'warn',
         // Disallow disabled tests.
         'jest/no-disabled-tests': 'warn',
-        // Disallow identical titles.
-        'jest/no-identical-title': 'error',
         // Disallow commented out tests.
         'jest/no-commented-out-tests': 'warn',
         // Disallow using expect outside of it or test blocks.
@@ -91,6 +81,16 @@ export const eslintConfigJest: Linter.BaseConfig = {
         'jest/valid-describe': 'warn',
         // Enforce valid expect() usage.
         'jest/valid-expect': 'warn',
+        // Enforce valid titles.
+        'jest/valid-title': 'warn',
+        // Suggest using test.todo.
+        'jest/prefer-todo': 'warn',
+        // Require test cases and hooks to be inside a describe block.
+        'jest/require-top-level-describe': 'warn',
+        // Have control over test and it usages.
+        'jest/consistent-test-it': 'warn',
+        // Disallow identical titles.
+        'jest/no-identical-title': 'error',
       },
     },
   ],
