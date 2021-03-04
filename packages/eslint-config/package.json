@@ -1,6 +1,6 @@
 {
   "name": "@azimutlabs/eslint-config",
-  "version": "0.8.4",
+  "version": "0.8.5",
   "description": "Collection of all @azimutlabs/eslint-config packages",
   "keywords": [
     "config",
@@ -28,13 +28,13 @@
     "lib"
   ],
   "dependencies": {
-    "@azimutlabs/eslint-config-core": "^0.1.7",
-    "@azimutlabs/eslint-config-functional": "^0.1.2",
-    "@azimutlabs/eslint-config-import": "^0.2.2",
-    "@azimutlabs/eslint-config-jsx-a11y": "^0.1.2",
-    "@azimutlabs/eslint-config-prettier": "^0.1.4",
-    "@azimutlabs/eslint-config-react": "^0.1.5",
-    "@azimutlabs/eslint-config-typescript": "^0.2.9"
+    "@azimutlabs/eslint-config-core": "^0.1.8",
+    "@azimutlabs/eslint-config-functional": "^0.1.3",
+    "@azimutlabs/eslint-config-import": "^0.2.3",
+    "@azimutlabs/eslint-config-jsx-a11y": "^0.1.3",
+    "@azimutlabs/eslint-config-prettier": "^0.1.5",
+    "@azimutlabs/eslint-config-react": "^0.1.6",
+    "@azimutlabs/eslint-config-typescript": "^0.2.10"
   },
   "devDependencies": {
     "@azimutlabs/rollup-config": "^0.2.0",

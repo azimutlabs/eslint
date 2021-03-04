@@ -1,6 +1,6 @@
 {
   "name": "@azimutlabs/eslint-config-import",
-  "version": "0.2.2",
+  "version": "0.2.3",
   "description": "ESLint configuration for ES6 Imports and Exports",
   "keywords": [
     "config",
@@ -29,8 +29,8 @@
     "lib"
   ],
   "dependencies": {
-    "@azimutlabs/eslint-config-env": "^0.0.0",
-    "@azimutlabs/eslint-env": "^0.1.4",
+    "@azimutlabs/eslint-config-env": "^0.0.1",
+    "@azimutlabs/eslint-env": "^0.1.5",
     "eslint-import-resolver-node": "^0.3.4",
     "eslint-import-resolver-typescript": "^2.3.0",
     "tslib": "^2.1.0"

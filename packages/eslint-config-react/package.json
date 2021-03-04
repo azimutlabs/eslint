@@ -1,6 +1,6 @@
 {
   "name": "@azimutlabs/eslint-config-react",
-  "version": "0.1.5",
+  "version": "0.1.6",
   "description": "ESLint configuration for React/ReactHooks",
   "keywords": [
     "config",
@@ -30,8 +30,8 @@
     "lib"
   ],
   "dependencies": {
-    "@azimutlabs/eslint-config-env": "^0.0.0",
-    "@azimutlabs/eslint-env": "^0.1.4",
+    "@azimutlabs/eslint-config-env": "^0.0.1",
+    "@azimutlabs/eslint-env": "^0.1.5",
     "tslib": "^2.1.0"
   },
   "devDependencies": {

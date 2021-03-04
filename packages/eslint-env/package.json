@@ -1,6 +1,6 @@
 {
   "name": "@azimutlabs/eslint-env",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "description": "Base ESLint environment settings",
   "keywords": [
     "config",
