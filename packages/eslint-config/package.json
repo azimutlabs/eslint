@@ -35,17 +35,18 @@
     "@azimutlabs/eslint-config-jsx-a11y": "^0.1.3",
     "@azimutlabs/eslint-config-prettier": "^0.1.5",
     "@azimutlabs/eslint-config-react": "^0.1.6",
-    "@azimutlabs/eslint-config-typescript": "^0.2.10"
+    "@azimutlabs/eslint-config-typescript": "^0.2.10",
+    "tslib": "^2.3.0"
   },
   "devDependencies": {
-    "@azimutlabs/rollup-config": "^0.2.0",
-    "@azimutlabs/rollup-config-typescript": "^0.2.1",
-    "@types/eslint": "^7.2.6",
+    "@azimutlabs/rollup-config": "^1.0.1",
+    "@azimutlabs/rollup-config-typescript": "^1.0.1",
+    "@types/eslint": "^7.28.0",
     "@types/node": "^14.14.31",
-    "eslint": "^7.21.0",
-    "rollup": "^2.40.0",
-    "tslib": "^2.1.0",
-    "typescript": "4.1.5"
+    "eslint": "^7.32.0",
+    "rollup": "^2.56.2",
+    "tslib": "^2.3.0",
+    "typescript": "4.3.5"
   },
   "peerDependencies": {
     "@typescript-eslint/eslint-plugin": "^4",

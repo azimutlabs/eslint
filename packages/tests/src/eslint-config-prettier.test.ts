@@ -1,9 +1,9 @@
-import { eslintConfigTypescript } from '@azimutlabs/eslint-config-prettier/lib/config';
+import { eslintConfigPrettier } from '@azimutlabs/eslint-config-prettier/lib/config';
 
 import { buildEslint } from './services/builders';
 import { getMessagesFromLintResults } from './services/getMessagesFromLintResults';
 
-const eslint = buildEslint(eslintConfigTypescript);
+const eslint = buildEslint(eslintConfigPrettier);
 
 describe('successful cases', () => {
   it('should lint a node.js http server start', async () => {

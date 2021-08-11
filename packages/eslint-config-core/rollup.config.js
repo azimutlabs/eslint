@@ -1,5 +1,3 @@
-const { typescript } = require('@azimutlabs/rollup-config-typescript');
+import { typescript } from '@azimutlabs/rollup-config-typescript';
 
-module.exports = typescript('cjs', { output: { exports: 'auto', entryFileNames: '[name].js' } })(
-  __dirname
-);
+export default typescript('cjs', { output: { entryFileNames: '[name].js' } });

@@ -30,16 +30,16 @@
   "dependencies": {
     "@azimutlabs/eslint-config-env": "^0.0.1",
     "@azimutlabs/eslint-env": "^0.1.5",
-    "tslib": "^2.1.0"
+    "tslib": "^2.3.0"
   },
   "devDependencies": {
-    "@azimutlabs/rollup-config": "^0.2.0",
-    "@azimutlabs/rollup-config-typescript": "^0.2.1",
-    "@types/eslint": "^7.2.6",
+    "@azimutlabs/rollup-config": "^1.0.1",
+    "@azimutlabs/rollup-config-typescript": "^1.0.1",
+    "@types/eslint": "^7.28.0",
     "@types/node": "^14.14.31",
-    "eslint": "^7.21.0",
-    "rollup": "^2.40.0",
-    "typescript": "4.1.5"
+    "eslint": "^7.32.0",
+    "rollup": "^2.56.2",
+    "typescript": "4.3.5"
   },
   "peerDependencies": {
     "eslint": "^7"
