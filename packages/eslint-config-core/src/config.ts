@@ -302,7 +302,12 @@ export const eslintConfigCore: Linter.BaseConfig = {
     // Enforce or disallow newlines between operands of ternary expressions.
     'multiline-ternary': ['warn', 'always-multiline'],
     // Require constructor names to begin with a capital letter.
-    'new-cap': 'warn',
+    'new-cap': [
+      'warn',
+      {
+        capIsNew: false,
+      },
+    ],
     // Require parentheses when invoking a constructor with no arguments.
     'new-parens': 'warn',
     // Require a newline after each call in a method chain.
