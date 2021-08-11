@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.0.0](https://github.com/azimutlabs/eslint/compare/@azimutlabs/eslint-config-core@0.1.8...@azimutlabs/eslint-config-core@1.0.0) (2021-08-11)
+
+
+### Bug Fixes
+
+* **eslint-config-core:** set capIsNew option to false for new-cap to allow decorators ([#11](https://github.com/azimutlabs/eslint/issues/11)) ([e07ca90](https://github.com/azimutlabs/eslint/commit/e07ca90509c43fbe835a2a41f4f444329daab5aa))
+
+
+
+
+
 ## [0.1.8](https://github.com/azimutlabs/eslint/compare/@azimutlabs/eslint-config-core@0.1.7...@azimutlabs/eslint-config-core@0.1.8) (2021-03-04)
 
 
