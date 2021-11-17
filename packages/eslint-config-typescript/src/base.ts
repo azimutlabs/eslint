@@ -1,13 +1,14 @@
 import { eslintEnvEditorconfig } from '@azimutlabs/eslint-env';
 import type { Linter } from 'eslint';
 
+import { disableTypeCheckRules } from './disableTypeCheckRules';
+
 export const eslintConfigTypescriptBase: Linter.BaseConfig = {
   parser: '@typescript-eslint/parser',
   plugins: ['@typescript-eslint'],
-  parserOptions: {
-    project: ['**/tsconfig.json', '**/tsconfig.*.json'],
-  },
   rules: {
+    ...disableTypeCheckRules.rules,
+    // TypeScript already does that.
     'no-undef': 'off',
     // Bans // tslint:<rule-flag> comments from being used.
     '@typescript-eslint/ban-tslint-comment': 'off',
@@ -15,26 +16,10 @@ export const eslintConfigTypescriptBase: Linter.BaseConfig = {
     '@typescript-eslint/no-extraneous-class': 'off',
     // Disallow the use of parameter properties in class constructors.
     '@typescript-eslint/no-parameter-properties': 'off',
-    // Prefers a non-null assertion over explicit type cast when possible.
-    '@typescript-eslint/non-nullable-type-assertion-style': 'off',
-    // Restricts the types allowed in boolean expressions.
-    '@typescript-eslint/strict-boolean-expressions': 'off',
     // Requires type annotations to exist.
     '@typescript-eslint/typedef': 'off',
-    // Requires that function parameters are typed as readonly to prevent accidental mutation of inputs.
-    '@typescript-eslint/prefer-readonly-parameter-types': 'off',
     // Disallow the use of type aliases.
     '@typescript-eslint/no-type-alias': 'off',
-    // Enforce template literal expressions to be of string type.
-    '@typescript-eslint/restrict-template-expressions': 'off',
-    // Disallows assigning any to variables and properties.
-    '@typescript-eslint/no-unsafe-assignment': 'off',
-    // Disallows calling an any type value.
-    '@typescript-eslint/no-unsafe-call': 'off',
-    // Disallows member access on any typed variables.
-    '@typescript-eslint/no-unsafe-member-access': 'off',
-    // Disallows returning any from a function.
-    '@typescript-eslint/no-unsafe-return': 'off',
     // Require that member overloads be consecutive.
     '@typescript-eslint/adjacent-overload-signatures': 'warn',
     // Requires using either T[] or Array<T> for arrays.
@@ -76,12 +61,8 @@ export const eslintConfigTypescriptBase: Linter.BaseConfig = {
     '@typescript-eslint/member-delimiter-style': 'warn',
     // Require a consistent member declaration order.
     '@typescript-eslint/member-ordering': 'warn',
-    // Requires that .toString() is only called on objects which provide useful information when stringified.
-    '@typescript-eslint/no-base-to-string': 'warn',
     // Disallow non-null assertion in locations that may be confusing.
     '@typescript-eslint/no-confusing-non-null-assertion': 'warn',
-    // Requires expressions of type void to appear in statement position.
-    '@typescript-eslint/no-confusing-void-expression': 'warn',
     // Disallow the declaration of empty interfaces.
     '@typescript-eslint/no-empty-interface': [
       'warn',
@@ -93,17 +74,6 @@ export const eslintConfigTypescriptBase: Linter.BaseConfig = {
     '@typescript-eslint/no-explicit-any': 'warn',
     // Disallow extra non-null assertion.
     '@typescript-eslint/no-extra-non-null-assertion': 'warn',
-    // Requires Promise-like values to be handled appropriately.
-    '@typescript-eslint/no-floating-promises': [
-      'warn',
-      {
-        ignoreVoid: true,
-        // eslint-disable-next-line @typescript-eslint/naming-convention
-        ignoreIIFE: true,
-      },
-    ],
-    // Enforce that RegExp#exec is used instead of String#match if no global flag is provided.
-    '@typescript-eslint/prefer-regexp-exec': 'warn',
     // Disallow usage of the implicit any type in catch clauses.
     '@typescript-eslint/no-implicit-any-catch': 'warn',
     // Disallows explicit type declarations for variables or parameters initialized to a number, string, or boolean.
@@ -112,46 +82,20 @@ export const eslintConfigTypescriptBase: Linter.BaseConfig = {
     '@typescript-eslint/no-invalid-void-type': 'warn',
     // Disallows non-null assertions using the ! postfix operator.
     '@typescript-eslint/no-non-null-assertion': 'warn',
-    // Flags unnecessary equality comparisons against boolean literals.
-    '@typescript-eslint/no-unnecessary-boolean-literal-compare': 'warn',
-    // Prevents conditionals where the type is always truthy or always falsy.
-    '@typescript-eslint/no-unnecessary-condition': 'warn',
-    // Warns when a namespace qualifier is unnecessary.
-    '@typescript-eslint/no-unnecessary-qualifier': 'warn',
-    // Enforces that type arguments will not be used if not required.
-    '@typescript-eslint/no-unnecessary-type-arguments': 'warn',
-    // Warns if a type assertion does not change the type of an expression.
-    '@typescript-eslint/no-unnecessary-type-assertion': 'warn',
     // Disallows unnecessary constraints on generic types.
     '@typescript-eslint/no-unnecessary-type-constraint': 'warn',
     // Prefer usage of as const over literal type.
     '@typescript-eslint/prefer-as-const': 'warn',
     // Prefer initializing each enums member value.
     '@typescript-eslint/prefer-enum-initializers': 'warn',
-    // Enforce includes method over indexOf method.
-    '@typescript-eslint/prefer-includes': 'warn',
     // Require that all enum members be literal values to prevent unintended enum member name shadow issues.
     '@typescript-eslint/prefer-literal-enum-member': 'warn',
-    // Prefer using type parameter when calling Array#reduce instead of casting.
-    '@typescript-eslint/prefer-reduce-type-parameter': 'warn',
-    // Enforce the use of String#startsWith and String#endsWith instead of other equivalent methods of checking substrings.
-    '@typescript-eslint/prefer-string-starts-ends-with': 'warn',
     // Recommends using @ts-expect-error over @ts-ignore.
     '@typescript-eslint/prefer-ts-expect-error': 'warn',
-    // Requires any function or method that returns a Promise to be marked async.
-    '@typescript-eslint/promise-function-async': 'warn',
-    // Requires Array#sort calls to always provide a compareFunction.
-    '@typescript-eslint/require-array-sort-compare': 'warn',
-    // When adding two variables, operands must both be of type number or of type string.
-    '@typescript-eslint/restrict-plus-operands': 'warn',
     // Enforces that members of a type union/intersection are sorted alphabetically.
     '@typescript-eslint/sort-type-union-intersection-members': 'warn',
-    // Exhaustiveness checking in switch with union type.
-    '@typescript-eslint/switch-exhaustiveness-check': 'warn',
     // Require consistent spacing around type annotations.
     '@typescript-eslint/type-annotation-spacing': 'warn',
-    // Enforces unbound methods are called with their expected scope.
-    '@typescript-eslint/unbound-method': 'warn',
     // Warns for any two overloads that could be unified into one by using a union or an optional/rest parameter.
     '@typescript-eslint/unified-signatures': 'warn',
     // Enforce consistent brace style for blocks.
@@ -166,9 +110,6 @@ export const eslintConfigTypescriptBase: Linter.BaseConfig = {
     // Enforce default parameters to be last.
     'default-param-last': 'off',
     '@typescript-eslint/default-param-last': 'warn',
-    // Enforce dot notation whenever possible.
-    'dot-notation': 'off',
-    '@typescript-eslint/dot-notation': 'warn',
     // Require or disallow spacing between function identifiers and their invocations.
     'func-call-spacing': 'off',
     '@typescript-eslint/func-call-spacing': 'warn',
@@ -228,12 +169,6 @@ export const eslintConfigTypescriptBase: Linter.BaseConfig = {
     // Enforce the consistent use of either backticks, double, or single quotes.
     'quotes': 'off',
     '@typescript-eslint/quotes': ['warn', 'single'],
-    // Disallow async functions which have no await expression.
-    'require-await': 'off',
-    '@typescript-eslint/require-await': 'warn',
-    // Enforces consistent returning of awaited values.
-    'no-return-await': 'off',
-    '@typescript-eslint/return-await': 'warn',
     // Require or disallow semicolons instead of ASI.
     'semi': 'off',
     '@typescript-eslint/semi': 'warn',
@@ -250,77 +185,8 @@ export const eslintConfigTypescriptBase: Linter.BaseConfig = {
     // This rule is aimed at ensuring there are spaces around infix operators.
     'space-infix-ops': 'off',
     '@typescript-eslint/space-infix-ops': 'warn',
-    // Enforces naming conventions for everything across a codebase.
-    'camelcase': 'off',
-    '@typescript-eslint/naming-convention': [
-      'warn',
-      {
-        selector: 'default',
-        format: ['strictCamelCase'],
-      },
-      {
-        selector: 'parameter',
-        modifiers: ['unused'],
-        format: ['strictCamelCase'],
-        leadingUnderscore: 'require',
-      },
-      {
-        selector: 'typeLike',
-        format: ['StrictPascalCase'],
-      },
-      {
-        selector: 'enumMember',
-        format: ['StrictPascalCase'],
-      },
-      {
-        selector: 'variable',
-        types: ['boolean'],
-        format: ['PascalCase'],
-        prefix: ['is', 'should', 'has', 'can', 'did', 'will'],
-      },
-      /**
-       * For React components.
-       * @example
-       * export const Button: FC<ButtonProps> = () => {...}
-       * ...or
-       * export function Button(props: RaisedButtonProps): ReactNode;
-       * export function Button(props: FlatButtonProps): ReactNode;
-       * export function Button(props: RaisedButtonProps | FlatButtonProps): ReactNode {
-       *   ...
-       * }
-       */
-      {
-        selector: 'function',
-        format: ['strictCamelCase', 'StrictPascalCase'],
-      },
-      {
-        selector: 'variable',
-        modifiers: ['const'],
-        format: ['strictCamelCase', 'StrictPascalCase'],
-      },
-      /**
-       * Disable formatting for fields that require quotes.
-       * @example 'Accept-Language'
-       */
-      {
-        selector: [
-          'classProperty',
-          'objectLiteralProperty',
-          'typeProperty',
-          'classMethod',
-          'objectLiteralMethod',
-          'typeMethod',
-          'accessor',
-          'enumMember',
-        ],
-        format: null,
-        modifiers: ['requiresQuotes'],
-      },
-    ],
     // Use function types instead of interfaces with call signatures.
     '@typescript-eslint/prefer-function-type': 'error',
-    // Disallows awaiting a value that is not a Thenable.
-    '@typescript-eslint/await-thenable': 'error',
     // Bans specific types from being used.
     '@typescript-eslint/ban-types': [
       'error',
@@ -353,12 +219,8 @@ export const eslintConfigTypescriptBase: Linter.BaseConfig = {
     '@typescript-eslint/method-signature-style': 'error',
     // Disallow the delete operator with computed key expressions.
     '@typescript-eslint/no-dynamic-delete': 'error',
-    // Disallow iterating over an array with a for-in loop.
-    '@typescript-eslint/no-for-in-array': 'error',
     // Enforce valid definition of new and constructor.
     '@typescript-eslint/no-misused-new': 'error',
-    // Avoid using promises in places not designed to handle them.
-    '@typescript-eslint/no-misused-promises': 'error',
     // Disallow the use of custom TypeScript modules and namespaces.
     '@typescript-eslint/no-namespace': 'error',
     // Disallows using a non-null assertion after an optional chain expression.
@@ -373,12 +235,8 @@ export const eslintConfigTypescriptBase: Linter.BaseConfig = {
     '@typescript-eslint/prefer-for-of': 'error',
     // Require the use of the namespace keyword instead of the module keyword to declare custom TypeScript modules.
     '@typescript-eslint/prefer-namespace-keyword': 'error',
-    // Enforce the usage of the nullish coalescing operator instead of logical chaining.
-    '@typescript-eslint/prefer-nullish-coalescing': 'error',
     // Prefer using concise optional chain expressions instead of chained logical ands.
     '@typescript-eslint/prefer-optional-chain': 'error',
-    // Requires that private members are marked as readonly if they're never modified outside of the constructor.
-    '@typescript-eslint/prefer-readonly': 'error',
     // Sets preference level for triple slash directives versus ES6-style import declarations.
     '@typescript-eslint/triple-slash-reference': [
       'error',
@@ -397,9 +255,6 @@ export const eslintConfigTypescriptBase: Linter.BaseConfig = {
     // Disallow duplicate imports.
     'no-duplicate-imports': 'off',
     '@typescript-eslint/no-duplicate-imports': 'error',
-    // Disallow the use of eval()-like methods.
-    'no-implied-eval': 'off',
-    '@typescript-eslint/no-implied-eval': 'error',
     // Disallow this keywords outside of classes or class-like objects.
     'no-invalid-this': 'off',
     '@typescript-eslint/no-invalid-this': 'error',
@@ -409,9 +264,6 @@ export const eslintConfigTypescriptBase: Linter.BaseConfig = {
     // Disallow variable redeclaration.
     'no-redeclare': 'off',
     '@typescript-eslint/no-redeclare': 'error',
-    // Disallow throwing literals as exceptions.
-    'no-throw-literal': 'off',
-    '@typescript-eslint/no-throw-literal': 'error',
     // Disallow the use of variables before they are defined.
     'no-use-before-define': 'off',
     '@typescript-eslint/no-use-before-define': 'error',

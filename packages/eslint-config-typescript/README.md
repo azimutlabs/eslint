@@ -49,7 +49,11 @@ $ yarn add -D @azimutlabs/eslint-config-typescript
   // package.json
   "eslintConfig": {
     "extends": [
-      "@azimutlabs/eslint-config-typescript"
+      "@azimutlabs/eslint-config-typescript",
+      // WARNING.
+      // Requires tsconfig to be presented in `parserOptions.project`.
+      // May cause performance problems, so we don't recommend adding it right away.
+      "@azimutlabs/eslint-config-typescript/with-type-check"
     ]
   }
 }
