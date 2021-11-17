@@ -199,7 +199,7 @@ export const eslintConfigTypescriptBase: Linter.BaseConfig = {
     // Enforce or disallow the use of the record type.
     '@typescript-eslint/consistent-indexed-object-style': 'error',
     // Consistent with type definition either interface or type.
-    '@typescript-eslint/consistent-type-definitions': ['error', 'type'],
+    '@typescript-eslint/consistent-type-definitions': ['error', 'interface'],
     // Enforces consistent usage of type imports.
     '@typescript-eslint/consistent-type-imports': [
       'error',
