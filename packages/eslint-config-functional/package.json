@@ -1,6 +1,6 @@
 {
   "name": "@azimutlabs/eslint-config-functional",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "ESLint configuration for Functional Programming",
   "keywords": [
     "config",
@@ -34,7 +34,7 @@
     "strict.d.ts"
   ],
   "dependencies": {
-    "@azimutlabs/eslint-config-env": "^1.1.0",
+    "@azimutlabs/eslint-config-env": "^1.1.1",
     "tslib": "^2.3.1"
   },
   "devDependencies": {

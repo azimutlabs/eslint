@@ -1,6 +1,6 @@
 {
   "name": "@azimutlabs/eslint-config",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "Collection of all @azimutlabs/eslint-config packages",
   "keywords": [
     "config",
@@ -28,14 +28,14 @@
     "lib"
   ],
   "dependencies": {
-    "@azimutlabs/eslint-config-core": "^1.1.0",
-    "@azimutlabs/eslint-config-functional": "^1.1.0",
-    "@azimutlabs/eslint-config-import": "^1.1.0",
-    "@azimutlabs/eslint-config-jest": "^1.1.0",
-    "@azimutlabs/eslint-config-jsx-a11y": "^1.1.0",
-    "@azimutlabs/eslint-config-prettier": "^1.1.0",
-    "@azimutlabs/eslint-config-react": "^1.1.0",
-    "@azimutlabs/eslint-config-typescript": "^1.0.1",
+    "@azimutlabs/eslint-config-core": "^1.1.1",
+    "@azimutlabs/eslint-config-functional": "^1.1.1",
+    "@azimutlabs/eslint-config-import": "^1.1.1",
+    "@azimutlabs/eslint-config-jest": "^1.1.1",
+    "@azimutlabs/eslint-config-jsx-a11y": "^1.1.1",
+    "@azimutlabs/eslint-config-prettier": "^1.1.1",
+    "@azimutlabs/eslint-config-react": "^1.1.1",
+    "@azimutlabs/eslint-config-typescript": "^1.0.2",
     "tslib": "^2.3.1"
   },
   "devDependencies": {
