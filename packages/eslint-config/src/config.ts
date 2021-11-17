@@ -1,6 +1,7 @@
 import type { Linter } from 'eslint';
 
-export const eslintConfig: Linter.BaseConfig = {
+export const eslintConfig: Linter.Config = {
+  root: true,
   extends: [
     require.resolve('@azimutlabs/eslint-config-core'),
     require.resolve('@azimutlabs/eslint-config-jsx-a11y'),
