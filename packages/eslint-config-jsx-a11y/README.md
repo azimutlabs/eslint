@@ -1,5 +1,5 @@
 <h1 align="center">
-  <a target="_blank" href="https://alabs.team">
+  <a target="_blank" href="https://alabs.team/en">
     ✨
     <img
       height="22.5"
@@ -25,7 +25,7 @@
       alt="azimutlabs/eslint repository license"
     />
   </a>
-   <a href="https://www.npmjs.com/package/@azimutlabs/rollup">
+   <a href="https://www.npmjs.com/package/@azimutlabs/eslint-config-jsx-a11y">
      <img
        src="https://img.shields.io/npm/v/@azimutlabs/eslint-config-jsx-a11y?color=blue&logo=npm&label="
        alt="@azimutlabs/eslint-config-jsx-a11y"
@@ -60,4 +60,4 @@ Any PR is welcomed by our **@js-opensource** team.
 Check out our [contributing](../../CONTRIBUTING.md) guidelines for more info.
 
 ## License
-[![azimutlabs rollup config license](https://img.shields.io/github/license/azimutlabs/rollup?label=as%20always&color=informational)](../../LICENSE)
+[![azimutlabs eslint config license](https://img.shields.io/github/license/azimutlabs/eslint?label=as%20always&color=informational)](../../LICENSE)

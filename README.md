@@ -1,5 +1,5 @@
 <h1 align="center">
-  <a target="_blank" href="https://alabs.team">
+  <a target="_blank" href="https://alabs.team/en">
     ✨
     <img
       height="22.5"
