@@ -1,6 +1,6 @@
 import type { KnownProps } from 'editorconfig';
 
-export type EslintEnvEditorconfig = KnownProps & {
-  // eslint-disable-next-line camelcase,@typescript-eslint/naming-convention
+export interface EslintEnvEditorconfig extends KnownProps {
+  // eslint-disable-next-line camelcase
   readonly max_line_length?: number;
-};
+}

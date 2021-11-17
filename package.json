@@ -52,7 +52,6 @@
   ],
   "devDependencies": {
     "@azimutlabs/eslint-config": "^1.0.0",
-    "@azimutlabs/eslint-config-typescript": "^1.0.0",
     "@azimutlabs/rollup": "^1.0.1",
     "@commitlint/cli": "^13.1.0",
     "@commitlint/config-conventional": "^13.1.0",
