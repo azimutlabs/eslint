@@ -108,5 +108,7 @@ export const eslintConfigReactJsx: Linter.BaseConfig = {
     'react/jsx-wrap-multilines': 'warn',
     // Prevent usage of javascript: URLs.
     'react/jsx-no-script-url': 'warn',
+    // Enforce that namespaces are not used in React elements.
+    'react/no-namespace': 'error',
   },
 };

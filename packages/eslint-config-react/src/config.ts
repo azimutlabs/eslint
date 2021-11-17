@@ -8,7 +8,7 @@ export const eslintConfigReact: Linter.BaseConfig = {
   extends: [require.resolve('@azimutlabs/eslint-config-env')],
   settings: {
     react: {
-      version: 'detect',
+      version: '17',
     },
   },
   plugins: ['react', 'react-hooks'],

@@ -32,13 +32,7 @@ export const eslintConfigReactBase: Linter.BaseConfig = {
     // Prevent React to be incorrectly marked as unused.
     'react/jsx-uses-react': 'off',
     // Enforces consistent naming for boolean props.
-    'react/boolean-prop-naming': [
-      'warn',
-      {
-        rule: '^(is|has)[A-Z]([A-Za-z0-9]?)+',
-        message: 'It is better if your prop ({{ propName }}) matches this pattern: ({{ pattern }})',
-      },
-    ],
+    'react/boolean-prop-naming': 'off',
     // Prevent usage of button elements without an explicit type attribute.
     'react/button-has-type': 'warn',
     // Enforce all defaultProps have a corresponding non-required PropType.
