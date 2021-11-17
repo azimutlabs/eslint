@@ -1,30 +1,15 @@
-import { eslintConfigTypescriptBase } from '@azimutlabs/eslint-config-typescript/lib/base';
-import { eslintConfigTypescriptDeclarations } from '@azimutlabs/eslint-config-typescript/lib/declarations';
-import type { Linter } from 'eslint';
+import {
+  eslintConfigTypescriptBase,
+  eslintConfigTypescriptDeclarations,
+} from '@azimutlabs/eslint-config-typescript/lib';
 
 import { buildEslint } from './services/builders';
 import { getMessagesFromLintResults } from './services/getMessagesFromLintResults';
 
-const withCreateDefaultProgram = (config: Linter.Config): Linter.Config => ({
-  ...config,
-  parserOptions: {
-    ...config.parserOptions,
-    /**
-     * Couldn't make @typescript-plugin/parser to believe the linted code is included by tsconfig,
-     * so had no option to make test suits to run with `createDefaultProgram`.
-     * @see https://github.com/typescript-eslint/typescript-eslint/tree/master/packages/parser#parseroptionscreatedefaultprogram
-     */
-    createDefaultProgram: true,
-  },
+const eslintBase = buildEslint(eslintConfigTypescriptBase);
+const eslintDeclarations = buildEslint(eslintConfigTypescriptDeclarations, {
+  overrideConfig: eslintConfigTypescriptDeclarations,
 });
-
-const eslintBase = buildEslint(withCreateDefaultProgram(eslintConfigTypescriptBase));
-const eslintDeclarations = buildEslint(
-  withCreateDefaultProgram(eslintConfigTypescriptDeclarations),
-  {
-    overrideConfig: eslintConfigTypescriptDeclarations,
-  }
-);
 
 describe('successful cases', () => {
   it('should lint a node.js http server start', async () => {

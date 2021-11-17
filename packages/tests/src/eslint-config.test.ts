@@ -26,7 +26,7 @@ http.createServer(requestListener).listen(port);
     const file = `import { createElement } from 'react';
 
 export const Button = ({ children, color: _color, ...rest }) =>
-  createElement('button', rest, children);
+  createElement('button', { type: 'button', ...rest }, children);
 
 Button.defaultProps = {
   disabled: true,
