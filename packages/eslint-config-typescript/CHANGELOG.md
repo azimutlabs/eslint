@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.0.1](https://github.com/azimutlabs/eslint/compare/@azimutlabs/eslint-config-typescript@1.0.0...@azimutlabs/eslint-config-typescript@1.0.1) (2021-11-17)
+
+
+### Performance Improvements
+
+* **eslint-config-typescript:** improve performance by removing type-check rules ([#13](https://github.com/azimutlabs/eslint/issues/13)) ([3d9e9da](https://github.com/azimutlabs/eslint/commit/3d9e9dac37c1abc77a4b55f36f58a8e0afe90d74))
+
+
+
+
+
 # [1.0.0](https://github.com/azimutlabs/eslint/compare/@azimutlabs/eslint-config-typescript@0.2.10...@azimutlabs/eslint-config-typescript@1.0.0) (2021-08-11)
 
 **Note:** Version bump only for package @azimutlabs/eslint-config-typescript

@@ -1,6 +1,6 @@
 {
   "name": "@azimutlabs/eslint-config-core",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "ESLint configuration core rules",
   "keywords": [
     "config",
@@ -28,8 +28,8 @@
     "lib"
   ],
   "dependencies": {
-    "@azimutlabs/eslint-config-env": "^1.0.0",
-    "@azimutlabs/eslint-env": "^1.0.0",
+    "@azimutlabs/eslint-config-env": "^1.1.0",
+    "@azimutlabs/eslint-env": "^1.0.1",
     "tslib": "^2.3.1"
   },
   "devDependencies": {

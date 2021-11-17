@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.1.0](https://github.com/azimutlabs/eslint/compare/@azimutlabs/eslint-config-import@1.0.0...@azimutlabs/eslint-config-import@1.1.0) (2021-11-17)
+
+
+### Features
+
+* **eslint-config-prettier:** add support for eslint v8 ([42b2ae0](https://github.com/azimutlabs/eslint/commit/42b2ae057600e1c77686d28e3e5c8913d4a0487d))
+
+
+
+
+
 # [1.0.0](https://github.com/azimutlabs/eslint/compare/@azimutlabs/eslint-config-import@0.2.3...@azimutlabs/eslint-config-import@1.0.0) (2021-08-11)
 
 **Note:** Version bump only for package @azimutlabs/eslint-config-import

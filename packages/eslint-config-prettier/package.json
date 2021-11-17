@@ -1,6 +1,6 @@
 {
   "name": "@azimutlabs/eslint-config-prettier",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "ESLint configuration for Prettier",
   "keywords": [
     "config",
@@ -29,8 +29,8 @@
     "lib"
   ],
   "dependencies": {
-    "@azimutlabs/eslint-config-env": "^1.0.0",
-    "@azimutlabs/eslint-env": "^1.0.0",
+    "@azimutlabs/eslint-config-env": "^1.1.0",
+    "@azimutlabs/eslint-env": "^1.0.1",
     "eslint-config-prettier": "^8.3.0",
     "tslib": "^2.3.1"
   },

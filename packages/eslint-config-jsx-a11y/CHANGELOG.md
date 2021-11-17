@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.1.0](https://github.com/azimutlabs/eslint/compare/@azimutlabs/eslint-config-jsx-a11y@1.0.0...@azimutlabs/eslint-config-jsx-a11y@1.1.0) (2021-11-17)
+
+
+### Features
+
+* **eslint-config-jsx-a11y:** add support for eslint v8 ([fc80142](https://github.com/azimutlabs/eslint/commit/fc80142ab1dd552d0f18a9288ded9e5f33a1be99))
+
+
+
+
+
 # [1.0.0](https://github.com/azimutlabs/eslint/compare/@azimutlabs/eslint-config-jsx-a11y@0.1.3...@azimutlabs/eslint-config-jsx-a11y@1.0.0) (2021-08-11)
 
 **Note:** Version bump only for package @azimutlabs/eslint-config-jsx-a11y

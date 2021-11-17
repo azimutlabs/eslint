@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.1.0](https://github.com/azimutlabs/eslint/compare/@azimutlabs/eslint-config-react@1.0.0...@azimutlabs/eslint-config-react@1.1.0) (2021-11-17)
+
+
+### Features
+
+* **eslint-config-react:** add react@17 as a default selected version ([ce8a668](https://github.com/azimutlabs/eslint/commit/ce8a6681fa8b2ce4c9d2237353fec3ef406ce349))
+
+
+
+
+
 # [1.0.0](https://github.com/azimutlabs/eslint/compare/@azimutlabs/eslint-config-react@0.1.6...@azimutlabs/eslint-config-react@1.0.0) (2021-08-11)
 
 **Note:** Version bump only for package @azimutlabs/eslint-config-react
