@@ -26,7 +26,7 @@ export const eslintConfigJest: Linter.BaseConfig = {
         // Enforce having return statement when testing with promises.
         'jest/valid-expect-in-promise': 'off',
         // Ensure that there is at least one expect call made in a test.
-        'jest/expect-expect': 'warn',
+        'jest/expect-expect': 'off',
         // Disallow disabled tests.
         'jest/no-disabled-tests': 'warn',
         // Disallow commented out tests.
