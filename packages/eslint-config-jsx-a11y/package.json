@@ -32,19 +32,19 @@
   ],
   "dependencies": {
     "@azimutlabs/eslint-config-env": "^1.0.0",
-    "tslib": "^2.3.0"
+    "tslib": "^2.3.1"
   },
   "devDependencies": {
     "@azimutlabs/rollup-config": "^1.0.1",
     "@azimutlabs/rollup-config-typescript": "^1.0.1",
-    "@types/eslint": "^7.28.0",
+    "@types/eslint": "^7.29.0",
     "@types/node": "^14.14.31",
     "eslint": "^7.32.0",
-    "rollup": "^2.56.2",
+    "rollup": "^2.60.0",
     "typescript": "4.3.5"
   },
   "peerDependencies": {
-    "eslint": "^7",
+    "eslint": "^7 || ^8",
     "eslint-plugin-jsx-a11y": "^6"
   },
   "publishConfig": {
