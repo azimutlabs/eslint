@@ -12,7 +12,7 @@ export const eslintConfigJest: Linter.BaseConfig = {
       files: ['**/__tests__/**/**.[jt]s?(x)', '**/?(*.)+(spec|test).[jt]s?(x)'],
       rules: {
         // Enforce lowercase test names.
-        'jest/lowercase-name': 'off',
+        'jest/prefer-lowercase-title': 'off',
         // Disallow setup and teardown hooks.
         'jest/no-hooks': 'off',
         // Disallow large snapshots.
@@ -67,18 +67,14 @@ export const eslintConfigJest: Linter.BaseConfig = {
         'jest/prefer-hooks-on-top': 'warn',
         // Suggest using jest.spyOn().
         'jest/prefer-spy-on': 'warn',
-        // Suggest using toBeNull().
-        'jest/prefer-to-be-null': 'warn',
         // Suggest using toStrictEqual()
         'jest/prefer-strict-equal': 'warn',
-        // Suggest using toBeUndefined()
-        'jest/prefer-to-be-undefined': 'warn',
         // Suggest using toContain().
         'jest/prefer-to-contain': 'warn',
         // Suggest using toHaveLength().
         'jest/prefer-to-have-length': 'warn',
         // Enforce valid describe() callback.
-        'jest/valid-describe': 'warn',
+        'jest/valid-describe-callback': 'warn',
         // Enforce valid expect() usage.
         'jest/valid-expect': 'warn',
         // Enforce valid titles.
