@@ -49,11 +49,19 @@ $ yarn add -D @azimutlabs/eslint-config-functional
   // package.json
   "eslintConfig": {
     "extends": [
-      "@azimutlabs/eslint-config-functional"
+      "@azimutlabs/eslint-config-functional",
+      // Read more about strict config below...
+      "@azimutlabs/eslint-config-functional/strict"
     ]
   }
 }
 ```
+
+## Strict Config
+By default, javascript doesn't provide enough utilities to fully support functional programming code.
+Because of that by default we will deliver general good practice rules.
+But if you're using fp libraries (like [fp-ts](https://github.com/gcanti/fp-ts)
+or [purify](https://github.com/gigobyte/purify)) we recommend adding the Strict Config.
 
 ## Contributing
 Any PR is welcomed by our **@js-opensource** team.
