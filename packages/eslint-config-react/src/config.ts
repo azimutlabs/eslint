@@ -3,6 +3,7 @@ import type { Linter } from 'eslint';
 import { eslintConfigReactBase } from './base';
 import { eslintConfigReactHooks } from './hooks';
 import { eslintConfigReactJsx } from './jsx';
+import { eslintConfigReactTypescript } from './typescript';
 
 export const eslintConfigReact: Linter.BaseConfig = {
   extends: [require.resolve('@azimutlabs/eslint-config-env')],
@@ -20,6 +21,10 @@ export const eslintConfigReact: Linter.BaseConfig = {
     {
       files: ['**/**.[jt]sx'],
       ...eslintConfigReactJsx,
+    },
+    {
+      files: ['**/**.ts?(x)'],
+      ...eslintConfigReactTypescript,
     },
   ],
 };
