@@ -1,6 +1,6 @@
 {
   "name": "@azimutlabs/eslint-config-typescript",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "ESLint configuration for TypeScript",
   "keywords": [
     "config",

@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.0.3](https://github.com/azimutlabs/eslint/compare/@azimutlabs/eslint-config-typescript@1.0.2...@azimutlabs/eslint-config-typescript@1.0.3) (2021-11-18)
+
+
+### Bug Fixes
+
+* **eslint-config-typescript:** adjust no-extra-parens rule with core rule ([2f327d4](https://github.com/azimutlabs/eslint/commit/2f327d4db270578760bebeb308936cf002222743))
+
+
+
+
+
 ## [1.0.2](https://github.com/azimutlabs/eslint/compare/@azimutlabs/eslint-config-typescript@1.0.1...@azimutlabs/eslint-config-typescript@1.0.2) (2021-11-17)
 
 **Note:** Version bump only for package @azimutlabs/eslint-config-typescript
