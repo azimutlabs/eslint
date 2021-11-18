@@ -130,7 +130,13 @@ export const eslintConfigTypescriptBase: Linter.BaseConfig = {
     '@typescript-eslint/no-empty-function': 'warn',
     // Disallow unnecessary parentheses.
     'no-extra-parens': 'off',
-    '@typescript-eslint/no-extra-parens': 'warn',
+    '@typescript-eslint/no-extra-parens': [
+      'warn',
+      'all',
+      {
+        ignoreJSX: 'multi-line',
+      },
+    ],
     // Disallow unnecessary semicolons.
     'no-extra-semi': 'off',
     '@typescript-eslint/no-extra-semi': 'warn',
