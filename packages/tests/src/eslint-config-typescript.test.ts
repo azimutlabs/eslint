@@ -29,8 +29,7 @@ http.createServer(requestListener).listen(port);
   });
 
   it('should lint a client-side react component without jsx', async () => {
-    const file = `import { createElement, forwardRef } from 'react';
-import type { FC } from 'react';
+    const file = `import { forwardRef } from 'react';
 
 enum Colors {
   Blue = 'blue',
@@ -45,27 +44,24 @@ interface ColorProps<C extends Color = AnyColor> {
   readonly color: C;
 }
 
-interface ButtonProps extends ColorProps<Colors.Blue | Colors.Red> {}
+interface ButtonProps extends ColorProps<Colors.Blue | Colors.Red> {
+  readonly disabled?: boolean;
+}
 
 export const isBordered = true;
 
-export const Button: FC<ButtonProps> = forwardRef(({ children, color: _color, ...rest }, ref) =>
-  createElement(
-    'button',
-    {
-      ...rest,
-      ref,
-      'aria-disabled': disabled ? 'disabled' : 'not',
-    },
-    children,
-  ),
+export const Button = forwardRef<HTMLButtonElement, ButtonProps>(
+  ({ disabled, color: _color, ...rest }, ref) =>
+    <button {...rest} ref={ref} aria-disabled={disabled ? 'disabled' : 'not'} />
 );
 
 Button.defaultProps = {
   disabled: true,
 };
 `;
-    expect(getMessagesFromLintResults(await eslintBase.lintText(file))).toStrictEqual([]);
+    expect(
+      getMessagesFromLintResults(await eslintBase.lintText(file, { filePath: 'index.tsx' }))
+    ).toStrictEqual([]);
   });
 
   it('should lint a next-env.d.ts', async () => {
