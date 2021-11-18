@@ -5,7 +5,7 @@ __metadata:
   version: 5
   cacheKey: 8
 
-"@azimutlabs/eslint-config-core@^1.1.1, @azimutlabs/eslint-config-core@workspace:packages/eslint-config-core":
+"@azimutlabs/eslint-config-core@^1.1.2, @azimutlabs/eslint-config-core@workspace:packages/eslint-config-core":
   version: 0.0.0-use.local
   resolution: "@azimutlabs/eslint-config-core@workspace:packages/eslint-config-core"
   dependencies:
@@ -144,7 +144,7 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@azimutlabs/eslint-config-react@^1.1.1, @azimutlabs/eslint-config-react@workspace:packages/eslint-config-react":
+"@azimutlabs/eslint-config-react@^1.1.2, @azimutlabs/eslint-config-react@workspace:packages/eslint-config-react":
   version: 0.0.0-use.local
   resolution: "@azimutlabs/eslint-config-react@workspace:packages/eslint-config-react"
   dependencies:
@@ -165,7 +165,7 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@azimutlabs/eslint-config-typescript@^1.0.2, @azimutlabs/eslint-config-typescript@workspace:packages/eslint-config-typescript":
+"@azimutlabs/eslint-config-typescript@^1.0.3, @azimutlabs/eslint-config-typescript@workspace:packages/eslint-config-typescript":
   version: 0.0.0-use.local
   resolution: "@azimutlabs/eslint-config-typescript@workspace:packages/eslint-config-typescript"
   dependencies:
@@ -187,18 +187,18 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@azimutlabs/eslint-config@^1.1.0, @azimutlabs/eslint-config@^1.1.1, @azimutlabs/eslint-config@workspace:packages/eslint-config":
+"@azimutlabs/eslint-config@^1.1.0, @azimutlabs/eslint-config@^1.1.2, @azimutlabs/eslint-config@workspace:packages/eslint-config":
   version: 0.0.0-use.local
   resolution: "@azimutlabs/eslint-config@workspace:packages/eslint-config"
   dependencies:
-    "@azimutlabs/eslint-config-core": ^1.1.1
+    "@azimutlabs/eslint-config-core": ^1.1.2
     "@azimutlabs/eslint-config-functional": ^1.1.1
     "@azimutlabs/eslint-config-import": ^1.1.1
     "@azimutlabs/eslint-config-jest": ^1.1.1
     "@azimutlabs/eslint-config-jsx-a11y": ^1.1.1
     "@azimutlabs/eslint-config-prettier": ^1.1.1
-    "@azimutlabs/eslint-config-react": ^1.1.1
-    "@azimutlabs/eslint-config-typescript": ^1.0.2
+    "@azimutlabs/eslint-config-react": ^1.1.2
+    "@azimutlabs/eslint-config-typescript": ^1.0.3
     "@azimutlabs/rollup-config": ^1.0.1
     "@azimutlabs/rollup-config-typescript": ^1.0.1
     "@types/eslint": ^7.29.0
@@ -10887,15 +10887,15 @@ resolve@^2.0.0-next.3:
   version: 0.0.0-use.local
   resolution: "tests-a0e1f4@workspace:packages/tests"
   dependencies:
-    "@azimutlabs/eslint-config": ^1.1.1
-    "@azimutlabs/eslint-config-core": ^1.1.1
+    "@azimutlabs/eslint-config": ^1.1.2
+    "@azimutlabs/eslint-config-core": ^1.1.2
     "@azimutlabs/eslint-config-functional": ^1.1.1
     "@azimutlabs/eslint-config-import": ^1.1.1
     "@azimutlabs/eslint-config-jest": ^1.1.1
     "@azimutlabs/eslint-config-jsx-a11y": ^1.1.1
     "@azimutlabs/eslint-config-prettier": ^1.1.1
-    "@azimutlabs/eslint-config-react": ^1.1.1
-    "@azimutlabs/eslint-config-typescript": ^1.0.2
+    "@azimutlabs/eslint-config-react": ^1.1.2
+    "@azimutlabs/eslint-config-typescript": ^1.0.3
     "@types/eslint": ^7.29.0
     "@types/jest": ^27.0.2
     "@types/node": ^14.14.31
