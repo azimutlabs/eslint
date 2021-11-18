@@ -4,6 +4,10 @@ import type { Linter } from 'eslint';
 export const eslintConfigCore: Linter.BaseConfig = {
   extends: [require.resolve('@azimutlabs/eslint-config-env')],
   rules: {
+    // Require constructor names to begin with a capital letter.
+    'new-cap': 'off',
+    // Disallow async functions which have no await expression.
+    'require-await': 'off',
     // Enforces getter/setter pairs in objects and classes.
     'accessor-pairs': 'off',
     // Limit Cyclomatic Complexity.
@@ -91,7 +95,13 @@ export const eslintConfigCore: Linter.BaseConfig = {
     // Disallow unnecessary boolean casts.
     'no-extra-boolean-cast': 'warn',
     // Disallow unnecessary parentheses.
-    'no-extra-parens': 'warn',
+    'no-extra-parens': [
+      'warn',
+      'all',
+      {
+        ignoreJSX: 'multi-line',
+      },
+    ],
     // Disallow unnecessary semicolons.
     'no-extra-semi': 'warn',
     // Disallow multiple spaces in regular expression literals.
@@ -172,8 +182,6 @@ export const eslintConfigCore: Linter.BaseConfig = {
     ],
     // Require Radix Parameter.
     'radix': ['warn', 'as-needed'],
-    // Disallow async functions which have no await expression.
-    'require-await': 'warn',
     // Enforce the use of u flag on RegExp.
     'require-unicode-regexp': 'warn',
     // Require IIFEs to be Wrapped.
@@ -301,13 +309,6 @@ export const eslintConfigCore: Linter.BaseConfig = {
     'multiline-comment-style': 'warn',
     // Enforce or disallow newlines between operands of ternary expressions.
     'multiline-ternary': ['warn', 'always-multiline'],
-    // Require constructor names to begin with a capital letter.
-    'new-cap': [
-      'warn',
-      {
-        capIsNew: false,
-      },
-    ],
     // Require parentheses when invoking a constructor with no arguments.
     'new-parens': 'warn',
     // Require a newline after each call in a method chain.
